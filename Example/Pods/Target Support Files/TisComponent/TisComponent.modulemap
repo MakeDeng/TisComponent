@@ -1,0 +1,6 @@
+framework module TisComponent {
+  umbrella header "TisComponent-umbrella.h"
+
+  export *
+  module * { export * }
+}
