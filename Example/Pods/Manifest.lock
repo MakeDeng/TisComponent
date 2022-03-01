@@ -4,15 +4,18 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
+  - MBProgressHUD (1.0.0)
   - TisComponent (0.1.0)
 
 DEPENDENCIES:
   - FBSnapshotTestCase
+  - MBProgressHUD (~> 1.0.0)
   - TisComponent (from `../`)
 
 SPEC REPOS:
   trunk:
     - FBSnapshotTestCase
+    - MBProgressHUD
 
 EXTERNAL SOURCES:
   TisComponent:
@@ -20,8 +23,9 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  TisComponent: 002be9f45879ac4ee9c8c0d7f677e4671c57a1f0
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  TisComponent: 2c5cc0957ae0ada3bea07545ca02f3699cf03375
 
-PODFILE CHECKSUM: 6eee9439f37d45c335c882ea7968da1cad2c6052
+PODFILE CHECKSUM: dd7acf6e224d59aee715c8ed1c1fe7e1b09dfbab
 
 COCOAPODS: 1.11.2

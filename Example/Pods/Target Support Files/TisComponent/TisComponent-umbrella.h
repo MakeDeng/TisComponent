@@ -10,7 +10,17 @@
 #endif
 #endif
 
-#import "TISLabel.h"
+#import "TISBaseView.h"
+#import "TISChooseArea.h"
+#import "TISChooseAreaTableViewCell.h"
+#import "TISChooseListTableViewCell.h"
+#import "TISChooseListView.h"
+#import "TISHeader.h"
+#import "TISHorButtonCollectionViewCell.h"
+#import "TISHorButtonScroll.h"
+#import "TISResetChoose.h"
+#import "TISSearch.h"
+#import "TISTool.h"
 
 FOUNDATION_EXPORT double TisComponentVersionNumber;
 FOUNDATION_EXPORT const unsigned char TisComponentVersionString[];

@@ -4,6 +4,7 @@ platform :ios, '10.0'
 
 target 'TisComponent_Example' do
   pod 'TisComponent', :path => '../'
+  pod 'MBProgressHUD', '~> 1.0.0'
 
   target 'TisComponent_Tests' do
     inherit! :search_paths

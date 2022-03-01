@@ -7,134 +7,230 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		152564160E9F26B5DAECA793C2E2773A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
-		1F84FE646CD1D7BAFFB58C243277AFF8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		296B113C5772AC5676E187BA7872A3DE /* TisComponent-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FE83FC3956DAE11B4F2F90F50C2F363 /* TisComponent-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2975A09730FD83DC0897129A11EA6585 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */; };
-		2B88C28DD20CBFA7B3AEB21A365197FE /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2CB61F6FA511CAACB43A50DC3A82E0DD /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */; };
-		2ECCAC52EF4C74E1032E0BC646BBE5B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
-		2F10038D65BC24A8DD5E4F8E1C80C6D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
-		30D475DF57C0C682A723231E7BCA0D14 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */; };
-		373413256658309F9053CE22BF62077E /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		46307507527BC2960D8884BE4BA1E355 /* TisComponent-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA784E8C28ACF135139D597F053307A /* TisComponent-dummy.m */; };
+		0097064E7F7D3F413161738CC5C25EEC /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 348FAB36263968A20B11465EA3A5CFE7 /* MBProgressHUD.m */; };
+		06F7243810187B9C08294B02021D5D0A /* TISChooseListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 50CDB400DECBE1AD8B4C0C1297FD3606 /* TISChooseListView.m */; };
+		0AA33EBB857A5205F87C09CCB99EAC74 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B5247A52C4220DC93EDCA1CEF947C59 /* Foundation.framework */; };
+		140B881B180E972B2BDED01AB42E0A8A /* TISSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 77DCBFE933222EDEBCB3D581EC1E3743 /* TISSearch.m */; };
+		152564160E9F26B5DAECA793C2E2773A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B5247A52C4220DC93EDCA1CEF947C59 /* Foundation.framework */; };
+		172C0EB89E2542FB28415F39C4D87B33 /* TisComponent-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A853E204EA755395782A461B8C07E83D /* TisComponent-dummy.m */; };
+		19172E958FA175CCA2A201DAC094BF2B /* TISResetChoose.m in Sources */ = {isa = PBXBuildFile; fileRef = 271EA4F52FC0A6CABB9534801B2E7D87 /* TISResetChoose.m */; };
+		19B870D5E6469B847585BCEE26419E12 /* TISChooseArea.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B6217A96DCF5811AB8F35A7A713EFAF /* TISChooseArea.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F059F0FF3E2502A1C61F6EC7D2B32A0 /* textfiled_search.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EA9B3D77B65768B6543879C4F6F85A0 /* textfiled_search.png */; };
+		1F84FE646CD1D7BAFFB58C243277AFF8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E969C4F0B03FAB7FD3E4DAD7DA9C7BD /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2385AE1BFC483B14ED07E04D41B66361 /* Pods-TisComponent_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D680A9AA01D5DF08F8B766ACA4C89DFE /* Pods-TisComponent_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28ABB1E252B1DF20DFDAA9C68E849338 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B5247A52C4220DC93EDCA1CEF947C59 /* Foundation.framework */; };
+		2975A09730FD83DC0897129A11EA6585 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44561D842706BC8258A22BCF654A7092 /* SwiftSupport.swift */; };
+		2B88C28DD20CBFA7B3AEB21A365197FE /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 955FA9D9CC9A641919BB4FA0490FACF4 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CB61F6FA511CAACB43A50DC3A82E0DD /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 593A3B75008BFE6C02DA37E1C07190BB /* UIImage+Snapshot.m */; };
+		2ECCAC52EF4C74E1032E0BC646BBE5B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B5247A52C4220DC93EDCA1CEF947C59 /* Foundation.framework */; };
+		30D475DF57C0C682A723231E7BCA0D14 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 1025E44E8F835E05D5B0617826596099 /* FBSnapshotTestCasePlatform.m */; };
+		323A6FED7835F3A756460C501F1F18B6 /* un_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 11A4BB8F803E26BBDFAD33081A7F9D1F /* un_selected.png */; };
+		373413256658309F9053CE22BF62077E /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = F57075219649614F13994968887A99DE /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		40889DB60D08E215EB4EA555FD82AB71 /* TISBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA92C0D08B7A80CB081FB84DC51E787C /* TISBaseView.m */; };
+		463FBD31CFEB4C45F2CB9D82E45011D7 /* TISHorButtonCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3472A5BEA878AC8697829899A93B3F8F /* TISHorButtonCollectionViewCell.m */; };
 		47066194D7CB4CB7B43C431981EDA8AA /* Pods-TisComponent_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C3DE284AA8A9E410F051EF5E98F009E /* Pods-TisComponent_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5558B876B579BC1E79BD3D2B19148329 /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		5BE525FF6FA14B999ED2CCC0AA4FA0CF /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */; };
-		640CCE9C3A28AA3CA15510899F9140EE /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		67F1963AA7C9EDB78127AD5F566A4949 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		74339C58AC4E5631FB8C0E662668A796 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */; };
-		7C67CBD15D9B5D0B7769B2F469478332 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */; };
-		875A310EAF4D0C136C3FFFF5E0335BE4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DA24A38BA9EE106B59E3D4C8DD1CE0E /* UIKit.framework */; };
-		8AE19756F0126FE92AF625E36F3D70FE /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		9D3C5E2F56838937146191468A893244 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E658F388F01C72599CA75537950B6095 /* XCTest.framework */; };
-		B06BFE71A84D917FF5C730F32CD3EA6A /* TISLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 9940116505A0EB502785A5653E7F2113 /* TISLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B52281F9F4340D4FC8ABB2FEB1FEC08E /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */; };
-		BED14EDB401FEB1633004684B7871BD0 /* TISLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB4988CEE9BB8A5150E303909B43BB0 /* TISLabel.m */; };
-		C390C6005353FB986CB52F474CEF8588 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */; };
-		C9F76407497DF0205D7460B36D22259F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */; };
-		CA54C09A12400567AFFCB407EEB7E154 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */; };
-		CC6D767ADBBC9DCFF3C73D0A2290926F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
+		4AF79C968AEBC689FC506D49E3BFCBD3 /* button_close.png in Resources */ = {isa = PBXBuildFile; fileRef = 6901063CC035FBC5C020C6CD79973A8F /* button_close.png */; };
+		4D16B6A4F6104838D648CD2E5B77C39B /* TISHorButtonScroll.h in Headers */ = {isa = PBXBuildFile; fileRef = 321ABD89556A507B77C574875738205B /* TISHorButtonScroll.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5558B876B579BC1E79BD3D2B19148329 /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E42FB2C9202F4718DAAE8F0E7E073D6 /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		58C91B4AB36E6B16421106CA634C58EF /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 351D6B3AB63F1E82F887F1FDDBBD95EB /* MBProgressHUD-dummy.m */; };
+		5A5F8EE6430AF348312771159D33F13C /* TISSearch.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AB1CB8E24355CF02FF3C20B42C8AA89 /* TISSearch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BAC1EF86D0E57E44E404B2796993561 /* MBProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CB5CF85F039A37747F877FC0AEBB0C1 /* MBProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BE525FF6FA14B999ED2CCC0AA4FA0CF /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 52534B1AE8E01F15644755CAEF4D8439 /* FBSnapshotTestCase-dummy.m */; };
+		5E9D80381ADD48C6A07BDDF07A562FA2 /* selected.png in Resources */ = {isa = PBXBuildFile; fileRef = ED6499F6237FA722372C2C00F4E2D824 /* selected.png */; };
+		640CCE9C3A28AA3CA15510899F9140EE /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = DD1DE8C9F25CB2BBAB2F3A8550B29168 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6556A5A416955569EF5DAFC63ED7FE0B /* TisComponent-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 884E6F112254B75AA2B7C8F767BBDF59 /* TisComponent-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67E941CADB3CDDEEDF8CE4EE4A4A05BB /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 38821D0B2C7A986BD103C43E1473CCA9 /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67F1963AA7C9EDB78127AD5F566A4949 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BFA36D17A827BD67B051CC0462BA5AB /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		74339C58AC4E5631FB8C0E662668A796 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = B01766A1CBC44185C28A1D40FB1155A6 /* UIApplication+StrictKeyWindow.m */; };
+		74E932A8AF0A016B39A05CE1754B323B /* TISChooseAreaTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 40DBC5B57E7BC859B2BB239F4234B9B8 /* TISChooseAreaTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C67CBD15D9B5D0B7769B2F469478332 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 689A0DE9D63EC8F978E60750039DF3BA /* FBSnapshotTestCase.m */; };
+		818415916591A0FEBDB511DAE89F186C /* TISHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BCAE1A29B66B977AFE12C2891E8E52A /* TISHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8749779A18F33076801ED6175FF2B8EA /* TISChooseListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A806796892ED28AE768AC7A17375BBC5 /* TISChooseListTableViewCell.m */; };
+		875A310EAF4D0C136C3FFFF5E0335BE4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 668276A1EC8D88396426958E5EE8F819 /* UIKit.framework */; };
+		8AE19756F0126FE92AF625E36F3D70FE /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = FD018B2D8A3213F4731158CEE313472A /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		8C9230BA799CB02B9F3FDAA2119FFA59 /* TISTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 7538D365C77E87DF00DAC1EBA3E9B57B /* TISTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93FAA7DA1A05DC70EF0D9F14E8876AE0 /* TisComponent-TisComponent in Resources */ = {isa = PBXBuildFile; fileRef = 0D0BBEA45D6D562CFFE96A13A03E56F8 /* TisComponent-TisComponent */; };
+		94F9000B9F2CD7ABD5AB030A61BEA1D6 /* TISBaseView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CD64BDFC8CE00E7336974A2F24933EC /* TISBaseView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D3C5E2F56838937146191468A893244 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8DCF06F88670699F01F8D5C26566EC8 /* XCTest.framework */; };
+		A1350E4C8F9170566AB9E5925BA3FCC9 /* TISChooseListTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AC0B071510A01823B60EF7227D26F5C /* TISChooseListTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5A54D2304D2474FCCFD7AF11962EFCE /* Pods-TisComponent_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D8C97C8426335D76CEB1B35826935D40 /* Pods-TisComponent_Example-dummy.m */; };
+		A61D49D05D40B45C8D36C964954A5C1E /* TISHorButtonCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 0380C9ABB690102FDF3BD7CDEFBD526F /* TISHorButtonCollectionViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAC0EA50C3EB60F16F17FDF6F5E01828 /* TISChooseAreaTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E7CB350D0E1D6CD2B32B804D465458 /* TISChooseAreaTableViewCell.m */; };
+		AF8DEFB306C1A3E2F5385F5BA20C9A56 /* TISChooseListTableViewCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = D9F8BC80FBFE7712C76709B9C8378CA5 /* TISChooseListTableViewCell.xib */; };
+		AFAC1D4EBD53A048346210536741DF13 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E954C87C92658F47E6B385D5EF1F2F9C /* CoreGraphics.framework */; };
+		B52177FF72FDAC3EDB7195DE98F5501E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EBA61EE46BC13994C64F0A95BEB2390 /* QuartzCore.framework */; };
+		B52281F9F4340D4FC8ABB2FEB1FEC08E /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = DFC337315370285FC48010FC631BCDDE /* UIImage+Compare.m */; };
+		BAD4C8DB2D09C516E265557926B4310C /* TISChooseListView.h in Headers */ = {isa = PBXBuildFile; fileRef = B16442AB89DF757086F205A8EC7E4614 /* TISChooseListView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB2E8E2A253122B00BAC0743E1056D9F /* TISChooseArea.m in Sources */ = {isa = PBXBuildFile; fileRef = 126869C95280D88A6E6A3117F81D3D86 /* TISChooseArea.m */; };
+		BDCAAD6E8FB880063482EF9F5F647D2B /* Resources in Resources */ = {isa = PBXBuildFile; fileRef = AA6421D719A957E151014A9C473A0607 /* Resources */; };
+		C390C6005353FB986CB52F474CEF8588 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6180890F30FC9D5B06C4EEE17FB97448 /* FBSnapshotTestController.m */; };
+		C85C934DF2E8249A49056E0B376F2F7D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B5247A52C4220DC93EDCA1CEF947C59 /* Foundation.framework */; };
+		C9F76407497DF0205D7460B36D22259F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EBA61EE46BC13994C64F0A95BEB2390 /* QuartzCore.framework */; };
+		CA54C09A12400567AFFCB407EEB7E154 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = B369780CFEC45C80AFE43703DDA8AA5F /* UIImage+Diff.m */; };
 		CC805DB8A68FBD966837BB48587A8A81 /* Pods-TisComponent_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F088616384013BDA481D2C7644E92A9 /* Pods-TisComponent_Tests-dummy.m */; };
-		EE8A3045D033102E9AFCC1051A40C744 /* Pods-TisComponent_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D8C97C8426335D76CEB1B35826935D40 /* Pods-TisComponent_Example-dummy.m */; };
-		F7F887D3D4B4E7AC727C77105D03CDE1 /* Pods-TisComponent_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D680A9AA01D5DF08F8B766ACA4C89DFE /* Pods-TisComponent_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FF8307B7346F4D3BA13C11AECFE6EDD0 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CEAEF3DD05488E2F10AC77B8E31028EC /* TISHorButtonCollectionViewCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 09937CB3773669CBEFF344CAE50DDB75 /* TISHorButtonCollectionViewCell.xib */; };
+		E34CAC20B792BCE0054A30D6E5151B71 /* TISResetChoose.h in Headers */ = {isa = PBXBuildFile; fileRef = E3FAE7B847EDBE9C947F62DA82D8245C /* TISResetChoose.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E35946F9CC087E57BF89ECBE65713CCA /* TISTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 68AEE2EDAE01E0B2B908D3AF14073245 /* TISTool.m */; };
+		E92AAE2A7B08931596413FE35E62A314 /* TISHorButtonScroll.m in Sources */ = {isa = PBXBuildFile; fileRef = 53EAE9D759FF229782638FBEA87E48B9 /* TISHorButtonScroll.m */; };
+		F73EE4182388E12ACCE9EC4119FBC187 /* TISChooseAreaTableViewCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 6614390E5EDDDB63DE5D117936233472 /* TISChooseAreaTableViewCell.xib */; };
+		FF8307B7346F4D3BA13C11AECFE6EDD0 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = CB9FD70B1C63A22CC8BD82649B5BF798 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2FA74945EE24541B5275B67D769B69FC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4F00C5B7CC2E14324A6708E1E096FFAB;
-			remoteInfo = TisComponent;
-		};
-		39570EFE80AAA9ABDA32127EB1F9543E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
-			remoteInfo = FBSnapshotTestCase;
-		};
-		91CB5B084BDA3797BDED01CA27575D37 /* PBXContainerItemProxy */ = {
+		6B0F4D2BD095DBC33AB9868D1C931BA6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = C8325ED5E84C349F44279FE425DF49DF;
 			remoteInfo = "Pods-TisComponent_Example";
 		};
+		7E8F3967763433F74A9F60E1F021355D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F00C5B7CC2E14324A6708E1E096FFAB;
+			remoteInfo = TisComponent;
+		};
+		A4051A515F783951D4340D73B749C8DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B18F187040230A5E940FA06E49C21617;
+			remoteInfo = "TisComponent-TisComponent";
+		};
+		A4DEF777AECCECD7305FA11C26A9B201 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
+			remoteInfo = FBSnapshotTestCase;
+		};
+		B2417C18E25EFEF9F5370A06D3BC1848 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82B0A41D3031FF27D78E17B0A9A46FB0;
+			remoteInfo = MBProgressHUD;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01A7B683B89FE95DE7193EB9EED659DC /* MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
 		0283E05380DCDD8DD04C004496CFFCD2 /* TisComponent */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TisComponent; path = TisComponent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		02C335D9FC441FECD2F7BDB19AC33E1E /* TisComponent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TisComponent.release.xcconfig; sourceTree = "<group>"; };
-		0AA5C45B7CC3293974BA8C32376BC8B6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		0380C9ABB690102FDF3BD7CDEFBD526F /* TISHorButtonCollectionViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TISHorButtonCollectionViewCell.h; sourceTree = "<group>"; };
+		09937CB3773669CBEFF344CAE50DDB75 /* TISHorButtonCollectionViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = TISHorButtonCollectionViewCell.xib; sourceTree = "<group>"; };
+		0D0BBEA45D6D562CFFE96A13A03E56F8 /* TisComponent-TisComponent */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "TisComponent-TisComponent"; path = TisComponent.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EBA61EE46BC13994C64F0A95BEB2390 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		0F97082B2976AB776CC23ADFD7F4477C /* MBProgressHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MBProgressHUD-Info.plist"; sourceTree = "<group>"; };
+		1025E44E8F835E05D5B0617826596099 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		11A4BB8F803E26BBDFAD33081A7F9D1F /* un_selected.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = un_selected.png; sourceTree = "<group>"; };
+		126869C95280D88A6E6A3117F81D3D86 /* TISChooseArea.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TISChooseArea.m; sourceTree = "<group>"; };
+		170DB27B6326A569AD5E229B164C8946 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
 		184A1440D6E426B3E8A9AF4FDF7F2BF7 /* Pods-TisComponent_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TisComponent_Example-Info.plist"; sourceTree = "<group>"; };
 		19C638605FA60F075A999FA7285154F3 /* Pods-TisComponent_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TisComponent_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
-		1DA24A38BA9EE106B59E3D4C8DD1CE0E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		1B385110D5F117E8AAD2827FF3084BD9 /* TisComponent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TisComponent.debug.xcconfig; sourceTree = "<group>"; };
+		1BFA36D17A827BD67B051CC0462BA5AB /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		1CB5CF85F039A37747F877FC0AEBB0C1 /* MBProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-umbrella.h"; sourceTree = "<group>"; };
 		1F088616384013BDA481D2C7644E92A9 /* Pods-TisComponent_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TisComponent_Tests-dummy.m"; sourceTree = "<group>"; };
 		1FAD6A4BE78EB86171B340EB21A2E010 /* Pods-TisComponent_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TisComponent_Example"; path = Pods_TisComponent_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
 		2443AC428A483BA190E23239D5041145 /* Pods-TisComponent_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TisComponent_Example.modulemap"; sourceTree = "<group>"; };
-		277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
-		284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
-		2FE83FC3956DAE11B4F2F90F50C2F363 /* TisComponent-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TisComponent-umbrella.h"; sourceTree = "<group>"; };
-		3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		271EA4F52FC0A6CABB9534801B2E7D87 /* TISResetChoose.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TISResetChoose.m; sourceTree = "<group>"; };
+		2C2C1846D4ABC82B11F0CAAAD1BD5685 /* TisComponent-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TisComponent-Info.plist"; sourceTree = "<group>"; };
+		2E969C4F0B03FAB7FD3E4DAD7DA9C7BD /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		321ABD89556A507B77C574875738205B /* TISHorButtonScroll.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TISHorButtonScroll.h; sourceTree = "<group>"; };
+		3286AB5B7852BE55424F2A0404818CA5 /* MBProgressHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.release.xcconfig; sourceTree = "<group>"; };
+		3472A5BEA878AC8697829899A93B3F8F /* TISHorButtonCollectionViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TISHorButtonCollectionViewCell.m; sourceTree = "<group>"; };
+		348FAB36263968A20B11465EA3A5CFE7 /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		351D6B3AB63F1E82F887F1FDDBBD95EB /* MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		38821D0B2C7A986BD103C43E1473CCA9 /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		40DBC5B57E7BC859B2BB239F4234B9B8 /* TISChooseAreaTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TISChooseAreaTableViewCell.h; sourceTree = "<group>"; };
 		411F58CD6448D60B365FCB4838EDDBDB /* Pods-TisComponent_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TisComponent_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
-		4846F673FA1A60F69687CBC7FE456AC9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
-		57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		57E586032EA8678434711E4B19D74BDF /* TisComponent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TisComponent.debug.xcconfig; sourceTree = "<group>"; };
-		5C20611E48349B370ED9F5C9968F36C5 /* TisComponent.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TisComponent.modulemap; sourceTree = "<group>"; };
+		44561D842706BC8258A22BCF654A7092 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		4AB1CB8E24355CF02FF3C20B42C8AA89 /* TISSearch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TISSearch.h; sourceTree = "<group>"; };
+		50CDB400DECBE1AD8B4C0C1297FD3606 /* TISChooseListView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TISChooseListView.m; sourceTree = "<group>"; };
+		52534B1AE8E01F15644755CAEF4D8439 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		53EAE9D759FF229782638FBEA87E48B9 /* TISHorButtonScroll.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TISHorButtonScroll.m; sourceTree = "<group>"; };
+		593A3B75008BFE6C02DA37E1C07190BB /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
+		5B5247A52C4220DC93EDCA1CEF947C59 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5CA784E8C28ACF135139D597F053307A /* TisComponent-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TisComponent-dummy.m"; sourceTree = "<group>"; };
+		5C9E222C71CC2E57A070CD4EC3B34248 /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
 		5D0A1CC4A33D1DF38B84673663FE83E6 /* Pods-TisComponent_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TisComponent_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
-		6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		5E42FB2C9202F4718DAAE8F0E7E073D6 /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
+		5E488DB9C4D78BB7A8DDC32E92910A6B /* MBProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MBProgressHUD.modulemap; sourceTree = "<group>"; };
+		5EA9B3D77B65768B6543879C4F6F85A0 /* textfiled_search.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = textfiled_search.png; sourceTree = "<group>"; };
+		6180890F30FC9D5B06C4EEE17FB97448 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		6614390E5EDDDB63DE5D117936233472 /* TISChooseAreaTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = TISChooseAreaTableViewCell.xib; sourceTree = "<group>"; };
+		6656E6D8548C9A0ED94EABCC592F04F8 /* TisComponent.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TisComponent.modulemap; sourceTree = "<group>"; };
+		668276A1EC8D88396426958E5EE8F819 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		689A0DE9D63EC8F978E60750039DF3BA /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		68AEE2EDAE01E0B2B908D3AF14073245 /* TISTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TISTool.m; sourceTree = "<group>"; };
+		6901063CC035FBC5C020C6CD79973A8F /* button_close.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = button_close.png; sourceTree = "<group>"; };
+		692BA7FCC9FD404FE64BF0B87D5A4588 /* ResourceBundle-TisComponent-TisComponent-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-TisComponent-TisComponent-Info.plist"; sourceTree = "<group>"; };
+		6B6217A96DCF5811AB8F35A7A713EFAF /* TISChooseArea.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TISChooseArea.h; sourceTree = "<group>"; };
 		6C3DE284AA8A9E410F051EF5E98F009E /* Pods-TisComponent_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TisComponent_Tests-umbrella.h"; sourceTree = "<group>"; };
+		7538D365C77E87DF00DAC1EBA3E9B57B /* TISTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TISTool.h; sourceTree = "<group>"; };
+		77DCBFE933222EDEBCB3D581EC1E3743 /* TISSearch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TISSearch.m; sourceTree = "<group>"; };
 		79B5A7522AE3E88CA3D6990C330B8FCD /* Pods-TisComponent_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TisComponent_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		7CD64BDFC8CE00E7336974A2F24933EC /* TISBaseView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TISBaseView.h; sourceTree = "<group>"; };
 		8041D529A1A2651600D29B50A1CF7BBA /* Pods-TisComponent_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TisComponent_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		84D1F5EE744EEDA0A5302348C185AAE5 /* Pods-TisComponent_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TisComponent_Tests"; path = Pods_TisComponent_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8545FADC49A30C0EED6B4D9B74C10890 /* Pods-TisComponent_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TisComponent_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
-		8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
-		9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
-		96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
-		9940116505A0EB502785A5653E7F2113 /* TISLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TISLabel.h; path = TisComponent/Classes/TISLabel.h; sourceTree = "<group>"; };
-		99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		884E6F112254B75AA2B7C8F767BBDF59 /* TisComponent-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TisComponent-umbrella.h"; sourceTree = "<group>"; };
+		8AC0B071510A01823B60EF7227D26F5C /* TISChooseListTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TISChooseListTableViewCell.h; sourceTree = "<group>"; };
+		8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MBProgressHUD; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BCAE1A29B66B977AFE12C2891E8E52A /* TISHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TISHeader.h; sourceTree = "<group>"; };
+		8D0C8743D57DA076B44918A638BB4066 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		955FA9D9CC9A641919BB4FA0490FACF4 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A4A1A516E66A8B99D90D3A0A4D32E519 /* Pods-TisComponent_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TisComponent_Tests-Info.plist"; sourceTree = "<group>"; };
-		AC621350B6A515B37B1C2DF35E48AEF4 /* TisComponent-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TisComponent-Info.plist"; sourceTree = "<group>"; };
-		AE3F9B17ECEA878897782E80E12DA2D3 /* TisComponent-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TisComponent-prefix.pch"; sourceTree = "<group>"; };
-		AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
-		B7103CA00AED20722C5B69CA5B4F6938 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
-		BFB4988CEE9BB8A5150E303909B43BB0 /* TISLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TISLabel.m; path = TisComponent/Classes/TISLabel.m; sourceTree = "<group>"; };
+		A68B91283C885374F53C1893F12F4E54 /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
+		A806796892ED28AE768AC7A17375BBC5 /* TISChooseListTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TISChooseListTableViewCell.m; sourceTree = "<group>"; };
+		A853E204EA755395782A461B8C07E83D /* TisComponent-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TisComponent-dummy.m"; sourceTree = "<group>"; };
+		AA6421D719A957E151014A9C473A0607 /* Resources */ = {isa = PBXFileReference; includeInIndex = 1; name = Resources; path = TisComponent/Assets/Resources; sourceTree = "<group>"; };
+		B01766A1CBC44185C28A1D40FB1155A6 /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		B16442AB89DF757086F205A8EC7E4614 /* TISChooseListView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TISChooseListView.h; sourceTree = "<group>"; };
+		B2E941D95862E95D001560215E2C8A60 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		B369780CFEC45C80AFE43703DDA8AA5F /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		B55C0786B95B51FD0C8757105AF0CCA4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B7E7CB350D0E1D6CD2B32B804D465458 /* TISChooseAreaTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TISChooseAreaTableViewCell.m; sourceTree = "<group>"; };
+		B8DCF06F88670699F01F8D5C26566EC8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		C0E2188FC60DA188F208D90029FCA3AD /* Pods-TisComponent_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TisComponent_Tests.modulemap"; sourceTree = "<group>"; };
 		C961B31C0CC1BDAF342B5B6F7EF61F6B /* Pods-TisComponent_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TisComponent_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CA215541604233537A4C879CDA5C2223 /* Pods-TisComponent_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TisComponent_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		CB8086F4D717E0006DF8BB4EF1EADC3B /* Pods-TisComponent_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TisComponent_Example.release.xcconfig"; sourceTree = "<group>"; };
-		CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
-		D08CEBB9BDD9EF7A662ECFC0305C169E /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		CB9FD70B1C63A22CC8BD82649B5BF798 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 		D5B756351ED3D19BD1753EE315DEB9C5 /* Pods-TisComponent_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TisComponent_Example-frameworks.sh"; sourceTree = "<group>"; };
 		D680A9AA01D5DF08F8B766ACA4C89DFE /* Pods-TisComponent_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TisComponent_Example-umbrella.h"; sourceTree = "<group>"; };
-		D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
+		D830B441409DFB5A34B34BE11F5F728D /* MBProgressHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.debug.xcconfig; sourceTree = "<group>"; };
 		D8C97C8426335D76CEB1B35826935D40 /* Pods-TisComponent_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TisComponent_Example-dummy.m"; sourceTree = "<group>"; };
-		E658F388F01C72599CA75537950B6095 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		FD5E4A7244AD75C339C70F0D9E1FD40A /* TisComponent.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = TisComponent.podspec; sourceTree = "<group>"; tabWidth = 2; };
-		FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		D9F8BC80FBFE7712C76709B9C8378CA5 /* TISChooseListTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = TISChooseListTableViewCell.xib; sourceTree = "<group>"; };
+		DD1DE8C9F25CB2BBAB2F3A8550B29168 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		DFC337315370285FC48010FC631BCDDE /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		E300F3753AACA35D821F97B80EC0FB19 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		E3FAE7B847EDBE9C947F62DA82D8245C /* TISResetChoose.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TISResetChoose.h; sourceTree = "<group>"; };
+		E5D2CCD33679E3D51FDF9F20D7EBEC2A /* TisComponent.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TisComponent.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E954C87C92658F47E6B385D5EF1F2F9C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		EA92C0D08B7A80CB081FB84DC51E787C /* TISBaseView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TISBaseView.m; sourceTree = "<group>"; };
+		EC71DB36F96AEAA660A7CD8131B30F19 /* TisComponent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TisComponent.release.xcconfig; sourceTree = "<group>"; };
+		ED6499F6237FA722372C2C00F4E2D824 /* selected.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = selected.png; sourceTree = "<group>"; };
+		F57075219649614F13994968887A99DE /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		F6F5329FFFDD8F7006F3748F7F9D778C /* TisComponent-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TisComponent-prefix.pch"; sourceTree = "<group>"; };
+		FD018B2D8A3213F4731158CEE313472A /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		65A77DF1D9132BF32278C454346AFC5E /* Frameworks */ = {
+		22EED64E1D44439069B8B7C973583617 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC6D767ADBBC9DCFF3C73D0A2290926F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1F46BC698269419B80C04847FB2E09B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28ABB1E252B1DF20DFDAA9C68E849338 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,11 +242,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D0287DC0A5E1EA1E18BEFB862B8FE271 /* Frameworks */ = {
+		D6DC8F0C2894774845C1DD2E7CA07B0C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F10038D65BC24A8DD5E4F8E1C80C6D2 /* Foundation.framework in Frameworks */,
+				AFAC1D4EBD53A048346210536741DF13 /* CoreGraphics.framework in Frameworks */,
+				0AA33EBB857A5205F87C09CCB99EAC74 /* Foundation.framework in Frameworks */,
+				B52177FF72FDAC3EDB7195DE98F5501E /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF4028DA2F808A4B554107055FDE03AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C85C934DF2E8249A49056E0B376F2F7D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,25 +274,166 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4BA2479549DD918290454B1CDCD0B92B /* Core */ = {
+		048314DB82E4E82E08B6CD52C49D80FD /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */,
-				277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */,
-				88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */,
-				6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */,
-				AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */,
-				7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */,
-				99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */,
-				0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */,
-				656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */,
-				235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */,
-				96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */,
-				4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */,
-				284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */,
-				D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */,
+				B55C0786B95B51FD0C8757105AF0CCA4 /* LICENSE */,
+				8D0C8743D57DA076B44918A638BB4066 /* README.md */,
+				E5D2CCD33679E3D51FDF9F20D7EBEC2A /* TisComponent.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		0A05C03B56337B2F84A09D29CB7863D0 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				CB9FD70B1C63A22CC8BD82649B5BF798 /* FBSnapshotTestCase.h */,
+				689A0DE9D63EC8F978E60750039DF3BA /* FBSnapshotTestCase.m */,
+				DD1DE8C9F25CB2BBAB2F3A8550B29168 /* FBSnapshotTestCasePlatform.h */,
+				1025E44E8F835E05D5B0617826596099 /* FBSnapshotTestCasePlatform.m */,
+				955FA9D9CC9A641919BB4FA0490FACF4 /* FBSnapshotTestController.h */,
+				6180890F30FC9D5B06C4EEE17FB97448 /* FBSnapshotTestController.m */,
+				5E42FB2C9202F4718DAAE8F0E7E073D6 /* UIApplication+StrictKeyWindow.h */,
+				B01766A1CBC44185C28A1D40FB1155A6 /* UIApplication+StrictKeyWindow.m */,
+				FD018B2D8A3213F4731158CEE313472A /* UIImage+Compare.h */,
+				DFC337315370285FC48010FC631BCDDE /* UIImage+Compare.m */,
+				1BFA36D17A827BD67B051CC0462BA5AB /* UIImage+Diff.h */,
+				B369780CFEC45C80AFE43703DDA8AA5F /* UIImage+Diff.m */,
+				F57075219649614F13994968887A99DE /* UIImage+Snapshot.h */,
+				593A3B75008BFE6C02DA37E1C07190BB /* UIImage+Snapshot.m */,
 			);
 			name = Core;
+			sourceTree = "<group>";
+		};
+		159E3E7ABFEDDC35D30515B4AF58D2E5 /* FBSnapshotTestCase */ = {
+			isa = PBXGroup;
+			children = (
+				0A05C03B56337B2F84A09D29CB7863D0 /* Core */,
+				4C83FCC1A2EFB49166960D8C9C10052C /* Support Files */,
+				EC2370EA5799FB3AC66AF2335DC29E0D /* SwiftSupport */,
+			);
+			name = FBSnapshotTestCase;
+			path = FBSnapshotTestCase;
+			sourceTree = "<group>";
+		};
+		185543C1B19AD3A6F3C027A55D9DE476 /* TISBaseView */ = {
+			isa = PBXGroup;
+			children = (
+				7CD64BDFC8CE00E7336974A2F24933EC /* TISBaseView.h */,
+				EA92C0D08B7A80CB081FB84DC51E787C /* TISBaseView.m */,
+			);
+			name = TISBaseView;
+			path = TisComponent/Classes/TISBaseView;
+			sourceTree = "<group>";
+		};
+		3BE25C2340CA9CA38399F173CE1E8525 /* TISResetChoose */ = {
+			isa = PBXGroup;
+			children = (
+				E3FAE7B847EDBE9C947F62DA82D8245C /* TISResetChoose.h */,
+				271EA4F52FC0A6CABB9534801B2E7D87 /* TISResetChoose.m */,
+			);
+			name = TISResetChoose;
+			path = TisComponent/Classes/TISResetChoose;
+			sourceTree = "<group>";
+		};
+		49A78B80C950B7A64BB7F41ADDC33160 /* TISHeader */ = {
+			isa = PBXGroup;
+			children = (
+				8BCAE1A29B66B977AFE12C2891E8E52A /* TISHeader.h */,
+			);
+			name = TISHeader;
+			path = TisComponent/Classes/TISHeader;
+			sourceTree = "<group>";
+		};
+		4C83FCC1A2EFB49166960D8C9C10052C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E300F3753AACA35D821F97B80EC0FB19 /* FBSnapshotTestCase.modulemap */,
+				52534B1AE8E01F15644755CAEF4D8439 /* FBSnapshotTestCase-dummy.m */,
+				170DB27B6326A569AD5E229B164C8946 /* FBSnapshotTestCase-Info.plist */,
+				B2E941D95862E95D001560215E2C8A60 /* FBSnapshotTestCase-prefix.pch */,
+				2E969C4F0B03FAB7FD3E4DAD7DA9C7BD /* FBSnapshotTestCase-umbrella.h */,
+				5C9E222C71CC2E57A070CD4EC3B34248 /* FBSnapshotTestCase.debug.xcconfig */,
+				A68B91283C885374F53C1893F12F4E54 /* FBSnapshotTestCase.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FBSnapshotTestCase";
+			sourceTree = "<group>";
+		};
+		5237470F5E80BF5BAB5C551815A6B456 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E488DB9C4D78BB7A8DDC32E92910A6B /* MBProgressHUD.modulemap */,
+				351D6B3AB63F1E82F887F1FDDBBD95EB /* MBProgressHUD-dummy.m */,
+				0F97082B2976AB776CC23ADFD7F4477C /* MBProgressHUD-Info.plist */,
+				01A7B683B89FE95DE7193EB9EED659DC /* MBProgressHUD-prefix.pch */,
+				1CB5CF85F039A37747F877FC0AEBB0C1 /* MBProgressHUD-umbrella.h */,
+				D830B441409DFB5A34B34BE11F5F728D /* MBProgressHUD.debug.xcconfig */,
+				3286AB5B7852BE55424F2A0404818CA5 /* MBProgressHUD.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MBProgressHUD";
+			sourceTree = "<group>";
+		};
+		53A60A23157298BB981E6768450CB16F /* TISHorButtonScroll */ = {
+			isa = PBXGroup;
+			children = (
+				0380C9ABB690102FDF3BD7CDEFBD526F /* TISHorButtonCollectionViewCell.h */,
+				3472A5BEA878AC8697829899A93B3F8F /* TISHorButtonCollectionViewCell.m */,
+				09937CB3773669CBEFF344CAE50DDB75 /* TISHorButtonCollectionViewCell.xib */,
+				321ABD89556A507B77C574875738205B /* TISHorButtonScroll.h */,
+				53EAE9D759FF229782638FBEA87E48B9 /* TISHorButtonScroll.m */,
+			);
+			name = TISHorButtonScroll;
+			path = TisComponent/Classes/TISHorButtonScroll;
+			sourceTree = "<group>";
+		};
+		58A225FB005DD3AE1C36EAFB02E95DFF /* TISChooseArea */ = {
+			isa = PBXGroup;
+			children = (
+				6B6217A96DCF5811AB8F35A7A713EFAF /* TISChooseArea.h */,
+				126869C95280D88A6E6A3117F81D3D86 /* TISChooseArea.m */,
+				40DBC5B57E7BC859B2BB239F4234B9B8 /* TISChooseAreaTableViewCell.h */,
+				B7E7CB350D0E1D6CD2B32B804D465458 /* TISChooseAreaTableViewCell.m */,
+				6614390E5EDDDB63DE5D117936233472 /* TISChooseAreaTableViewCell.xib */,
+			);
+			name = TISChooseArea;
+			path = TisComponent/Classes/TISChooseArea;
+			sourceTree = "<group>";
+		};
+		66E535E3E14A0B6296AE14CFBE00A74B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				692BA7FCC9FD404FE64BF0B87D5A4588 /* ResourceBundle-TisComponent-TisComponent-Info.plist */,
+				6656E6D8548C9A0ED94EABCC592F04F8 /* TisComponent.modulemap */,
+				A853E204EA755395782A461B8C07E83D /* TisComponent-dummy.m */,
+				2C2C1846D4ABC82B11F0CAAAD1BD5685 /* TisComponent-Info.plist */,
+				F6F5329FFFDD8F7006F3748F7F9D778C /* TisComponent-prefix.pch */,
+				884E6F112254B75AA2B7C8F767BBDF59 /* TisComponent-umbrella.h */,
+				1B385110D5F117E8AAD2827FF3084BD9 /* TisComponent.debug.xcconfig */,
+				EC71DB36F96AEAA660A7CD8131B30F19 /* TisComponent.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TisComponent";
+			sourceTree = "<group>";
+		};
+		6F8BDC81F920AB1B49E2532AD8421E2C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				159E3E7ABFEDDC35D30515B4AF58D2E5 /* FBSnapshotTestCase */,
+				E3F77E57F6605B8CCFB86EBF5ED0352E /* MBProgressHUD */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7BB16ACE0BBE91730FAA357661FBB87E /* TISSearch */ = {
+			isa = PBXGroup;
+			children = (
+				4AB1CB8E24355CF02FF3C20B42C8AA89 /* TISSearch.h */,
+				77DCBFE933222EDEBCB3D581EC1E3743 /* TISSearch.m */,
+			);
+			name = TISSearch;
+			path = TisComponent/Classes/TISSearch;
 			sourceTree = "<group>";
 		};
 		8E275F84AFCB22F5A59E6B95CC843D59 /* Pods-TisComponent_Example */ = {
@@ -206,93 +453,100 @@
 			path = "Target Support Files/Pods-TisComponent_Example";
 			sourceTree = "<group>";
 		};
-		906402ECC4C6C5EB58DD365FD2C64E92 /* SwiftSupport */ = {
+		979CFCACBC3694457D2BB04EF90BE466 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */,
+				6901063CC035FBC5C020C6CD79973A8F /* button_close.png */,
+				ED6499F6237FA722372C2C00F4E2D824 /* selected.png */,
+				5EA9B3D77B65768B6543879C4F6F85A0 /* textfiled_search.png */,
+				11A4BB8F803E26BBDFAD33081A7F9D1F /* un_selected.png */,
 			);
-			name = SwiftSupport;
+			name = Resources;
+			path = TisComponent/Assets/Resources;
 			sourceTree = "<group>";
 		};
-		92C8A32C1CAA381C5AB7E827FB25B573 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				5C20611E48349B370ED9F5C9968F36C5 /* TisComponent.modulemap */,
-				5CA784E8C28ACF135139D597F053307A /* TisComponent-dummy.m */,
-				AC621350B6A515B37B1C2DF35E48AEF4 /* TisComponent-Info.plist */,
-				AE3F9B17ECEA878897782E80E12DA2D3 /* TisComponent-prefix.pch */,
-				2FE83FC3956DAE11B4F2F90F50C2F363 /* TisComponent-umbrella.h */,
-				57E586032EA8678434711E4B19D74BDF /* TisComponent.debug.xcconfig */,
-				02C335D9FC441FECD2F7BDB19AC33E1E /* TisComponent.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/TisComponent";
-			sourceTree = "<group>";
-		};
-		9DCBCDEDCA71D640EA4EA1DDA4DF7F93 /* Products */ = {
+		9BCB8E08953C34767A47D6738E70A5EF /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase */,
+				8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD */,
 				1FAD6A4BE78EB86171B340EB21A2E010 /* Pods-TisComponent_Example */,
 				84D1F5EE744EEDA0A5302348C185AAE5 /* Pods-TisComponent_Tests */,
 				0283E05380DCDD8DD04C004496CFFCD2 /* TisComponent */,
+				0D0BBEA45D6D562CFFE96A13A03E56F8 /* TisComponent-TisComponent */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B5A2AA0921506A45D2F7D8C588DD169B /* TisComponent */ = {
+		9EEDEB494775F3532130FDFAC7BE92F7 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				9940116505A0EB502785A5653E7F2113 /* TISLabel.h */,
-				BFB4988CEE9BB8A5150E303909B43BB0 /* TISLabel.m */,
-				B7CB92EAB8F14F3BA14B6EA9C779E8C1 /* Pod */,
-				92C8A32C1CAA381C5AB7E827FB25B573 /* Support Files */,
+				E954C87C92658F47E6B385D5EF1F2F9C /* CoreGraphics.framework */,
+				5B5247A52C4220DC93EDCA1CEF947C59 /* Foundation.framework */,
+				0EBA61EE46BC13994C64F0A95BEB2390 /* QuartzCore.framework */,
+				668276A1EC8D88396426958E5EE8F819 /* UIKit.framework */,
+				B8DCF06F88670699F01F8D5C26566EC8 /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		9F90ADE3560D865D324EA8DDECE34BB9 /* TisComponent */ = {
+			isa = PBXGroup;
+			children = (
+				AA6421D719A957E151014A9C473A0607 /* Resources */,
+				048314DB82E4E82E08B6CD52C49D80FD /* Pod */,
+				979CFCACBC3694457D2BB04EF90BE466 /* Resources */,
+				66E535E3E14A0B6296AE14CFBE00A74B /* Support Files */,
+				185543C1B19AD3A6F3C027A55D9DE476 /* TISBaseView */,
+				58A225FB005DD3AE1C36EAFB02E95DFF /* TISChooseArea */,
+				B2D2C62BE172C13F3B38F2847E4B5E9B /* TISChooseList */,
+				49A78B80C950B7A64BB7F41ADDC33160 /* TISHeader */,
+				53A60A23157298BB981E6768450CB16F /* TISHorButtonScroll */,
+				3BE25C2340CA9CA38399F173CE1E8525 /* TISResetChoose */,
+				7BB16ACE0BBE91730FAA357661FBB87E /* TISSearch */,
+				A455A9DDDA6E98AC43C8F2DAE206DDF2 /* TISTool */,
 			);
 			name = TisComponent;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		B69B2ECE2D2C9A3924A9231138CE0BBC /* Support Files */ = {
+		A455A9DDDA6E98AC43C8F2DAE206DDF2 /* TISTool */ = {
 			isa = PBXGroup;
 			children = (
-				CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */,
-				1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */,
-				B7103CA00AED20722C5B69CA5B4F6938 /* FBSnapshotTestCase-Info.plist */,
-				D08CEBB9BDD9EF7A662ECFC0305C169E /* FBSnapshotTestCase-prefix.pch */,
-				8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */,
-				9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */,
-				4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */,
+				7538D365C77E87DF00DAC1EBA3E9B57B /* TISTool.h */,
+				68AEE2EDAE01E0B2B908D3AF14073245 /* TISTool.m */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/FBSnapshotTestCase";
+			name = TISTool;
+			path = TisComponent/Classes/TISTool;
 			sourceTree = "<group>";
 		};
-		B7CB92EAB8F14F3BA14B6EA9C779E8C1 /* Pod */ = {
+		B2D2C62BE172C13F3B38F2847E4B5E9B /* TISChooseList */ = {
 			isa = PBXGroup;
 			children = (
-				0AA5C45B7CC3293974BA8C32376BC8B6 /* LICENSE */,
-				4846F673FA1A60F69687CBC7FE456AC9 /* README.md */,
-				FD5E4A7244AD75C339C70F0D9E1FD40A /* TisComponent.podspec */,
+				8AC0B071510A01823B60EF7227D26F5C /* TISChooseListTableViewCell.h */,
+				A806796892ED28AE768AC7A17375BBC5 /* TISChooseListTableViewCell.m */,
+				D9F8BC80FBFE7712C76709B9C8378CA5 /* TISChooseListTableViewCell.xib */,
+				B16442AB89DF757086F205A8EC7E4614 /* TISChooseListView.h */,
+				50CDB400DECBE1AD8B4C0C1297FD3606 /* TISChooseListView.m */,
 			);
-			name = Pod;
+			name = TISChooseList;
+			path = TisComponent/Classes/TISChooseList;
 			sourceTree = "<group>";
 		};
-		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
+		B599317C0C611DAC48374610B177C871 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				FB2668559AE577E6E8078C0C291AD417 /* iOS */,
+				9F90ADE3560D865D324EA8DDECE34BB9 /* TisComponent */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		B94D7768568A9992200DB461E8CF687F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9EEDEB494775F3532130FDFAC7BE92F7 /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		BD2D60DE56CBB8C87BA07E0C1CCD0592 /* FBSnapshotTestCase */ = {
-			isa = PBXGroup;
-			children = (
-				4BA2479549DD918290454B1CDCD0B92B /* Core */,
-				B69B2ECE2D2C9A3924A9231138CE0BBC /* Support Files */,
-				906402ECC4C6C5EB58DD365FD2C64E92 /* SwiftSupport */,
-			);
-			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
 		C1DDCA8A396E3736874F8F7AA65E36AA /* Targets Support Files */ = {
@@ -302,14 +556,6 @@
 				CB6FC071FC3FE94842CEE3F839D28D40 /* Pods-TisComponent_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		C7547AEE5E6E70F211D1957B39610E6B /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				B5A2AA0921506A45D2F7D8C588DD169B /* TisComponent */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		CB6FC071FC3FE94842CEE3F839D28D40 /* Pods-TisComponent_Tests */ = {
@@ -333,42 +579,50 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				C7547AEE5E6E70F211D1957B39610E6B /* Development Pods */,
-				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
-				E81A37DBDE41E671312C56736544E2FA /* Pods */,
-				9DCBCDEDCA71D640EA4EA1DDA4DF7F93 /* Products */,
+				B599317C0C611DAC48374610B177C871 /* Development Pods */,
+				B94D7768568A9992200DB461E8CF687F /* Frameworks */,
+				6F8BDC81F920AB1B49E2532AD8421E2C /* Pods */,
+				9BCB8E08953C34767A47D6738E70A5EF /* Products */,
 				C1DDCA8A396E3736874F8F7AA65E36AA /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		E81A37DBDE41E671312C56736544E2FA /* Pods */ = {
+		E3F77E57F6605B8CCFB86EBF5ED0352E /* MBProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
-				BD2D60DE56CBB8C87BA07E0C1CCD0592 /* FBSnapshotTestCase */,
+				38821D0B2C7A986BD103C43E1473CCA9 /* MBProgressHUD.h */,
+				348FAB36263968A20B11465EA3A5CFE7 /* MBProgressHUD.m */,
+				5237470F5E80BF5BAB5C551815A6B456 /* Support Files */,
 			);
-			name = Pods;
+			name = MBProgressHUD;
+			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
-		FB2668559AE577E6E8078C0C291AD417 /* iOS */ = {
+		EC2370EA5799FB3AC66AF2335DC29E0D /* SwiftSupport */ = {
 			isa = PBXGroup;
 			children = (
-				57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */,
-				3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */,
-				1DA24A38BA9EE106B59E3D4C8DD1CE0E /* UIKit.framework */,
-				E658F388F01C72599CA75537950B6095 /* XCTest.framework */,
+				44561D842706BC8258A22BCF654A7092 /* SwiftSupport.swift */,
 			);
-			name = iOS;
+			name = SwiftSupport;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		151CF293A16AB82C92AEF17B5869100A /* Headers */ = {
+		50CA134250E3150D0D2393557A7C1266 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				296B113C5772AC5676E187BA7872A3DE /* TisComponent-umbrella.h in Headers */,
-				B06BFE71A84D917FF5C730F32CD3EA6A /* TISLabel.h in Headers */,
+				2385AE1BFC483B14ED07E04D41B66361 /* Pods-TisComponent_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D82C29ACD851E6EA219B34A73C961F5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67E941CADB3CDDEEDF8CE4EE4A4A05BB /* MBProgressHUD.h in Headers */,
+				5BAC1EF86D0E57E44E404B2796993561 /* MBProgressHUD-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,11 +634,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D41F09BA8AFA02822BAE6CA37A51798F /* Headers */ = {
+		8953A329041E966D7492BFD9C0967B61 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7F887D3D4B4E7AC727C77105D03CDE1 /* Pods-TisComponent_Example-umbrella.h in Headers */,
+				94F9000B9F2CD7ABD5AB030A61BEA1D6 /* TISBaseView.h in Headers */,
+				19B870D5E6469B847585BCEE26419E12 /* TISChooseArea.h in Headers */,
+				74E932A8AF0A016B39A05CE1754B323B /* TISChooseAreaTableViewCell.h in Headers */,
+				A1350E4C8F9170566AB9E5925BA3FCC9 /* TISChooseListTableViewCell.h in Headers */,
+				BAD4C8DB2D09C516E265557926B4310C /* TISChooseListView.h in Headers */,
+				6556A5A416955569EF5DAFC63ED7FE0B /* TisComponent-umbrella.h in Headers */,
+				818415916591A0FEBDB511DAE89F186C /* TISHeader.h in Headers */,
+				A61D49D05D40B45C8D36C964954A5C1E /* TISHorButtonCollectionViewCell.h in Headers */,
+				4D16B6A4F6104838D648CD2E5B77C39B /* TISHorButtonScroll.h in Headers */,
+				E34CAC20B792BCE0054A30D6E5151B71 /* TISResetChoose.h in Headers */,
+				5A5F8EE6430AF348312771159D33F13C /* TISSearch.h in Headers */,
+				8C9230BA799CB02B9F3FDAA2119FFA59 /* TISTool.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,16 +673,17 @@
 /* Begin PBXNativeTarget section */
 		4F00C5B7CC2E14324A6708E1E096FFAB /* TisComponent */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D2CDEAD72E09D81E6D45844524E08EFC /* Build configuration list for PBXNativeTarget "TisComponent" */;
+			buildConfigurationList = 37240FE949F432055708E64DC45903F6 /* Build configuration list for PBXNativeTarget "TisComponent" */;
 			buildPhases = (
-				151CF293A16AB82C92AEF17B5869100A /* Headers */,
-				C8115F8510970C198DBEB4525DEDE5F1 /* Sources */,
-				65A77DF1D9132BF32278C454346AFC5E /* Frameworks */,
-				FFD1ABD8EC16F259AB64341A5CBA52D1 /* Resources */,
+				8953A329041E966D7492BFD9C0967B61 /* Headers */,
+				F318505D6802ACE704EE97643E232967 /* Sources */,
+				DF4028DA2F808A4B554107055FDE03AB /* Frameworks */,
+				7C02E263A53DDD7A2077D4DCE238D5CD /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				7C579164E78D50276B498527A5E96A4E /* PBXTargetDependency */,
 			);
 			name = TisComponent;
 			productName = TisComponent;
@@ -436,12 +702,30 @@
 			buildRules = (
 			);
 			dependencies = (
-				3F47DD568637F1B4B196700B5D667F2C /* PBXTargetDependency */,
-				A6413889BE5F926289346FD6FF9594DD /* PBXTargetDependency */,
+				3A987208AFE66738604BAA6E863AAFF6 /* PBXTargetDependency */,
+				3583A684B5C067BBB51A7330A8ECFBC8 /* PBXTargetDependency */,
 			);
 			name = "Pods-TisComponent_Tests";
 			productName = Pods_TisComponent_Tests;
 			productReference = 84D1F5EE744EEDA0A5302348C185AAE5 /* Pods-TisComponent_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7BD2681E97C00DCC2EF91B0EBA76110 /* Build configuration list for PBXNativeTarget "MBProgressHUD" */;
+			buildPhases = (
+				5D82C29ACD851E6EA219B34A73C961F5 /* Headers */,
+				7E957D4020E4C4BC633BF50F7F51E5F6 /* Sources */,
+				D6DC8F0C2894774845C1DD2E7CA07B0C /* Frameworks */,
+				C0E0F7D28F4D633128D0F53BEAE34D3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MBProgressHUD;
+			productName = MBProgressHUD;
+			productReference = 8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD */;
 			productType = "com.apple.product-type.framework";
 		};
 		98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */ = {
@@ -462,19 +746,37 @@
 			productReference = 5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase */;
 			productType = "com.apple.product-type.framework";
 		};
-		C8325ED5E84C349F44279FE425DF49DF /* Pods-TisComponent_Example */ = {
+		B18F187040230A5E940FA06E49C21617 /* TisComponent-TisComponent */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FA5D1A690C77F61B789EA3E8DC7BFF02 /* Build configuration list for PBXNativeTarget "Pods-TisComponent_Example" */;
+			buildConfigurationList = 1795F7290B8249E8700E7DF8F5DFB40F /* Build configuration list for PBXNativeTarget "TisComponent-TisComponent" */;
 			buildPhases = (
-				D41F09BA8AFA02822BAE6CA37A51798F /* Headers */,
-				E1C794F2D9CCBE11DA61AF6FAD6CFEC1 /* Sources */,
-				D0287DC0A5E1EA1E18BEFB862B8FE271 /* Frameworks */,
-				A3EBAD2B202220166101572E38013E3B /* Resources */,
+				858E114F998CFCA13000AA5D8C230055 /* Sources */,
+				22EED64E1D44439069B8B7C973583617 /* Frameworks */,
+				043D679E54FBD59F5AB6908E3961707A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C8878B403801E6C8C88B826E050B680C /* PBXTargetDependency */,
+			);
+			name = "TisComponent-TisComponent";
+			productName = TisComponent;
+			productReference = 0D0BBEA45D6D562CFFE96A13A03E56F8 /* TisComponent-TisComponent */;
+			productType = "com.apple.product-type.bundle";
+		};
+		C8325ED5E84C349F44279FE425DF49DF /* Pods-TisComponent_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79B6ED06A4A209475679F36AD045F053 /* Build configuration list for PBXNativeTarget "Pods-TisComponent_Example" */;
+			buildPhases = (
+				50CA134250E3150D0D2393557A7C1266 /* Headers */,
+				34F925CDC6660E29DB76A35BA6053228 /* Sources */,
+				C1F46BC698269419B80C04847FB2E09B /* Frameworks */,
+				3DD43D90A588C0C61B5C33208C20BD5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F7946FAAB197709A116D5F6C4AF30B2 /* PBXTargetDependency */,
+				4597124BBF9294CA23D6E54D5AF2B01C /* PBXTargetDependency */,
 			);
 			name = "Pods-TisComponent_Example";
 			productName = Pods_TisComponent_Example;
@@ -499,19 +801,33 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 9DCBCDEDCA71D640EA4EA1DDA4DF7F93 /* Products */;
+			productRefGroup = 9BCB8E08953C34767A47D6738E70A5EF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */,
+				82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */,
 				C8325ED5E84C349F44279FE425DF49DF /* Pods-TisComponent_Example */,
 				6900718EB8F9430DABFBF9EC7A837699 /* Pods-TisComponent_Tests */,
 				4F00C5B7CC2E14324A6708E1E096FFAB /* TisComponent */,
+				B18F187040230A5E940FA06E49C21617 /* TisComponent-TisComponent */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		043D679E54FBD59F5AB6908E3961707A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AF79C968AEBC689FC506D49E3BFCBD3 /* button_close.png in Resources */,
+				BDCAAD6E8FB880063482EF9F5F647D2B /* Resources in Resources */,
+				5E9D80381ADD48C6A07BDDF07A562FA2 /* selected.png in Resources */,
+				1F059F0FF3E2502A1C61F6EC7D2B32A0 /* textfiled_search.png in Resources */,
+				323A6FED7835F3A756460C501F1F18B6 /* un_selected.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		194C9DCC4899F62F4FB7DDF15C987499 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -526,14 +842,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A3EBAD2B202220166101572E38013E3B /* Resources */ = {
+		3DD43D90A588C0C61B5C33208C20BD5F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FFD1ABD8EC16F259AB64341A5CBA52D1 /* Resources */ = {
+		7C02E263A53DDD7A2077D4DCE238D5CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93FAA7DA1A05DC70EF0D9F14E8876AE0 /* TisComponent-TisComponent in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0E0F7D28F4D633128D0F53BEAE34D3D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -551,20 +875,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C8115F8510970C198DBEB4525DEDE5F1 /* Sources */ = {
+		34F925CDC6660E29DB76A35BA6053228 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46307507527BC2960D8884BE4BA1E355 /* TisComponent-dummy.m in Sources */,
-				BED14EDB401FEB1633004684B7871BD0 /* TISLabel.m in Sources */,
+				A5A54D2304D2474FCCFD7AF11962EFCE /* Pods-TisComponent_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E1C794F2D9CCBE11DA61AF6FAD6CFEC1 /* Sources */ = {
+		7E957D4020E4C4BC633BF50F7F51E5F6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE8A3045D033102E9AFCC1051A40C744 /* Pods-TisComponent_Example-dummy.m in Sources */,
+				0097064E7F7D3F413161738CC5C25EEC /* MBProgressHUD.m in Sources */,
+				58C91B4AB36E6B16421106CA634C58EF /* MBProgressHUD-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		858E114F998CFCA13000AA5D8C230055 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -584,33 +915,98 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F318505D6802ACE704EE97643E232967 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40889DB60D08E215EB4EA555FD82AB71 /* TISBaseView.m in Sources */,
+				BB2E8E2A253122B00BAC0743E1056D9F /* TISChooseArea.m in Sources */,
+				AAC0EA50C3EB60F16F17FDF6F5E01828 /* TISChooseAreaTableViewCell.m in Sources */,
+				F73EE4182388E12ACCE9EC4119FBC187 /* TISChooseAreaTableViewCell.xib in Sources */,
+				8749779A18F33076801ED6175FF2B8EA /* TISChooseListTableViewCell.m in Sources */,
+				AF8DEFB306C1A3E2F5385F5BA20C9A56 /* TISChooseListTableViewCell.xib in Sources */,
+				06F7243810187B9C08294B02021D5D0A /* TISChooseListView.m in Sources */,
+				172C0EB89E2542FB28415F39C4D87B33 /* TisComponent-dummy.m in Sources */,
+				463FBD31CFEB4C45F2CB9D82E45011D7 /* TISHorButtonCollectionViewCell.m in Sources */,
+				CEAEF3DD05488E2F10AC77B8E31028EC /* TISHorButtonCollectionViewCell.xib in Sources */,
+				E92AAE2A7B08931596413FE35E62A314 /* TISHorButtonScroll.m in Sources */,
+				19172E958FA175CCA2A201DAC094BF2B /* TISResetChoose.m in Sources */,
+				140B881B180E972B2BDED01AB42E0A8A /* TISSearch.m in Sources */,
+				E35946F9CC087E57BF89ECBE65713CCA /* TISTool.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3F47DD568637F1B4B196700B5D667F2C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FBSnapshotTestCase;
-			target = 98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */;
-			targetProxy = 39570EFE80AAA9ABDA32127EB1F9543E /* PBXContainerItemProxy */;
-		};
-		A6413889BE5F926289346FD6FF9594DD /* PBXTargetDependency */ = {
+		3583A684B5C067BBB51A7330A8ECFBC8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-TisComponent_Example";
 			target = C8325ED5E84C349F44279FE425DF49DF /* Pods-TisComponent_Example */;
-			targetProxy = 91CB5B084BDA3797BDED01CA27575D37 /* PBXContainerItemProxy */;
+			targetProxy = 6B0F4D2BD095DBC33AB9868D1C931BA6 /* PBXContainerItemProxy */;
 		};
-		C8878B403801E6C8C88B826E050B680C /* PBXTargetDependency */ = {
+		3A987208AFE66738604BAA6E863AAFF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBSnapshotTestCase;
+			target = 98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */;
+			targetProxy = A4DEF777AECCECD7305FA11C26A9B201 /* PBXContainerItemProxy */;
+		};
+		4597124BBF9294CA23D6E54D5AF2B01C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TisComponent;
 			target = 4F00C5B7CC2E14324A6708E1E096FFAB /* TisComponent */;
-			targetProxy = 2FA74945EE24541B5275B67D769B69FC /* PBXContainerItemProxy */;
+			targetProxy = 7E8F3967763433F74A9F60E1F021355D /* PBXContainerItemProxy */;
+		};
+		6F7946FAAB197709A116D5F6C4AF30B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBProgressHUD;
+			target = 82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */;
+			targetProxy = B2417C18E25EFEF9F5370A06D3BC1848 /* PBXContainerItemProxy */;
+		};
+		7C579164E78D50276B498527A5E96A4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "TisComponent-TisComponent";
+			target = B18F187040230A5E940FA06E49C21617 /* TisComponent-TisComponent */;
+			targetProxy = A4051A515F783951D4340D73B749C8DC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		0CCA6C08312BD199BAD5857D2F54BF23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC71DB36F96AEAA660A7CD8131B30F19 /* TisComponent.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TisComponent/TisComponent-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TisComponent/TisComponent-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TisComponent/TisComponent.modulemap";
+				PRODUCT_MODULE_NAME = TisComponent;
+				PRODUCT_NAME = TisComponent;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		0CF977E736A9F0297ED689DCD07C3E1C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */;
+			baseConfigurationReference = A68B91283C885374F53C1893F12F4E54 /* FBSnapshotTestCase.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -639,9 +1035,9 @@
 			};
 			name = Release;
 		};
-		156F0263CD07E37F6D2DF26F558E650B /* Release */ = {
+		2705B82FAD3E374C3BF6B225CAFAFDC4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 02C335D9FC441FECD2F7BDB19AC33E1E /* TisComponent.release.xcconfig */;
+			baseConfigurationReference = 3286AB5B7852BE55424F2A0404818CA5 /* MBProgressHUD.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -651,14 +1047,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TisComponent/TisComponent-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TisComponent/TisComponent-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TisComponent/TisComponent.modulemap";
-				PRODUCT_MODULE_NAME = TisComponent;
-				PRODUCT_NAME = TisComponent;
+				MODULEMAP_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD.modulemap";
+				PRODUCT_MODULE_NAME = MBProgressHUD;
+				PRODUCT_NAME = MBProgressHUD;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -669,6 +1065,52 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		2F85FD60FCD2819C096470B5073C7DFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D830B441409DFB5A34B34BE11F5F728D /* MBProgressHUD.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD.modulemap";
+				PRODUCT_MODULE_NAME = MBProgressHUD;
+				PRODUCT_NAME = MBProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		47A20F0FE8B8517EE854900319B6694E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B385110D5F117E8AAD2827FF3084BD9 /* TisComponent.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TisComponent";
+				IBSC_MODULE = TisComponent;
+				INFOPLIST_FILE = "Target Support Files/TisComponent/ResourceBundle-TisComponent-TisComponent-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = TisComponent;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
 		};
 		61AED150CA475BFF4AA66F7960B672B4 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -704,10 +1146,11 @@
 			};
 			name = Release;
 		};
-		7A2B068EB476BD3EEFC839078A96E90B /* Debug */ = {
+		7CE09C4117CC5467EA8BA61F489FDC56 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 57E586032EA8678434711E4B19D74BDF /* TisComponent.debug.xcconfig */;
+			baseConfigurationReference = 1B385110D5F117E8AAD2827FF3084BD9 /* TisComponent.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -719,7 +1162,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/TisComponent/TisComponent-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/TisComponent/TisComponent-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/TisComponent/TisComponent.modulemap";
 				PRODUCT_MODULE_NAME = TisComponent;
@@ -822,7 +1265,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -830,7 +1274,7 @@
 		};
 		842C60C4F1EBC85F9C8FF97D39D120FF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */;
+			baseConfigurationReference = 5C9E222C71CC2E57A070CD4EC3B34248 /* FBSnapshotTestCase.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -858,7 +1302,7 @@
 			};
 			name = Debug;
 		};
-		B72E759F5BCA3CE5B41F4F54D504717F /* Debug */ = {
+		C3DFDAA7B83BF2013A79EF369F52D343 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 19C638605FA60F075A999FA7285154F3 /* Pods-TisComponent_Example.debug.xcconfig */;
 			buildSettings = {
@@ -891,7 +1335,7 @@
 			};
 			name = Debug;
 		};
-		C20951942FEA30E8279B5900CBEEA236 /* Release */ = {
+		C5C128A5A879EE0A798AAA92FB8CEB94 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CB8086F4D717E0006DF8BB4EF1EADC3B /* Pods-TisComponent_Example.release.xcconfig */;
 			buildSettings = {
@@ -991,14 +1435,48 @@
 			};
 			name = Debug;
 		};
+		FD6CC3E6A663C31EF119921490AC1B46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC71DB36F96AEAA660A7CD8131B30F19 /* TisComponent.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TisComponent";
+				IBSC_MODULE = TisComponent;
+				INFOPLIST_FILE = "Target Support Files/TisComponent/ResourceBundle-TisComponent-TisComponent-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = TisComponent;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1795F7290B8249E8700E7DF8F5DFB40F /* Build configuration list for PBXNativeTarget "TisComponent-TisComponent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47A20F0FE8B8517EE854900319B6694E /* Debug */,
+				FD6CC3E6A663C31EF119921490AC1B46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		28DAA9880679133EC375B7072B9AEABB /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				842C60C4F1EBC85F9C8FF97D39D120FF /* Debug */,
 				0CF977E736A9F0297ED689DCD07C3E1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37240FE949F432055708E64DC45903F6 /* Build configuration list for PBXNativeTarget "TisComponent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CE09C4117CC5467EA8BA61F489FDC56 /* Debug */,
+				0CCA6C08312BD199BAD5857D2F54BF23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1012,6 +1490,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		79B6ED06A4A209475679F36AD045F053 /* Build configuration list for PBXNativeTarget "Pods-TisComponent_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3DFDAA7B83BF2013A79EF369F52D343 /* Debug */,
+				C5C128A5A879EE0A798AAA92FB8CEB94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		85436394C996CA6651C11120CB1BA0BC /* Build configuration list for PBXNativeTarget "Pods-TisComponent_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1021,20 +1508,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D2CDEAD72E09D81E6D45844524E08EFC /* Build configuration list for PBXNativeTarget "TisComponent" */ = {
+		A7BD2681E97C00DCC2EF91B0EBA76110 /* Build configuration list for PBXNativeTarget "MBProgressHUD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7A2B068EB476BD3EEFC839078A96E90B /* Debug */,
-				156F0263CD07E37F6D2DF26F558E650B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FA5D1A690C77F61B789EA3E8DC7BFF02 /* Build configuration list for PBXNativeTarget "Pods-TisComponent_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B72E759F5BCA3CE5B41F4F54D504717F /* Debug */,
-				C20951942FEA30E8279B5900CBEEA236 /* Release */,
+				2F85FD60FCD2819C096470B5073C7DFD /* Debug */,
+				2705B82FAD3E374C3BF6B225CAFAFDC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

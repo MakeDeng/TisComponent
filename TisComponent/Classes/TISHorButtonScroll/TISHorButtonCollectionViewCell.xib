@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="TISHorButtonCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="213" height="63"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="213" height="63"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KgS-LN-mZG">
+                        <rect key="frame" x="10" y="0.0" width="202" height="63"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O5L-TZ-hfc">
+                                <rect key="frame" x="10" y="21" width="164" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="i0R-rb-NyP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.12156862745098039" green="0.42352941176470588" blue="0.8666666666666667" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="button_close.png" translatesAutoresizingMaskIntoConstraints="NO" id="ciX-SG-kvj">
+                                <rect key="frame" x="179" y="24" width="15" height="15"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="15" id="QZS-9J-MKZ"/>
+                                    <constraint firstAttribute="width" constant="15" id="lex-bn-iUq"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ciX-SG-kvj" firstAttribute="centerY" secondItem="KgS-LN-mZG" secondAttribute="centerY" id="0uq-9G-rpQ"/>
+                            <constraint firstItem="O5L-TZ-hfc" firstAttribute="leading" secondItem="KgS-LN-mZG" secondAttribute="leading" constant="10" id="BUB-ho-R2q"/>
+                            <constraint firstItem="ciX-SG-kvj" firstAttribute="leading" secondItem="O5L-TZ-hfc" secondAttribute="trailing" constant="5" id="dYj-YL-KpL"/>
+                            <constraint firstAttribute="trailing" secondItem="ciX-SG-kvj" secondAttribute="trailing" constant="8" id="dtv-g2-OJx"/>
+                            <constraint firstItem="O5L-TZ-hfc" firstAttribute="centerY" secondItem="KgS-LN-mZG" secondAttribute="centerY" id="pRv-Z9-qdM"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="SEy-5g-ep8"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="KgS-LN-mZG" secondAttribute="trailing" constant="1" id="8Nv-V2-Klb"/>
+                <constraint firstItem="KgS-LN-mZG" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="RHm-xg-YXM"/>
+                <constraint firstAttribute="bottom" secondItem="KgS-LN-mZG" secondAttribute="bottom" id="WlU-lb-f7T"/>
+                <constraint firstItem="KgS-LN-mZG" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="10" id="mJX-D1-fhE"/>
+            </constraints>
+            <size key="customSize" width="213" height="63"/>
+            <connections>
+                <outlet property="bgView" destination="KgS-LN-mZG" id="1ss-8V-gnq"/>
+                <outlet property="closeImageView" destination="ciX-SG-kvj" id="Fm1-Gh-XX5"/>
+                <outlet property="nameLabel" destination="O5L-TZ-hfc" id="Cqt-yG-Rrs"/>
+            </connections>
+            <point key="canvasLocation" x="-109" y="130"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="button_close.png" width="24" height="24"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

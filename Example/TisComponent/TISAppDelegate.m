@@ -7,12 +7,19 @@
 //
 
 #import "TISAppDelegate.h"
+#import "TISViewController.h"
+#import "TISHeader.h"
 
 @implementation TISAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    self.window.backgroundColor = [UIColor whiteColor];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:[TISViewController new]];
+    [UINavigationBar appearance].backgroundColor = [UIColor whiteColor];
+    self.window.rootViewController = nav;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
