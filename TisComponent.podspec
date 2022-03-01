@@ -33,10 +33,10 @@ Pod::Spec.new do |s|
   s.source_files = 'TisComponent/Classes/**/*.{h,m}'
   
   s.resource_bundles = {
-   'TisComponent' => ['TisComponent/Assets/**/*']
+   'TisComponent' => ['TisComponent/Assets/*.png']
   }
 
-   s.public_header_files = 'TisComponent/Classes/TISHeader/TISHeader.h'
+  # s.public_header_files = 'TisComponent/Classes/TISHeader.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

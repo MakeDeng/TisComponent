@@ -2,7 +2,7 @@
   "name": "TisComponent",
   "version": "0.1.0",
   "summary": "A short description of TisComponent.",
-  "description": "TODO: Add long description of the pod here.",
+  "description": "这是一个初始版本",
   "homepage": "https://github.com/MakeDeng/TisComponent",
   "license": {
     "type": "MIT",
@@ -18,16 +18,10 @@
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": "TisComponent/Classes/**/*",
+  "source_files": "TisComponent/Classes/**/*.{h,m}",
   "resource_bundles": {
     "TisComponent": [
-      "TisComponent/Assets/**/*"
-    ]
-  },
-  "public_header_files": "Pod/Classes/TISHeader/TISHeader.h",
-  "dependencies": {
-    "MBProgressHUD": [
-      "~> 1.0.0"
+      "TisComponent/Assets/*.png"
     ]
   }
 }
