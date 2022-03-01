@@ -170,7 +170,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  *  将十六进制颜色转换为UIColor对象
  *
- *  @param color 要转换的十六进制字符串
+ *  @param hexString 要转换的十六进制字符串
  *
  *  @return 转换的颜色
  */
