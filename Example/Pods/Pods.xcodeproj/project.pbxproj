@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		0097064E7F7D3F413161738CC5C25EEC /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 348FAB36263968A20B11465EA3A5CFE7 /* MBProgressHUD.m */; };
 		027168D01760F0D544B2E4DCCD3CDBA0 /* TISResetChoose.m in Sources */ = {isa = PBXBuildFile; fileRef = 193371CBF695F67DC9DB49B3E3A32E49 /* TISResetChoose.m */; };
+		0685BE7927CE301300E26944 /* TISChooseAreaTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0685BE7827CE301300E26944 /* TISChooseAreaTableViewCell.xib */; };
+		0685BE7B27CE301F00E26944 /* TISChooseListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0685BE7A27CE301F00E26944 /* TISChooseListTableViewCell.xib */; };
+		0685BE7D27CE304C00E26944 /* TISHorButtonCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0685BE7C27CE304C00E26944 /* TISHorButtonCollectionViewCell.xib */; };
 		0AA33EBB857A5205F87C09CCB99EAC74 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B5247A52C4220DC93EDCA1CEF947C59 /* Foundation.framework */; };
 		0E597D83301D7FB34CC007A835B4F61C /* TISHorButtonCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 151142942C070C6CFFF568A8DBB23BDD /* TISHorButtonCollectionViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		152564160E9F26B5DAECA793C2E2773A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B5247A52C4220DC93EDCA1CEF947C59 /* Foundation.framework */; };
@@ -113,6 +116,9 @@
 /* Begin PBXFileReference section */
 		01A7B683B89FE95DE7193EB9EED659DC /* MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
 		0283E05380DCDD8DD04C004496CFFCD2 /* TisComponent */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TisComponent; path = TisComponent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0685BE7827CE301300E26944 /* TISChooseAreaTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TISChooseAreaTableViewCell.xib; sourceTree = "<group>"; };
+		0685BE7A27CE301F00E26944 /* TISChooseListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TISChooseListTableViewCell.xib; sourceTree = "<group>"; };
+		0685BE7C27CE304C00E26944 /* TISHorButtonCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TISHorButtonCollectionViewCell.xib; sourceTree = "<group>"; };
 		0D0BBEA45D6D562CFFE96A13A03E56F8 /* TisComponent.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TisComponent.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EBA61EE46BC13994C64F0A95BEB2390 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		0F97082B2976AB776CC23ADFD7F4477C /* MBProgressHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MBProgressHUD-Info.plist"; sourceTree = "<group>"; };
@@ -312,6 +318,7 @@
 			children = (
 				151142942C070C6CFFF568A8DBB23BDD /* TISHorButtonCollectionViewCell.h */,
 				D08529C730247EC034C4019D00DAE336 /* TISHorButtonCollectionViewCell.m */,
+				0685BE7C27CE304C00E26944 /* TISHorButtonCollectionViewCell.xib */,
 				D33EEA58E712254CC5EDBF4FC583CD32 /* TISHorButtonScroll.h */,
 				EFBE3BC986A97CB596EF9F8CE64853D7 /* TISHorButtonScroll.m */,
 			);
@@ -324,6 +331,7 @@
 			children = (
 				19382B1B2814E68A3BB84E8526D309D3 /* TISChooseListTableViewCell.h */,
 				7DA7CEB19359A04A6CAD81A7597D29CE /* TISChooseListTableViewCell.m */,
+				0685BE7A27CE301F00E26944 /* TISChooseListTableViewCell.xib */,
 				F295AD2C3C5296751E21B2D20C2B2A72 /* TISChooseListView.h */,
 				A61A8B3C5628DDF1AB2C3F3767B75B0E /* TISChooseListView.m */,
 			);
@@ -432,6 +440,7 @@
 				E17DF93BF42FA90CBE6A8C7BA137B3BF /* TISChooseArea.m */,
 				D819ADE14BF1661186711571D6D25F60 /* TISChooseAreaTableViewCell.h */,
 				372E83A09FCB1DF81F5A1F00EF5C10FF /* TISChooseAreaTableViewCell.m */,
+				0685BE7827CE301300E26944 /* TISChooseAreaTableViewCell.xib */,
 			);
 			name = TISChooseArea;
 			path = TisComponent/Classes/TISChooseArea;
@@ -818,7 +827,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0685BE7B27CE301F00E26944 /* TISChooseListTableViewCell.xib in Resources */,
+				0685BE7927CE301300E26944 /* TISChooseAreaTableViewCell.xib in Resources */,
 				98105B5BF457FA7437499F5AE18AEC88 /* TisComponent.bundle in Resources */,
+				0685BE7D27CE304C00E26944 /* TISHorButtonCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
