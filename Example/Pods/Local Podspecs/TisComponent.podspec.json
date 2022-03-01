@@ -23,5 +23,11 @@
     "TisComponent": [
       "TisComponent/Assets/**/*"
     ]
+  },
+  "public_header_files": "Pod/Classes/TISHeader/TISHeader.h",
+  "dependencies": {
+    "MBProgressHUD": [
+      "~> 1.0.0"
+    ]
   }
 }

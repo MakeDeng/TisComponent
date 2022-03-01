@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+                      这是一个初始版本
                        DESC
 
   s.homepage         = 'https://github.com/MakeDeng/TisComponent'
@@ -30,13 +30,13 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'TisComponent/Classes/**/*'
+  s.source_files = 'TisComponent/Classes/**/*.{h,m}'
   
   s.resource_bundles = {
    'TisComponent' => ['TisComponent/Assets/**/*']
   }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+   s.public_header_files = 'TisComponent/Classes/TISHeader/TISHeader.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
