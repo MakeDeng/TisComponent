@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
   s.source_files = 'TisComponent/Classes/**/*.{h,m}'
   
   s.resource_bundles = {
-   'TisComponent' => ['TisComponent/Assets/*.png']
+   'TisComponent' => ['TisComponent/Assets/*']
   }
 
   # s.public_header_files = 'TisComponent/Classes/TISHeader.h'
