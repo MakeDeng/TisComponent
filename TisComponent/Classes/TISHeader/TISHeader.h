@@ -61,5 +61,7 @@
 #import "TISTool.h"
 #import "TISChooseListView.h"
 #import "TISChooseArea.h"
+#import "TISChooseItem.h"
+#import "TISInputSection.h"
 
 #endif /* TisHeader_h */

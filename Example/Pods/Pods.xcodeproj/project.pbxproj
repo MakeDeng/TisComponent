@@ -8,227 +8,235 @@
 
 /* Begin PBXBuildFile section */
 		0097064E7F7D3F413161738CC5C25EEC /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 348FAB36263968A20B11465EA3A5CFE7 /* MBProgressHUD.m */; };
-		027168D01760F0D544B2E4DCCD3CDBA0 /* TISResetChoose.m in Sources */ = {isa = PBXBuildFile; fileRef = 193371CBF695F67DC9DB49B3E3A32E49 /* TISResetChoose.m */; };
-		0685BE7927CE301300E26944 /* TISChooseAreaTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0685BE7827CE301300E26944 /* TISChooseAreaTableViewCell.xib */; };
-		0685BE7B27CE301F00E26944 /* TISChooseListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0685BE7A27CE301F00E26944 /* TISChooseListTableViewCell.xib */; };
-		0685BE7D27CE304C00E26944 /* TISHorButtonCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0685BE7C27CE304C00E26944 /* TISHorButtonCollectionViewCell.xib */; };
+		00DDD0004AB5CDBF2BDFB8F7D5CF0D10 /* TISHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = B9A5E7BE397F4B1433B92619E4A45C3C /* TISHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0AA33EBB857A5205F87C09CCB99EAC74 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B5247A52C4220DC93EDCA1CEF947C59 /* Foundation.framework */; };
-		0E597D83301D7FB34CC007A835B4F61C /* TISHorButtonCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 151142942C070C6CFFF568A8DBB23BDD /* TISHorButtonCollectionViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D916AD666CA5A639D08A334570AAC5F /* TISHorButtonCollectionViewCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 47432C60D8DDB590BE3C9203C9FDF168 /* TISHorButtonCollectionViewCell.xib */; };
 		152564160E9F26B5DAECA793C2E2773A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B5247A52C4220DC93EDCA1CEF947C59 /* Foundation.framework */; };
-		1812593E88283C87985E2FA8F90F8A6B /* TISChooseListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA7CEB19359A04A6CAD81A7597D29CE /* TISChooseListTableViewCell.m */; };
-		1A05C869924152DCAB1519EB2892316B /* TISSearch.h in Headers */ = {isa = PBXBuildFile; fileRef = 43CB1B036365BD25995150A099B617C1 /* TISSearch.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1BE8E892C2F4DB24D9C71BD0876659D0 /* TisComponent-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B745070FE4ECEAC49E81FC94F9815E1E /* TisComponent-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1D09F861A506BB6C8DB8B49DB63D4A7D /* TISBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3100E6265EBDFFCFD8552B5F07906D /* TISBaseView.m */; };
+		1755504445841FBCEE57AB986392E158 /* TISChooseAreaTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4763C64C43D0053CFF39FF7678B39F48 /* TISChooseAreaTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1F84FE646CD1D7BAFFB58C243277AFF8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E969C4F0B03FAB7FD3E4DAD7DA9C7BD /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20FC0512CB65DB8E8834A7ADCD27115E /* selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C8BE04837A1F1AB28D87C917F66EDB5 /* selected.png */; };
+		22EE1B3556A8B4B8480AFAB69299D8CC /* TISChooseArea.h in Headers */ = {isa = PBXBuildFile; fileRef = 5847855F5318644A837F78E6518FD1C4 /* TISChooseArea.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		230F60C1F9112F1F6F1A76CE03E3D600 /* TISBaseView.h in Headers */ = {isa = PBXBuildFile; fileRef = D9DDACEE6A6EC8A243E58DE6BAFA87FB /* TISBaseView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2385AE1BFC483B14ED07E04D41B66361 /* Pods-TisComponent_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D680A9AA01D5DF08F8B766ACA4C89DFE /* Pods-TisComponent_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24ADABA327FD41E4AD3C5CEFA141DC02 /* TISChooseListTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 569D5DC30660CED5DC8083D0D79F893B /* TISChooseListTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		28ABB1E252B1DF20DFDAA9C68E849338 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B5247A52C4220DC93EDCA1CEF947C59 /* Foundation.framework */; };
 		2975A09730FD83DC0897129A11EA6585 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44561D842706BC8258A22BCF654A7092 /* SwiftSupport.swift */; };
 		2B88C28DD20CBFA7B3AEB21A365197FE /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 955FA9D9CC9A641919BB4FA0490FACF4 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2CB61F6FA511CAACB43A50DC3A82E0DD /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 593A3B75008BFE6C02DA37E1C07190BB /* UIImage+Snapshot.m */; };
 		2ECCAC52EF4C74E1032E0BC646BBE5B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B5247A52C4220DC93EDCA1CEF947C59 /* Foundation.framework */; };
-		305F861C1A4A843C5537F6CAF3D86A83 /* TISChooseListTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 19382B1B2814E68A3BB84E8526D309D3 /* TISChooseListTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30A5217F7ABDBE08B185707F05C7699A /* TISChooseItemCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BBDFA2127156BED2495592D23BE11D7 /* TISChooseItemCollectionViewCell.m */; };
 		30D475DF57C0C682A723231E7BCA0D14 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 1025E44E8F835E05D5B0617826596099 /* FBSnapshotTestCasePlatform.m */; };
 		373413256658309F9053CE22BF62077E /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = F57075219649614F13994968887A99DE /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3956F9E0F9381041AEC568198C44E803 /* TISInputSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F00DB13CF208A776CE5A2CA6529496D /* TISInputSection.m */; };
+		3B2B7DD49A37D6FA85BC16B7CD4694E6 /* TISResetChoose.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C299A8C850E50E39340B26BD33A6CE5 /* TISResetChoose.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43847C86B1890BBF70426432932CFA28 /* TISInputSection.h in Headers */ = {isa = PBXBuildFile; fileRef = 709C2E4F186CAB5D2B7C13814D458976 /* TISInputSection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4696FF99296068607E2E5483C7064CC6 /* TISChooseAreaTableViewCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 8E5423AAB035D9D5F3BAE02B67F36FAA /* TISChooseAreaTableViewCell.xib */; };
 		47066194D7CB4CB7B43C431981EDA8AA /* Pods-TisComponent_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C3DE284AA8A9E410F051EF5E98F009E /* Pods-TisComponent_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		483C53F4AF7DB95DA3B39111F6E1FFFF /* TISChooseAreaTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 372E83A09FCB1DF81F5A1F00EF5C10FF /* TISChooseAreaTableViewCell.m */; };
-		4984571FC5E1E3AE32F91BA41F36702E /* TISSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9F2045F1A14708CAD3596C564E00CC /* TISSearch.m */; };
-		550E4042D37B8EC7D1027FF45F9FE2EA /* TISHorButtonScroll.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBE3BC986A97CB596EF9F8CE64853D7 /* TISHorButtonScroll.m */; };
+		4C18F3F618F68DA8B7C590347EEBE792 /* TisComponent-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 73775C6039E594CF9655D5F0F42C4D88 /* TisComponent-dummy.m */; };
+		50D5EECA2B54E20B2B6CEAB2F4467E7B /* textfiled_search.png in Resources */ = {isa = PBXBuildFile; fileRef = 010A66765AD435E209C961508186DD60 /* textfiled_search.png */; };
 		5558B876B579BC1E79BD3D2B19148329 /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E42FB2C9202F4718DAAE8F0E7E073D6 /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		58C91B4AB36E6B16421106CA634C58EF /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 351D6B3AB63F1E82F887F1FDDBBD95EB /* MBProgressHUD-dummy.m */; };
-		59AE17B6D1EFAE13E9E6FA65E7E1B539 /* TISHorButtonCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D08529C730247EC034C4019D00DAE336 /* TISHorButtonCollectionViewCell.m */; };
 		5BAC1EF86D0E57E44E404B2796993561 /* MBProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CB5CF85F039A37747F877FC0AEBB0C1 /* MBProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5BE525FF6FA14B999ED2CCC0AA4FA0CF /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 52534B1AE8E01F15644755CAEF4D8439 /* FBSnapshotTestCase-dummy.m */; };
-		5D69FC1C0E51BD8A017B2B300497071E /* TISChooseListView.h in Headers */ = {isa = PBXBuildFile; fileRef = F295AD2C3C5296751E21B2D20C2B2A72 /* TISChooseListView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		611522E8FE708438B22B4099D16E5A54 /* TISChooseArea.m in Sources */ = {isa = PBXBuildFile; fileRef = E17DF93BF42FA90CBE6A8C7BA137B3BF /* TISChooseArea.m */; };
+		5C3F3887EDA98DC09A99936360F3E351 /* TISBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD856B7CFB59F67C5B61173D7DC275E6 /* TISBaseView.m */; };
+		5D1328F23425815B4355F695BDC9C4F9 /* TISHorButtonScroll.m in Sources */ = {isa = PBXBuildFile; fileRef = A3E2A27E969A8AA5179D3D8948A06854 /* TISHorButtonScroll.m */; };
+		5E607F1B261CE0A43975C78B44D424ED /* TISChooseListTableViewCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = A8B18A93257B0C812D59BBC0022257BB /* TISChooseListTableViewCell.xib */; };
+		638372105CF9825A54B5FDBA9A13F818 /* TISChooseAreaTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E7645A4995A998026669D0A0DF0EDE46 /* TISChooseAreaTableViewCell.m */; };
 		640CCE9C3A28AA3CA15510899F9140EE /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = DD1DE8C9F25CB2BBAB2F3A8550B29168 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		644F4895A61814553A0220DB5FF4E610 /* TISHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = ED479D55E3B09E08F8A9E6A05E9AF5AD /* TISHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64B35ECAC10269CC52F7FD03BBA84C1F /* TISTool.h in Headers */ = {isa = PBXBuildFile; fileRef = A383C05B42E5B8AA1C382F501D4CF016 /* TISTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66B58469E73E667C913AC4129F69E526 /* TISChooseListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 80CFF79D2364CF6064D2BF3F29726896 /* TISChooseListTableViewCell.m */; };
 		67E941CADB3CDDEEDF8CE4EE4A4A05BB /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 38821D0B2C7A986BD103C43E1473CCA9 /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		67F1963AA7C9EDB78127AD5F566A4949 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BFA36D17A827BD67B051CC0462BA5AB /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		7022F36A195A118FA667387EC24C7D5D /* TISTool.h in Headers */ = {isa = PBXBuildFile; fileRef = EB943C1683624567063E888346336C17 /* TISTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		72E1A7DEB9238170845FD1A09C0B4661 /* TISChooseListView.m in Sources */ = {isa = PBXBuildFile; fileRef = A61A8B3C5628DDF1AB2C3F3767B75B0E /* TISChooseListView.m */; };
 		74339C58AC4E5631FB8C0E662668A796 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = B01766A1CBC44185C28A1D40FB1155A6 /* UIApplication+StrictKeyWindow.m */; };
+		74765274977DBD70B9950E1DB5E18B47 /* TISChooseItemCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 233703072956E412D91DB26CD02A69EB /* TISChooseItemCollectionViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7C67CBD15D9B5D0B7769B2F469478332 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 689A0DE9D63EC8F978E60750039DF3BA /* FBSnapshotTestCase.m */; };
-		7D476F5895DE8B4480A2E0B609607C63 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B5247A52C4220DC93EDCA1CEF947C59 /* Foundation.framework */; };
+		7C73E50DA1C4EF4E0C1D0DCCEF7C1DDC /* TISChooseArea.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B34FA56DC495A7C99442DB1CE5E78BD /* TISChooseArea.m */; };
+		7DDC03C9AAF748EDAFE026D0271F6D82 /* TISHorButtonScroll.h in Headers */ = {isa = PBXBuildFile; fileRef = 26B030F406BD64B1778C03C3DF071C24 /* TISHorButtonScroll.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83A581E0EA37499499CDF31BC508BC8A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B5247A52C4220DC93EDCA1CEF947C59 /* Foundation.framework */; };
+		84BE1115838C8B19F7FCD229446F9499 /* TISHorButtonCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 92E633B72B9107F59A4F017953C2FF85 /* TISHorButtonCollectionViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		875A310EAF4D0C136C3FFFF5E0335BE4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 668276A1EC8D88396426958E5EE8F819 /* UIKit.framework */; };
 		8AE19756F0126FE92AF625E36F3D70FE /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = FD018B2D8A3213F4731158CEE313472A /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		8B05DC4857FA83B7DDDE5E832735AEFF /* TISChooseArea.h in Headers */ = {isa = PBXBuildFile; fileRef = 286649865E6CCDF1F975B959E244F1C1 /* TISChooseArea.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9540F729C1819B2075C8C38F675577B2 /* textfiled_search.png in Resources */ = {isa = PBXBuildFile; fileRef = F26A4A79A51C0AE3D843A4CB7C99B1E1 /* textfiled_search.png */; };
-		98105B5BF457FA7437499F5AE18AEC88 /* TisComponent.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0D0BBEA45D6D562CFFE96A13A03E56F8 /* TisComponent.bundle */; };
+		8D7C2BC61EBD448ADD1C1CA7C0EEC286 /* TISAlignCollectionViewFlowLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B8FC7865F6A51B646D6C8E374013D73 /* TISAlignCollectionViewFlowLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9239CD277E9AAF1EAEBA15D763AE709E /* TISResetChoose.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D6197512F844EF6CA0312CFE7B6E2A /* TISResetChoose.m */; };
 		9D3C5E2F56838937146191468A893244 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8DCF06F88670699F01F8D5C26566EC8 /* XCTest.framework */; };
+		9F5009747D820EDBA9F58864AD890F2D /* TisComponent-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 50504B0CF05F5D1C3F9BFD0F861C53AA /* TisComponent-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A010C9EEB24D397FB3ACE3CDFD095453 /* un_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DA1875210B61D761AC293507C19D2FC /* un_selected.png */; };
 		A5A54D2304D2474FCCFD7AF11962EFCE /* Pods-TisComponent_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D8C97C8426335D76CEB1B35826935D40 /* Pods-TisComponent_Example-dummy.m */; };
-		A6E3846FDADB6178930F081D72002BA1 /* button_close.png in Resources */ = {isa = PBXBuildFile; fileRef = 9709F1173AF60675FA40F1E86DD16E76 /* button_close.png */; };
-		AEE51BBF095FBEFA8A3B713951A473D5 /* selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 240DB88BF1F704356A77291F4ECBA3D3 /* selected.png */; };
 		AFAC1D4EBD53A048346210536741DF13 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E954C87C92658F47E6B385D5EF1F2F9C /* CoreGraphics.framework */; };
-		B4C5251E53AC91C46BA1DF696F074B3F /* TISBaseView.h in Headers */ = {isa = PBXBuildFile; fileRef = 17B3E551C54B448E54B3376A1370A934 /* TISBaseView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B52177FF72FDAC3EDB7195DE98F5501E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EBA61EE46BC13994C64F0A95BEB2390 /* QuartzCore.framework */; };
 		B52281F9F4340D4FC8ABB2FEB1FEC08E /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = DFC337315370285FC48010FC631BCDDE /* UIImage+Compare.m */; };
-		B6DE8EF627FE7402BE62C93B5993618D /* TISTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 269AD4A9E71F0625BAB7A7436E0E02DE /* TISTool.m */; };
-		BD6CA461A6D84204107C2E37A565F1AA /* TISChooseAreaTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = D819ADE14BF1661186711571D6D25F60 /* TISChooseAreaTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C0B25132AE56E62A6B4FE075DD2209C0 /* un_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 693B720ED8D1BA88ACEE6E11537B0816 /* un_selected.png */; };
+		C098210BFE941C65FCFB26D23E364564 /* TISAlignCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 81DCCD260FBFFF8EE24CC12F8CD84CDD /* TISAlignCollectionViewFlowLayout.m */; };
 		C390C6005353FB986CB52F474CEF8588 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6180890F30FC9D5B06C4EEE17FB97448 /* FBSnapshotTestController.m */; };
+		C57205DD3D421112B597292C2C67E54C /* TISChooseItem.m in Sources */ = {isa = PBXBuildFile; fileRef = DF110972093FD48157373DF83AF9271A /* TISChooseItem.m */; };
+		C5AD4159224011E5E0D4C3256582D380 /* TISTool.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4005290C6643289AA4F84DACF5745C /* TISTool.m */; };
 		C9F76407497DF0205D7460B36D22259F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EBA61EE46BC13994C64F0A95BEB2390 /* QuartzCore.framework */; };
 		CA54C09A12400567AFFCB407EEB7E154 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = B369780CFEC45C80AFE43703DDA8AA5F /* UIImage+Diff.m */; };
 		CC805DB8A68FBD966837BB48587A8A81 /* Pods-TisComponent_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F088616384013BDA481D2C7644E92A9 /* Pods-TisComponent_Tests-dummy.m */; };
-		D17A9D97082A4F1CF82D9BE92E1A74FF /* TisComponent-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B933EBA901C776A9E4A9E5419AAB983 /* TisComponent-dummy.m */; };
-		F6BED3A719100983DFC399CA73EC3AA4 /* TISResetChoose.h in Headers */ = {isa = PBXBuildFile; fileRef = CE6EBD0624C855060B3904D4E4653190 /* TISResetChoose.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F764F7DE284766CB0F845335EA6CE311 /* TISHorButtonScroll.h in Headers */ = {isa = PBXBuildFile; fileRef = D33EEA58E712254CC5EDBF4FC583CD32 /* TISHorButtonScroll.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CEB2B7019234ABC73B5F942DE95FD812 /* TISSearch.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E3F7361D311BDFC4793019C50999F9D /* TISSearch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA1A698E8F571CEA50B8EE188163C155 /* TISSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 967B09A3F77A9F532B499DF61DF1BE1D /* TISSearch.m */; };
+		DA904E7051E7DC3BAB486C9BFE10C643 /* button_close.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F151FA1E186419F9A90B6095DCEA3C /* button_close.png */; };
+		DF1E9106AD75A3C68B63B9CC870B81BE /* TISChooseListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0D9B8756317621110FB62D9CC0D399 /* TISChooseListView.m */; };
+		E69B11B7D25E4EA42D3ED3B4F21660F9 /* TISHorButtonCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F6B8F7772E1202AAC2AACA0A344D3D0F /* TISHorButtonCollectionViewCell.m */; };
+		EAC44BEECC454F9D6581FA70487A81BA /* TISChooseListView.h in Headers */ = {isa = PBXBuildFile; fileRef = 345A711AB5F38345EA8A07909F267494 /* TISChooseListView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EEEB587D50423825838BFFEEC6350E3E /* TisComponent.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0D0BBEA45D6D562CFFE96A13A03E56F8 /* TisComponent.bundle */; };
+		F1121C3BCB3AE11D015F68C457368C73 /* TISChooseItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 803B3A6909AAB0D02321E3178B84C4A9 /* TISChooseItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FF8307B7346F4D3BA13C11AECFE6EDD0 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = CB9FD70B1C63A22CC8BD82649B5BF798 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0D64769DFF4235AE123797B2860A397A /* PBXContainerItemProxy */ = {
+		1E10E57136F0A5AD51CE1F693CF549C6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = C8325ED5E84C349F44279FE425DF49DF;
 			remoteInfo = "Pods-TisComponent_Example";
 		};
-		78DD563C1F94D2DC166D36FCE0AC0CBE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
-			remoteInfo = FBSnapshotTestCase;
-		};
-		91CE772A895FA91AC0AF59DED7182C30 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B18F187040230A5E940FA06E49C21617;
-			remoteInfo = "TisComponent-TisComponent";
-		};
-		C68488F1B7ACBE04718B706D75F661D0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4F00C5B7CC2E14324A6708E1E096FFAB;
-			remoteInfo = TisComponent;
-		};
-		DD19CDD4811A958E0112A220BB7CA82B /* PBXContainerItemProxy */ = {
+		2221EB75A5E3F8A18EC841C070476EDD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 82B0A41D3031FF27D78E17B0A9A46FB0;
 			remoteInfo = MBProgressHUD;
 		};
+		2E373F6BF12FD44C270499F2E243BACA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B18F187040230A5E940FA06E49C21617;
+			remoteInfo = "TisComponent-TisComponent";
+		};
+		A92F58B42B80EB0879BE4301B4D94C52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
+			remoteInfo = FBSnapshotTestCase;
+		};
+		BC1188941BE9350B28A976994785805D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F00C5B7CC2E14324A6708E1E096FFAB;
+			remoteInfo = TisComponent;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		010A66765AD435E209C961508186DD60 /* textfiled_search.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = textfiled_search.png; path = TisComponent/Assets/textfiled_search.png; sourceTree = "<group>"; };
 		01A7B683B89FE95DE7193EB9EED659DC /* MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
 		0283E05380DCDD8DD04C004496CFFCD2 /* TisComponent */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TisComponent; path = TisComponent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0685BE7827CE301300E26944 /* TISChooseAreaTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TISChooseAreaTableViewCell.xib; sourceTree = "<group>"; };
-		0685BE7A27CE301F00E26944 /* TISChooseListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TISChooseListTableViewCell.xib; sourceTree = "<group>"; };
-		0685BE7C27CE304C00E26944 /* TISHorButtonCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TISHorButtonCollectionViewCell.xib; sourceTree = "<group>"; };
+		06DD76EED33DA8270D33621AA724D07E /* TisComponent-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TisComponent-prefix.pch"; sourceTree = "<group>"; };
+		08D6197512F844EF6CA0312CFE7B6E2A /* TISResetChoose.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TISResetChoose.m; sourceTree = "<group>"; };
 		0D0BBEA45D6D562CFFE96A13A03E56F8 /* TisComponent.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TisComponent.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EBA61EE46BC13994C64F0A95BEB2390 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		0F00DB13CF208A776CE5A2CA6529496D /* TISInputSection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TISInputSection.m; sourceTree = "<group>"; };
 		0F97082B2976AB776CC23ADFD7F4477C /* MBProgressHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MBProgressHUD-Info.plist"; sourceTree = "<group>"; };
 		1025E44E8F835E05D5B0617826596099 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
-		150DC774E783867EFAC8C73BDD08C911 /* ResourceBundle-TisComponent-TisComponent-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-TisComponent-TisComponent-Info.plist"; sourceTree = "<group>"; };
-		151142942C070C6CFFF568A8DBB23BDD /* TISHorButtonCollectionViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TISHorButtonCollectionViewCell.h; sourceTree = "<group>"; };
 		170DB27B6326A569AD5E229B164C8946 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
-		17B3E551C54B448E54B3376A1370A934 /* TISBaseView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TISBaseView.h; sourceTree = "<group>"; };
 		184A1440D6E426B3E8A9AF4FDF7F2BF7 /* Pods-TisComponent_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TisComponent_Example-Info.plist"; sourceTree = "<group>"; };
-		193371CBF695F67DC9DB49B3E3A32E49 /* TISResetChoose.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TISResetChoose.m; sourceTree = "<group>"; };
-		19382B1B2814E68A3BB84E8526D309D3 /* TISChooseListTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TISChooseListTableViewCell.h; sourceTree = "<group>"; };
 		19C638605FA60F075A999FA7285154F3 /* Pods-TisComponent_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TisComponent_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		1AE146B3D853AA5295522B84D69E79E4 /* TisComponent.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TisComponent.modulemap; sourceTree = "<group>"; };
 		1BFA36D17A827BD67B051CC0462BA5AB /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
 		1CB5CF85F039A37747F877FC0AEBB0C1 /* MBProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-umbrella.h"; sourceTree = "<group>"; };
 		1F088616384013BDA481D2C7644E92A9 /* Pods-TisComponent_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TisComponent_Tests-dummy.m"; sourceTree = "<group>"; };
 		1FAD6A4BE78EB86171B340EB21A2E010 /* Pods-TisComponent_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TisComponent_Example"; path = Pods_TisComponent_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		240DB88BF1F704356A77291F4ECBA3D3 /* selected.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = selected.png; path = TisComponent/Assets/selected.png; sourceTree = "<group>"; };
+		233703072956E412D91DB26CD02A69EB /* TISChooseItemCollectionViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TISChooseItemCollectionViewCell.h; sourceTree = "<group>"; };
 		2443AC428A483BA190E23239D5041145 /* Pods-TisComponent_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TisComponent_Example.modulemap"; sourceTree = "<group>"; };
-		269AD4A9E71F0625BAB7A7436E0E02DE /* TISTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TISTool.m; sourceTree = "<group>"; };
-		286649865E6CCDF1F975B959E244F1C1 /* TISChooseArea.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TISChooseArea.h; sourceTree = "<group>"; };
-		2A036C44453650EB13C67175BB109F11 /* TisComponent-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TisComponent-prefix.pch"; sourceTree = "<group>"; };
+		26B030F406BD64B1778C03C3DF071C24 /* TISHorButtonScroll.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TISHorButtonScroll.h; sourceTree = "<group>"; };
 		2E969C4F0B03FAB7FD3E4DAD7DA9C7BD /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
-		30B68E8B9CE8E5D85574EEF65A7DDB03 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		3286AB5B7852BE55424F2A0404818CA5 /* MBProgressHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.release.xcconfig; sourceTree = "<group>"; };
+		345A711AB5F38345EA8A07909F267494 /* TISChooseListView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TISChooseListView.h; sourceTree = "<group>"; };
 		348FAB36263968A20B11465EA3A5CFE7 /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		351D6B3AB63F1E82F887F1FDDBBD95EB /* MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
-		372E83A09FCB1DF81F5A1F00EF5C10FF /* TISChooseAreaTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TISChooseAreaTableViewCell.m; sourceTree = "<group>"; };
 		38821D0B2C7A986BD103C43E1473CCA9 /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		3BE3B610D479EB808E81297BDC504B8F /* TisComponent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TisComponent.release.xcconfig; sourceTree = "<group>"; };
+		3D0D9B8756317621110FB62D9CC0D399 /* TISChooseListView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TISChooseListView.m; sourceTree = "<group>"; };
+		404B950894DEAD11486FB09D7F695367 /* ResourceBundle-TisComponent-TisComponent-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-TisComponent-TisComponent-Info.plist"; sourceTree = "<group>"; };
 		411F58CD6448D60B365FCB4838EDDBDB /* Pods-TisComponent_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TisComponent_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		43CB1B036365BD25995150A099B617C1 /* TISSearch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TISSearch.h; sourceTree = "<group>"; };
 		44561D842706BC8258A22BCF654A7092 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
-		4645F9C34248528C8184ACD379704861 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		47432C60D8DDB590BE3C9203C9FDF168 /* TISHorButtonCollectionViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = TISHorButtonCollectionViewCell.xib; sourceTree = "<group>"; };
+		4763C64C43D0053CFF39FF7678B39F48 /* TISChooseAreaTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TISChooseAreaTableViewCell.h; sourceTree = "<group>"; };
+		4F48FE691D64B7CB6142EEE7D7ED6163 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		50504B0CF05F5D1C3F9BFD0F861C53AA /* TisComponent-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TisComponent-umbrella.h"; sourceTree = "<group>"; };
 		52534B1AE8E01F15644755CAEF4D8439 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		569D5DC30660CED5DC8083D0D79F893B /* TISChooseListTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TISChooseListTableViewCell.h; sourceTree = "<group>"; };
+		5847855F5318644A837F78E6518FD1C4 /* TISChooseArea.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TISChooseArea.h; sourceTree = "<group>"; };
+		592553A734BF1EDE68476813687CC9C4 /* TisComponent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TisComponent.debug.xcconfig; sourceTree = "<group>"; };
 		593A3B75008BFE6C02DA37E1C07190BB /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
 		5B5247A52C4220DC93EDCA1CEF947C59 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C8BE04837A1F1AB28D87C917F66EDB5 /* selected.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = selected.png; path = TisComponent/Assets/selected.png; sourceTree = "<group>"; };
 		5C9E222C71CC2E57A070CD4EC3B34248 /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
 		5D0A1CC4A33D1DF38B84673663FE83E6 /* Pods-TisComponent_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TisComponent_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5DA1875210B61D761AC293507C19D2FC /* un_selected.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = un_selected.png; path = TisComponent/Assets/un_selected.png; sourceTree = "<group>"; };
 		5E42FB2C9202F4718DAAE8F0E7E073D6 /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
 		5E488DB9C4D78BB7A8DDC32E92910A6B /* MBProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MBProgressHUD.modulemap; sourceTree = "<group>"; };
 		6180890F30FC9D5B06C4EEE17FB97448 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		61F0550A449F91D69147CCB4A456E4A6 /* TisComponent.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TisComponent.modulemap; sourceTree = "<group>"; };
 		668276A1EC8D88396426958E5EE8F819 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		689A0DE9D63EC8F978E60750039DF3BA /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
-		693B720ED8D1BA88ACEE6E11537B0816 /* un_selected.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = un_selected.png; path = TisComponent/Assets/un_selected.png; sourceTree = "<group>"; };
-		6B933EBA901C776A9E4A9E5419AAB983 /* TisComponent-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TisComponent-dummy.m"; sourceTree = "<group>"; };
+		6C299A8C850E50E39340B26BD33A6CE5 /* TISResetChoose.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TISResetChoose.h; sourceTree = "<group>"; };
 		6C3DE284AA8A9E410F051EF5E98F009E /* Pods-TisComponent_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TisComponent_Tests-umbrella.h"; sourceTree = "<group>"; };
-		6C86797260EBB037F890056A0868BD89 /* TisComponent.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = TisComponent.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		709C2E4F186CAB5D2B7C13814D458976 /* TISInputSection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TISInputSection.h; sourceTree = "<group>"; };
+		73775C6039E594CF9655D5F0F42C4D88 /* TisComponent-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TisComponent-dummy.m"; sourceTree = "<group>"; };
+		75F151FA1E186419F9A90B6095DCEA3C /* button_close.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = button_close.png; path = TisComponent/Assets/button_close.png; sourceTree = "<group>"; };
 		79B5A7522AE3E88CA3D6990C330B8FCD /* Pods-TisComponent_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TisComponent_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		7DA7CEB19359A04A6CAD81A7597D29CE /* TISChooseListTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TISChooseListTableViewCell.m; sourceTree = "<group>"; };
+		7B34FA56DC495A7C99442DB1CE5E78BD /* TISChooseArea.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TISChooseArea.m; sourceTree = "<group>"; };
+		7BBDFA2127156BED2495592D23BE11D7 /* TISChooseItemCollectionViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TISChooseItemCollectionViewCell.m; sourceTree = "<group>"; };
+		803B3A6909AAB0D02321E3178B84C4A9 /* TISChooseItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TISChooseItem.h; sourceTree = "<group>"; };
 		8041D529A1A2651600D29B50A1CF7BBA /* Pods-TisComponent_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TisComponent_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		80CFF79D2364CF6064D2BF3F29726896 /* TISChooseListTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TISChooseListTableViewCell.m; sourceTree = "<group>"; };
+		81DCCD260FBFFF8EE24CC12F8CD84CDD /* TISAlignCollectionViewFlowLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TISAlignCollectionViewFlowLayout.m; sourceTree = "<group>"; };
+		83874739D0A5F1697EF9CF1E1D7981BF /* TisComponent.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = TisComponent.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		84D1F5EE744EEDA0A5302348C185AAE5 /* Pods-TisComponent_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TisComponent_Tests"; path = Pods_TisComponent_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8545FADC49A30C0EED6B4D9B74C10890 /* Pods-TisComponent_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TisComponent_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MBProgressHUD; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		94C95C262805B00EC061357B4C68CC39 /* TisComponent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TisComponent.debug.xcconfig; sourceTree = "<group>"; };
+		8E5423AAB035D9D5F3BAE02B67F36FAA /* TISChooseAreaTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = TISChooseAreaTableViewCell.xib; sourceTree = "<group>"; };
+		92E633B72B9107F59A4F017953C2FF85 /* TISHorButtonCollectionViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TISHorButtonCollectionViewCell.h; sourceTree = "<group>"; };
 		955FA9D9CC9A641919BB4FA0490FACF4 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
-		9709F1173AF60675FA40F1E86DD16E76 /* button_close.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = button_close.png; path = TisComponent/Assets/button_close.png; sourceTree = "<group>"; };
+		967B09A3F77A9F532B499DF61DF1BE1D /* TISSearch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TISSearch.m; sourceTree = "<group>"; };
+		9B8FC7865F6A51B646D6C8E374013D73 /* TISAlignCollectionViewFlowLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TISAlignCollectionViewFlowLayout.h; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E3F7361D311BDFC4793019C50999F9D /* TISSearch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TISSearch.h; sourceTree = "<group>"; };
+		A383C05B42E5B8AA1C382F501D4CF016 /* TISTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TISTool.h; sourceTree = "<group>"; };
+		A3E2A27E969A8AA5179D3D8948A06854 /* TISHorButtonScroll.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TISHorButtonScroll.m; sourceTree = "<group>"; };
 		A4A1A516E66A8B99D90D3A0A4D32E519 /* Pods-TisComponent_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TisComponent_Tests-Info.plist"; sourceTree = "<group>"; };
-		A61A8B3C5628DDF1AB2C3F3767B75B0E /* TISChooseListView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TISChooseListView.m; sourceTree = "<group>"; };
 		A68B91283C885374F53C1893F12F4E54 /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
+		A8B18A93257B0C812D59BBC0022257BB /* TISChooseListTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = TISChooseListTableViewCell.xib; sourceTree = "<group>"; };
 		B01766A1CBC44185C28A1D40FB1155A6 /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
 		B2E941D95862E95D001560215E2C8A60 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
 		B369780CFEC45C80AFE43703DDA8AA5F /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
-		B745070FE4ECEAC49E81FC94F9815E1E /* TisComponent-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TisComponent-umbrella.h"; sourceTree = "<group>"; };
 		B8DCF06F88670699F01F8D5C26566EC8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B9A5E7BE397F4B1433B92619E4A45C3C /* TISHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TISHeader.h; sourceTree = "<group>"; };
 		C0E2188FC60DA188F208D90029FCA3AD /* Pods-TisComponent_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TisComponent_Tests.modulemap"; sourceTree = "<group>"; };
-		C6A45CEE53F965A9ED81753AC586D6D2 /* TisComponent-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TisComponent-Info.plist"; sourceTree = "<group>"; };
 		C961B31C0CC1BDAF342B5B6F7EF61F6B /* Pods-TisComponent_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TisComponent_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CA215541604233537A4C879CDA5C2223 /* Pods-TisComponent_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TisComponent_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		CB8086F4D717E0006DF8BB4EF1EADC3B /* Pods-TisComponent_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TisComponent_Example.release.xcconfig"; sourceTree = "<group>"; };
-		CB9F2045F1A14708CAD3596C564E00CC /* TISSearch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TISSearch.m; sourceTree = "<group>"; };
 		CB9FD70B1C63A22CC8BD82649B5BF798 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
-		CD3100E6265EBDFFCFD8552B5F07906D /* TISBaseView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TISBaseView.m; sourceTree = "<group>"; };
-		CE6EBD0624C855060B3904D4E4653190 /* TISResetChoose.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TISResetChoose.h; sourceTree = "<group>"; };
-		D08529C730247EC034C4019D00DAE336 /* TISHorButtonCollectionViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TISHorButtonCollectionViewCell.m; sourceTree = "<group>"; };
-		D33EEA58E712254CC5EDBF4FC583CD32 /* TISHorButtonScroll.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TISHorButtonScroll.h; sourceTree = "<group>"; };
+		CD856B7CFB59F67C5B61173D7DC275E6 /* TISBaseView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TISBaseView.m; sourceTree = "<group>"; };
+		D0B6413F1028161B7C014DD393384995 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		D5B756351ED3D19BD1753EE315DEB9C5 /* Pods-TisComponent_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TisComponent_Example-frameworks.sh"; sourceTree = "<group>"; };
 		D680A9AA01D5DF08F8B766ACA4C89DFE /* Pods-TisComponent_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TisComponent_Example-umbrella.h"; sourceTree = "<group>"; };
-		D819ADE14BF1661186711571D6D25F60 /* TISChooseAreaTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TISChooseAreaTableViewCell.h; sourceTree = "<group>"; };
 		D830B441409DFB5A34B34BE11F5F728D /* MBProgressHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.debug.xcconfig; sourceTree = "<group>"; };
 		D8C97C8426335D76CEB1B35826935D40 /* Pods-TisComponent_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TisComponent_Example-dummy.m"; sourceTree = "<group>"; };
+		D9DDACEE6A6EC8A243E58DE6BAFA87FB /* TISBaseView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TISBaseView.h; sourceTree = "<group>"; };
 		DD1DE8C9F25CB2BBAB2F3A8550B29168 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		DF110972093FD48157373DF83AF9271A /* TISChooseItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TISChooseItem.m; sourceTree = "<group>"; };
 		DFC337315370285FC48010FC631BCDDE /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
-		E17DF93BF42FA90CBE6A8C7BA137B3BF /* TISChooseArea.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TISChooseArea.m; sourceTree = "<group>"; };
-		E2660FFC86CE58A4C2D12AC708892705 /* TisComponent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TisComponent.release.xcconfig; sourceTree = "<group>"; };
 		E300F3753AACA35D821F97B80EC0FB19 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		E7645A4995A998026669D0A0DF0EDE46 /* TISChooseAreaTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TISChooseAreaTableViewCell.m; sourceTree = "<group>"; };
 		E954C87C92658F47E6B385D5EF1F2F9C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		EB943C1683624567063E888346336C17 /* TISTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TISTool.h; sourceTree = "<group>"; };
-		ED479D55E3B09E08F8A9E6A05E9AF5AD /* TISHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TISHeader.h; sourceTree = "<group>"; };
-		EFBE3BC986A97CB596EF9F8CE64853D7 /* TISHorButtonScroll.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TISHorButtonScroll.m; sourceTree = "<group>"; };
-		F26A4A79A51C0AE3D843A4CB7C99B1E1 /* textfiled_search.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = textfiled_search.png; path = TisComponent/Assets/textfiled_search.png; sourceTree = "<group>"; };
-		F295AD2C3C5296751E21B2D20C2B2A72 /* TISChooseListView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TISChooseListView.h; sourceTree = "<group>"; };
 		F57075219649614F13994968887A99DE /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		F6B8F7772E1202AAC2AACA0A344D3D0F /* TISHorButtonCollectionViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TISHorButtonCollectionViewCell.m; sourceTree = "<group>"; };
+		F91D0515D1D4F33D31BA6326834BF818 /* TisComponent-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TisComponent-Info.plist"; sourceTree = "<group>"; };
+		FB4005290C6643289AA4F84DACF5745C /* TISTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TISTool.m; sourceTree = "<group>"; };
 		FD018B2D8A3213F4731158CEE313472A /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0A68BC7481A2FF730C542CF5720E94A0 /* Frameworks */ = {
+		1482AABC586A0CB94CBE2E26A29B0BA9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		116D0BE17341D6372721652658A78D22 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7D476F5895DE8B4480A2E0B609607C63 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +263,14 @@
 				AFAC1D4EBD53A048346210536741DF13 /* CoreGraphics.framework in Frameworks */,
 				0AA33EBB857A5205F87C09CCB99EAC74 /* Foundation.framework in Frameworks */,
 				B52177FF72FDAC3EDB7195DE98F5501E /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D868B50F3858F083EE9948943936CC6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83A581E0EA37499499CDF31BC508BC8A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,16 +309,6 @@
 			name = Core;
 			sourceTree = "<group>";
 		};
-		11770F8E07F22ADF768B876C3C48EEEF /* TISSearch */ = {
-			isa = PBXGroup;
-			children = (
-				43CB1B036365BD25995150A099B617C1 /* TISSearch.h */,
-				CB9F2045F1A14708CAD3596C564E00CC /* TISSearch.m */,
-			);
-			name = TISSearch;
-			path = TisComponent/Classes/TISSearch;
-			sourceTree = "<group>";
-		};
 		159E3E7ABFEDDC35D30515B4AF58D2E5 /* FBSnapshotTestCase */ = {
 			isa = PBXGroup;
 			children = (
@@ -313,27 +319,43 @@
 			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
-		2A28A0615E0F69D18A6EBB822EB1994A /* TISHorButtonScroll */ = {
+		165052E7CA6B7E6982F1390C8102DA48 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				151142942C070C6CFFF568A8DBB23BDD /* TISHorButtonCollectionViewCell.h */,
-				D08529C730247EC034C4019D00DAE336 /* TISHorButtonCollectionViewCell.m */,
-				0685BE7C27CE304C00E26944 /* TISHorButtonCollectionViewCell.xib */,
-				D33EEA58E712254CC5EDBF4FC583CD32 /* TISHorButtonScroll.h */,
-				EFBE3BC986A97CB596EF9F8CE64853D7 /* TISHorButtonScroll.m */,
+				404B950894DEAD11486FB09D7F695367 /* ResourceBundle-TisComponent-TisComponent-Info.plist */,
+				61F0550A449F91D69147CCB4A456E4A6 /* TisComponent.modulemap */,
+				73775C6039E594CF9655D5F0F42C4D88 /* TisComponent-dummy.m */,
+				F91D0515D1D4F33D31BA6326834BF818 /* TisComponent-Info.plist */,
+				06DD76EED33DA8270D33621AA724D07E /* TisComponent-prefix.pch */,
+				50504B0CF05F5D1C3F9BFD0F861C53AA /* TisComponent-umbrella.h */,
+				592553A734BF1EDE68476813687CC9C4 /* TisComponent.debug.xcconfig */,
+				3BE3B610D479EB808E81297BDC504B8F /* TisComponent.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TisComponent";
+			sourceTree = "<group>";
+		};
+		28043BB34F5A6B7361AE3E93201BBCE9 /* TISHorButtonScroll */ = {
+			isa = PBXGroup;
+			children = (
+				92E633B72B9107F59A4F017953C2FF85 /* TISHorButtonCollectionViewCell.h */,
+				F6B8F7772E1202AAC2AACA0A344D3D0F /* TISHorButtonCollectionViewCell.m */,
+				47432C60D8DDB590BE3C9203C9FDF168 /* TISHorButtonCollectionViewCell.xib */,
+				26B030F406BD64B1778C03C3DF071C24 /* TISHorButtonScroll.h */,
+				A3E2A27E969A8AA5179D3D8948A06854 /* TISHorButtonScroll.m */,
 			);
 			name = TISHorButtonScroll;
 			path = TisComponent/Classes/TISHorButtonScroll;
 			sourceTree = "<group>";
 		};
-		39FAAA87811DB7188862EBA997FB01D2 /* TISChooseList */ = {
+		28073501ED45F5D2AE4595367429AF07 /* TISChooseList */ = {
 			isa = PBXGroup;
 			children = (
-				19382B1B2814E68A3BB84E8526D309D3 /* TISChooseListTableViewCell.h */,
-				7DA7CEB19359A04A6CAD81A7597D29CE /* TISChooseListTableViewCell.m */,
-				0685BE7A27CE301F00E26944 /* TISChooseListTableViewCell.xib */,
-				F295AD2C3C5296751E21B2D20C2B2A72 /* TISChooseListView.h */,
-				A61A8B3C5628DDF1AB2C3F3767B75B0E /* TISChooseListView.m */,
+				569D5DC30660CED5DC8083D0D79F893B /* TISChooseListTableViewCell.h */,
+				80CFF79D2364CF6064D2BF3F29726896 /* TISChooseListTableViewCell.m */,
+				A8B18A93257B0C812D59BBC0022257BB /* TISChooseListTableViewCell.xib */,
+				345A711AB5F38345EA8A07909F267494 /* TISChooseListView.h */,
+				3D0D9B8756317621110FB62D9CC0D399 /* TISChooseListView.m */,
 			);
 			name = TISChooseList;
 			path = TisComponent/Classes/TISChooseList;
@@ -354,6 +376,16 @@
 			path = "../Target Support Files/FBSnapshotTestCase";
 			sourceTree = "<group>";
 		};
+		4FEF93F67372007792987F9552F91964 /* TISTool */ = {
+			isa = PBXGroup;
+			children = (
+				A383C05B42E5B8AA1C382F501D4CF016 /* TISTool.h */,
+				FB4005290C6643289AA4F84DACF5745C /* TISTool.m */,
+			);
+			name = TISTool;
+			path = TisComponent/Classes/TISTool;
+			sourceTree = "<group>";
+		};
 		5237470F5E80BF5BAB5C551815A6B456 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -369,6 +401,40 @@
 			path = "../Target Support Files/MBProgressHUD";
 			sourceTree = "<group>";
 		};
+		5B312F4C06E6EE64566DA28D00A26FC8 /* TisComponent */ = {
+			isa = PBXGroup;
+			children = (
+				75F151FA1E186419F9A90B6095DCEA3C /* button_close.png */,
+				5C8BE04837A1F1AB28D87C917F66EDB5 /* selected.png */,
+				010A66765AD435E209C961508186DD60 /* textfiled_search.png */,
+				5DA1875210B61D761AC293507C19D2FC /* un_selected.png */,
+				9AE3FEC9E4A08F9395F3F61671837BE4 /* Pod */,
+				165052E7CA6B7E6982F1390C8102DA48 /* Support Files */,
+				FB86C5FBE9C859FDC653AAFD9CBB9A86 /* TISBaseView */,
+				952F67904B6D9AC40B51F1475FC6622E /* TISChooseArea */,
+				D4E8EB7B39C84F69FA13517F113FFC92 /* TISChooseItem */,
+				28073501ED45F5D2AE4595367429AF07 /* TISChooseList */,
+				D783ECF2CFA1FCE470CFB4D5C7A78192 /* TISHeader */,
+				28043BB34F5A6B7361AE3E93201BBCE9 /* TISHorButtonScroll */,
+				A853F2068AA00897DFA82E064A7B8110 /* TISInputSection */,
+				D5C1194E03B069E787C147862A9ADD3D /* TISResetChoose */,
+				6A23748B95AEC4F7BFD72B59EAB5554C /* TISSearch */,
+				4FEF93F67372007792987F9552F91964 /* TISTool */,
+			);
+			name = TisComponent;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		6A23748B95AEC4F7BFD72B59EAB5554C /* TISSearch */ = {
+			isa = PBXGroup;
+			children = (
+				9E3F7361D311BDFC4793019C50999F9D /* TISSearch.h */,
+				967B09A3F77A9F532B499DF61DF1BE1D /* TISSearch.m */,
+			);
+			name = TISSearch;
+			path = TisComponent/Classes/TISSearch;
+			sourceTree = "<group>";
+		};
 		6F8BDC81F920AB1B49E2532AD8421E2C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -378,14 +444,12 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		7FF0417C109DDDE29E350363C188E000 /* TISResetChoose */ = {
+		7DB15549F4201EB56E7551F65D51874C /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CE6EBD0624C855060B3904D4E4653190 /* TISResetChoose.h */,
-				193371CBF695F67DC9DB49B3E3A32E49 /* TISResetChoose.m */,
+				5B312F4C06E6EE64566DA28D00A26FC8 /* TisComponent */,
 			);
-			name = TISResetChoose;
-			path = TisComponent/Classes/TISResetChoose;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		8E275F84AFCB22F5A59E6B95CC843D59 /* Pods-TisComponent_Example */ = {
@@ -405,61 +469,27 @@
 			path = "Target Support Files/Pods-TisComponent_Example";
 			sourceTree = "<group>";
 		};
-		905CD0008CB6EF6765992FC39BB87B2C /* TISBaseView */ = {
+		952F67904B6D9AC40B51F1475FC6622E /* TISChooseArea */ = {
 			isa = PBXGroup;
 			children = (
-				17B3E551C54B448E54B3376A1370A934 /* TISBaseView.h */,
-				CD3100E6265EBDFFCFD8552B5F07906D /* TISBaseView.m */,
-			);
-			name = TISBaseView;
-			path = TisComponent/Classes/TISBaseView;
-			sourceTree = "<group>";
-		};
-		96086885A7B8365C799C861C024B74F5 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				30B68E8B9CE8E5D85574EEF65A7DDB03 /* LICENSE */,
-				4645F9C34248528C8184ACD379704861 /* README.md */,
-				6C86797260EBB037F890056A0868BD89 /* TisComponent.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		97DA825DF9D44B0493EF0BF3C4A35673 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				E664021A7F08A11EEE7CB7F141ED1B26 /* TisComponent */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		9A062BDBEF4239546AACA601D4052801 /* TISChooseArea */ = {
-			isa = PBXGroup;
-			children = (
-				286649865E6CCDF1F975B959E244F1C1 /* TISChooseArea.h */,
-				E17DF93BF42FA90CBE6A8C7BA137B3BF /* TISChooseArea.m */,
-				D819ADE14BF1661186711571D6D25F60 /* TISChooseAreaTableViewCell.h */,
-				372E83A09FCB1DF81F5A1F00EF5C10FF /* TISChooseAreaTableViewCell.m */,
-				0685BE7827CE301300E26944 /* TISChooseAreaTableViewCell.xib */,
+				5847855F5318644A837F78E6518FD1C4 /* TISChooseArea.h */,
+				7B34FA56DC495A7C99442DB1CE5E78BD /* TISChooseArea.m */,
+				4763C64C43D0053CFF39FF7678B39F48 /* TISChooseAreaTableViewCell.h */,
+				E7645A4995A998026669D0A0DF0EDE46 /* TISChooseAreaTableViewCell.m */,
+				8E5423AAB035D9D5F3BAE02B67F36FAA /* TISChooseAreaTableViewCell.xib */,
 			);
 			name = TISChooseArea;
 			path = TisComponent/Classes/TISChooseArea;
 			sourceTree = "<group>";
 		};
-		9A3C5B0A9B425365E41BAAFF0E712DDA /* Support Files */ = {
+		9AE3FEC9E4A08F9395F3F61671837BE4 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				150DC774E783867EFAC8C73BDD08C911 /* ResourceBundle-TisComponent-TisComponent-Info.plist */,
-				1AE146B3D853AA5295522B84D69E79E4 /* TisComponent.modulemap */,
-				6B933EBA901C776A9E4A9E5419AAB983 /* TisComponent-dummy.m */,
-				C6A45CEE53F965A9ED81753AC586D6D2 /* TisComponent-Info.plist */,
-				2A036C44453650EB13C67175BB109F11 /* TisComponent-prefix.pch */,
-				B745070FE4ECEAC49E81FC94F9815E1E /* TisComponent-umbrella.h */,
-				94C95C262805B00EC061357B4C68CC39 /* TisComponent.debug.xcconfig */,
-				E2660FFC86CE58A4C2D12AC708892705 /* TisComponent.release.xcconfig */,
+				D0B6413F1028161B7C014DD393384995 /* LICENSE */,
+				4F48FE691D64B7CB6142EEE7D7ED6163 /* README.md */,
+				83874739D0A5F1697EF9CF1E1D7981BF /* TisComponent.podspec */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/TisComponent";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		9BCB8E08953C34767A47D6738E70A5EF /* Products */ = {
@@ -487,13 +517,14 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		B1549CD25C0156FC5D5E248255D50775 /* TISHeader */ = {
+		A853F2068AA00897DFA82E064A7B8110 /* TISInputSection */ = {
 			isa = PBXGroup;
 			children = (
-				ED479D55E3B09E08F8A9E6A05E9AF5AD /* TISHeader.h */,
+				709C2E4F186CAB5D2B7C13814D458976 /* TISInputSection.h */,
+				0F00DB13CF208A776CE5A2CA6529496D /* TISInputSection.m */,
 			);
-			name = TISHeader;
-			path = TisComponent/Classes/TISHeader;
+			name = TISInputSection;
+			path = TisComponent/Classes/TISInputSection;
 			sourceTree = "<group>";
 		};
 		B94D7768568A9992200DB461E8CF687F /* Frameworks */ = {
@@ -534,12 +565,45 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				97DA825DF9D44B0493EF0BF3C4A35673 /* Development Pods */,
+				7DB15549F4201EB56E7551F65D51874C /* Development Pods */,
 				B94D7768568A9992200DB461E8CF687F /* Frameworks */,
 				6F8BDC81F920AB1B49E2532AD8421E2C /* Pods */,
 				9BCB8E08953C34767A47D6738E70A5EF /* Products */,
 				C1DDCA8A396E3736874F8F7AA65E36AA /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		D4E8EB7B39C84F69FA13517F113FFC92 /* TISChooseItem */ = {
+			isa = PBXGroup;
+			children = (
+				9B8FC7865F6A51B646D6C8E374013D73 /* TISAlignCollectionViewFlowLayout.h */,
+				81DCCD260FBFFF8EE24CC12F8CD84CDD /* TISAlignCollectionViewFlowLayout.m */,
+				803B3A6909AAB0D02321E3178B84C4A9 /* TISChooseItem.h */,
+				DF110972093FD48157373DF83AF9271A /* TISChooseItem.m */,
+				233703072956E412D91DB26CD02A69EB /* TISChooseItemCollectionViewCell.h */,
+				7BBDFA2127156BED2495592D23BE11D7 /* TISChooseItemCollectionViewCell.m */,
+			);
+			name = TISChooseItem;
+			path = TisComponent/Classes/TISChooseItem;
+			sourceTree = "<group>";
+		};
+		D5C1194E03B069E787C147862A9ADD3D /* TISResetChoose */ = {
+			isa = PBXGroup;
+			children = (
+				6C299A8C850E50E39340B26BD33A6CE5 /* TISResetChoose.h */,
+				08D6197512F844EF6CA0312CFE7B6E2A /* TISResetChoose.m */,
+			);
+			name = TISResetChoose;
+			path = TisComponent/Classes/TISResetChoose;
+			sourceTree = "<group>";
+		};
+		D783ECF2CFA1FCE470CFB4D5C7A78192 /* TISHeader */ = {
+			isa = PBXGroup;
+			children = (
+				B9A5E7BE397F4B1433B92619E4A45C3C /* TISHeader.h */,
+			);
+			name = TISHeader;
+			path = TisComponent/Classes/TISHeader;
 			sourceTree = "<group>";
 		};
 		E3F77E57F6605B8CCFB86EBF5ED0352E /* MBProgressHUD */ = {
@@ -552,28 +616,6 @@
 			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
-		E664021A7F08A11EEE7CB7F141ED1B26 /* TisComponent */ = {
-			isa = PBXGroup;
-			children = (
-				9709F1173AF60675FA40F1E86DD16E76 /* button_close.png */,
-				240DB88BF1F704356A77291F4ECBA3D3 /* selected.png */,
-				F26A4A79A51C0AE3D843A4CB7C99B1E1 /* textfiled_search.png */,
-				693B720ED8D1BA88ACEE6E11537B0816 /* un_selected.png */,
-				96086885A7B8365C799C861C024B74F5 /* Pod */,
-				9A3C5B0A9B425365E41BAAFF0E712DDA /* Support Files */,
-				905CD0008CB6EF6765992FC39BB87B2C /* TISBaseView */,
-				9A062BDBEF4239546AACA601D4052801 /* TISChooseArea */,
-				39FAAA87811DB7188862EBA997FB01D2 /* TISChooseList */,
-				B1549CD25C0156FC5D5E248255D50775 /* TISHeader */,
-				2A28A0615E0F69D18A6EBB822EB1994A /* TISHorButtonScroll */,
-				7FF0417C109DDDE29E350363C188E000 /* TISResetChoose */,
-				11770F8E07F22ADF768B876C3C48EEEF /* TISSearch */,
-				F58349719E431401BDFFD42E342ACF26 /* TISTool */,
-			);
-			name = TisComponent;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		EC2370EA5799FB3AC66AF2335DC29E0D /* SwiftSupport */ = {
 			isa = PBXGroup;
 			children = (
@@ -582,14 +624,14 @@
 			name = SwiftSupport;
 			sourceTree = "<group>";
 		};
-		F58349719E431401BDFFD42E342ACF26 /* TISTool */ = {
+		FB86C5FBE9C859FDC653AAFD9CBB9A86 /* TISBaseView */ = {
 			isa = PBXGroup;
 			children = (
-				EB943C1683624567063E888346336C17 /* TISTool.h */,
-				269AD4A9E71F0625BAB7A7436E0E02DE /* TISTool.m */,
+				D9DDACEE6A6EC8A243E58DE6BAFA87FB /* TISBaseView.h */,
+				CD856B7CFB59F67C5B61173D7DC275E6 /* TISBaseView.m */,
 			);
-			name = TISTool;
-			path = TisComponent/Classes/TISTool;
+			name = TISBaseView;
+			path = TisComponent/Classes/TISBaseView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -620,25 +662,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BF52B2F0F731809B4E58D2FD35008D48 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B4C5251E53AC91C46BA1DF696F074B3F /* TISBaseView.h in Headers */,
-				8B05DC4857FA83B7DDDE5E832735AEFF /* TISChooseArea.h in Headers */,
-				BD6CA461A6D84204107C2E37A565F1AA /* TISChooseAreaTableViewCell.h in Headers */,
-				305F861C1A4A843C5537F6CAF3D86A83 /* TISChooseListTableViewCell.h in Headers */,
-				5D69FC1C0E51BD8A017B2B300497071E /* TISChooseListView.h in Headers */,
-				1BE8E892C2F4DB24D9C71BD0876659D0 /* TisComponent-umbrella.h in Headers */,
-				644F4895A61814553A0220DB5FF4E610 /* TISHeader.h in Headers */,
-				0E597D83301D7FB34CC007A835B4F61C /* TISHorButtonCollectionViewCell.h in Headers */,
-				F764F7DE284766CB0F845335EA6CE311 /* TISHorButtonScroll.h in Headers */,
-				F6BED3A719100983DFC399CA73EC3AA4 /* TISResetChoose.h in Headers */,
-				1A05C869924152DCAB1519EB2892316B /* TISSearch.h in Headers */,
-				7022F36A195A118FA667387EC24C7D5D /* TISTool.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D4CF7A53AFE8275DDE075747E8245F97 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -654,22 +677,45 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EE1CF895179EA57BD9AC9C5FEFFDA5B2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D7C2BC61EBD448ADD1C1CA7C0EEC286 /* TISAlignCollectionViewFlowLayout.h in Headers */,
+				230F60C1F9112F1F6F1A76CE03E3D600 /* TISBaseView.h in Headers */,
+				22EE1B3556A8B4B8480AFAB69299D8CC /* TISChooseArea.h in Headers */,
+				1755504445841FBCEE57AB986392E158 /* TISChooseAreaTableViewCell.h in Headers */,
+				F1121C3BCB3AE11D015F68C457368C73 /* TISChooseItem.h in Headers */,
+				74765274977DBD70B9950E1DB5E18B47 /* TISChooseItemCollectionViewCell.h in Headers */,
+				24ADABA327FD41E4AD3C5CEFA141DC02 /* TISChooseListTableViewCell.h in Headers */,
+				EAC44BEECC454F9D6581FA70487A81BA /* TISChooseListView.h in Headers */,
+				9F5009747D820EDBA9F58864AD890F2D /* TisComponent-umbrella.h in Headers */,
+				00DDD0004AB5CDBF2BDFB8F7D5CF0D10 /* TISHeader.h in Headers */,
+				84BE1115838C8B19F7FCD229446F9499 /* TISHorButtonCollectionViewCell.h in Headers */,
+				7DDC03C9AAF748EDAFE026D0271F6D82 /* TISHorButtonScroll.h in Headers */,
+				43847C86B1890BBF70426432932CFA28 /* TISInputSection.h in Headers */,
+				3B2B7DD49A37D6FA85BC16B7CD4694E6 /* TISResetChoose.h in Headers */,
+				CEB2B7019234ABC73B5F942DE95FD812 /* TISSearch.h in Headers */,
+				64B35ECAC10269CC52F7FD03BBA84C1F /* TISTool.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		4F00C5B7CC2E14324A6708E1E096FFAB /* TisComponent */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A22B7CC87D7A9868D2F226FADF9429BA /* Build configuration list for PBXNativeTarget "TisComponent" */;
+			buildConfigurationList = 19FC830B98D1DFD8CC52E6F311430021 /* Build configuration list for PBXNativeTarget "TisComponent" */;
 			buildPhases = (
-				BF52B2F0F731809B4E58D2FD35008D48 /* Headers */,
-				DAE00B3B3B4B1CD2603A160BC9F8BE46 /* Sources */,
-				116D0BE17341D6372721652658A78D22 /* Frameworks */,
-				531F6719C385274225421939FEDCC8D0 /* Resources */,
+				EE1CF895179EA57BD9AC9C5FEFFDA5B2 /* Headers */,
+				1CA92038D8BCCC6C5F4ACD2847326DA6 /* Sources */,
+				D868B50F3858F083EE9948943936CC6F /* Frameworks */,
+				2A0A0CCA38D6420FE978A459D6905DF2 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				014911D63D752054E1D1B85C2C053163 /* PBXTargetDependency */,
+				89C6B44AC7A74CC88C1ADB8AEE94FBA8 /* PBXTargetDependency */,
 			);
 			name = TisComponent;
 			productName = TisComponent;
@@ -688,8 +734,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				FFE5EA6D7EC67D22F4CBB097D347D14C /* PBXTargetDependency */,
-				E87D9BA5CA3C814388FB1CA680D3E6EE /* PBXTargetDependency */,
+				8819A353E90472D36FFEDAD88614DE0F /* PBXTargetDependency */,
+				EAE076C29187D170F1BF7C1B3CF0E17C /* PBXTargetDependency */,
 			);
 			name = "Pods-TisComponent_Tests";
 			productName = Pods_TisComponent_Tests;
@@ -734,11 +780,11 @@
 		};
 		B18F187040230A5E940FA06E49C21617 /* TisComponent-TisComponent */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 39220C56C0FA74DD0FFFC7A8308CB813 /* Build configuration list for PBXNativeTarget "TisComponent-TisComponent" */;
+			buildConfigurationList = 29A235FFE4AAB1B134E8F2E595C097AD /* Build configuration list for PBXNativeTarget "TisComponent-TisComponent" */;
 			buildPhases = (
-				E480FC0E221CD737E821106CF4460A3C /* Sources */,
-				0A68BC7481A2FF730C542CF5720E94A0 /* Frameworks */,
-				B524C6C88C5E9948B1D94BC5FE38E100 /* Resources */,
+				0F3FAC5E064826C33854856A936DD1E3 /* Sources */,
+				1482AABC586A0CB94CBE2E26A29B0BA9 /* Frameworks */,
+				0D8FD50B43F2AC4A79295C64CA6AF474 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -761,8 +807,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				DABC9745ED4CEECB999A3C88BBE4AA2C /* PBXTargetDependency */,
-				3582D13DF03D570A7F23207FF94413C4 /* PBXTargetDependency */,
+				3300A464CD04A2C646B538DE78CBD5B2 /* PBXTargetDependency */,
+				FA69FCCEC43FEEB6617410B07D2F2A4D /* PBXTargetDependency */,
 			);
 			name = "Pods-TisComponent_Example";
 			productName = Pods_TisComponent_Example;
@@ -802,6 +848,17 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		0D8FD50B43F2AC4A79295C64CA6AF474 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA904E7051E7DC3BAB486C9BFE10C643 /* button_close.png in Resources */,
+				20FC0512CB65DB8E8834A7ADCD27115E /* selected.png in Resources */,
+				50D5EECA2B54E20B2B6CEAB2F4467E7B /* textfiled_search.png in Resources */,
+				A010C9EEB24D397FB3ACE3CDFD095453 /* un_selected.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		194C9DCC4899F62F4FB7DDF15C987499 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -816,32 +873,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2A0A0CCA38D6420FE978A459D6905DF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEEB587D50423825838BFFEEC6350E3E /* TisComponent.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3DD43D90A588C0C61B5C33208C20BD5F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		531F6719C385274225421939FEDCC8D0 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0685BE7B27CE301F00E26944 /* TISChooseListTableViewCell.xib in Resources */,
-				0685BE7927CE301300E26944 /* TISChooseAreaTableViewCell.xib in Resources */,
-				98105B5BF457FA7437499F5AE18AEC88 /* TisComponent.bundle in Resources */,
-				0685BE7D27CE304C00E26944 /* TISHorButtonCollectionViewCell.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B524C6C88C5E9948B1D94BC5FE38E100 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A6E3846FDADB6178930F081D72002BA1 /* button_close.png in Resources */,
-				AEE51BBF095FBEFA8A3B713951A473D5 /* selected.png in Resources */,
-				9540F729C1819B2075C8C38F675577B2 /* textfiled_search.png in Resources */,
-				C0B25132AE56E62A6B4FE075DD2209C0 /* un_selected.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -855,6 +898,38 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0F3FAC5E064826C33854856A936DD1E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CA92038D8BCCC6C5F4ACD2847326DA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C098210BFE941C65FCFB26D23E364564 /* TISAlignCollectionViewFlowLayout.m in Sources */,
+				5C3F3887EDA98DC09A99936360F3E351 /* TISBaseView.m in Sources */,
+				7C73E50DA1C4EF4E0C1D0DCCEF7C1DDC /* TISChooseArea.m in Sources */,
+				638372105CF9825A54B5FDBA9A13F818 /* TISChooseAreaTableViewCell.m in Sources */,
+				4696FF99296068607E2E5483C7064CC6 /* TISChooseAreaTableViewCell.xib in Sources */,
+				C57205DD3D421112B597292C2C67E54C /* TISChooseItem.m in Sources */,
+				30A5217F7ABDBE08B185707F05C7699A /* TISChooseItemCollectionViewCell.m in Sources */,
+				66B58469E73E667C913AC4129F69E526 /* TISChooseListTableViewCell.m in Sources */,
+				5E607F1B261CE0A43975C78B44D424ED /* TISChooseListTableViewCell.xib in Sources */,
+				DF1E9106AD75A3C68B63B9CC870B81BE /* TISChooseListView.m in Sources */,
+				4C18F3F618F68DA8B7C590347EEBE792 /* TisComponent-dummy.m in Sources */,
+				E69B11B7D25E4EA42D3ED3B4F21660F9 /* TISHorButtonCollectionViewCell.m in Sources */,
+				0D916AD666CA5A639D08A334570AAC5F /* TISHorButtonCollectionViewCell.xib in Sources */,
+				5D1328F23425815B4355F695BDC9C4F9 /* TISHorButtonScroll.m in Sources */,
+				3956F9E0F9381041AEC568198C44E803 /* TISInputSection.m in Sources */,
+				9239CD277E9AAF1EAEBA15D763AE709E /* TISResetChoose.m in Sources */,
+				DA1A698E8F571CEA50B8EE188163C155 /* TISSearch.m in Sources */,
+				C5AD4159224011E5E0D4C3256582D380 /* TISTool.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		336DB57799C1525EDBA44DE2B80FA90C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -880,31 +955,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DAE00B3B3B4B1CD2603A160BC9F8BE46 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1D09F861A506BB6C8DB8B49DB63D4A7D /* TISBaseView.m in Sources */,
-				611522E8FE708438B22B4099D16E5A54 /* TISChooseArea.m in Sources */,
-				483C53F4AF7DB95DA3B39111F6E1FFFF /* TISChooseAreaTableViewCell.m in Sources */,
-				1812593E88283C87985E2FA8F90F8A6B /* TISChooseListTableViewCell.m in Sources */,
-				72E1A7DEB9238170845FD1A09C0B4661 /* TISChooseListView.m in Sources */,
-				D17A9D97082A4F1CF82D9BE92E1A74FF /* TisComponent-dummy.m in Sources */,
-				59AE17B6D1EFAE13E9E6FA65E7E1B539 /* TISHorButtonCollectionViewCell.m in Sources */,
-				550E4042D37B8EC7D1027FF45F9FE2EA /* TISHorButtonScroll.m in Sources */,
-				027168D01760F0D544B2E4DCCD3CDBA0 /* TISResetChoose.m in Sources */,
-				4984571FC5E1E3AE32F91BA41F36702E /* TISSearch.m in Sources */,
-				B6DE8EF627FE7402BE62C93B5993618D /* TISTool.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E480FC0E221CD737E821106CF4460A3C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		EE210BFC37CDBA0645C09C3819F41723 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -924,39 +974,55 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		014911D63D752054E1D1B85C2C053163 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "TisComponent-TisComponent";
-			target = B18F187040230A5E940FA06E49C21617 /* TisComponent-TisComponent */;
-			targetProxy = 91CE772A895FA91AC0AF59DED7182C30 /* PBXContainerItemProxy */;
-		};
-		3582D13DF03D570A7F23207FF94413C4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = TisComponent;
-			target = 4F00C5B7CC2E14324A6708E1E096FFAB /* TisComponent */;
-			targetProxy = C68488F1B7ACBE04718B706D75F661D0 /* PBXContainerItemProxy */;
-		};
-		DABC9745ED4CEECB999A3C88BBE4AA2C /* PBXTargetDependency */ = {
+		3300A464CD04A2C646B538DE78CBD5B2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MBProgressHUD;
 			target = 82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */;
-			targetProxy = DD19CDD4811A958E0112A220BB7CA82B /* PBXContainerItemProxy */;
+			targetProxy = 2221EB75A5E3F8A18EC841C070476EDD /* PBXContainerItemProxy */;
 		};
-		E87D9BA5CA3C814388FB1CA680D3E6EE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-TisComponent_Example";
-			target = C8325ED5E84C349F44279FE425DF49DF /* Pods-TisComponent_Example */;
-			targetProxy = 0D64769DFF4235AE123797B2860A397A /* PBXContainerItemProxy */;
-		};
-		FFE5EA6D7EC67D22F4CBB097D347D14C /* PBXTargetDependency */ = {
+		8819A353E90472D36FFEDAD88614DE0F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FBSnapshotTestCase;
 			target = 98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */;
-			targetProxy = 78DD563C1F94D2DC166D36FCE0AC0CBE /* PBXContainerItemProxy */;
+			targetProxy = A92F58B42B80EB0879BE4301B4D94C52 /* PBXContainerItemProxy */;
+		};
+		89C6B44AC7A74CC88C1ADB8AEE94FBA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "TisComponent-TisComponent";
+			target = B18F187040230A5E940FA06E49C21617 /* TisComponent-TisComponent */;
+			targetProxy = 2E373F6BF12FD44C270499F2E243BACA /* PBXContainerItemProxy */;
+		};
+		EAE076C29187D170F1BF7C1B3CF0E17C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TisComponent_Example";
+			target = C8325ED5E84C349F44279FE425DF49DF /* Pods-TisComponent_Example */;
+			targetProxy = 1E10E57136F0A5AD51CE1F693CF549C6 /* PBXContainerItemProxy */;
+		};
+		FA69FCCEC43FEEB6617410B07D2F2A4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TisComponent;
+			target = 4F00C5B7CC2E14324A6708E1E096FFAB /* TisComponent */;
+			targetProxy = BC1188941BE9350B28A976994785805D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		05A01DD7C5F25ED030ED78569D455B85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 592553A734BF1EDE68476813687CC9C4 /* TisComponent.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TisComponent";
+				IBSC_MODULE = TisComponent;
+				INFOPLIST_FILE = "Target Support Files/TisComponent/ResourceBundle-TisComponent-TisComponent-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = TisComponent;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
 		0CF977E736A9F0297ED689DCD07C3E1C /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A68B91283C885374F53C1893F12F4E54 /* FBSnapshotTestCase.release.xcconfig */;
@@ -987,37 +1053,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		1F0765B2D4A84ABFAD272FD942C4D72C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 94C95C262805B00EC061357B4C68CC39 /* TisComponent.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TisComponent/TisComponent-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TisComponent/TisComponent-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TisComponent/TisComponent.modulemap";
-				PRODUCT_MODULE_NAME = TisComponent;
-				PRODUCT_NAME = TisComponent;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		2705B82FAD3E374C3BF6B225CAFAFDC4 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1080,21 +1115,37 @@
 			};
 			name = Debug;
 		};
-		3321FCDAE58A55F1B4CD3908476560E2 /* Debug */ = {
+		3CD87B29CA30751FE56C3A4D98C166A4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 94C95C262805B00EC061357B4C68CC39 /* TisComponent.debug.xcconfig */;
+			baseConfigurationReference = 3BE3B610D479EB808E81297BDC504B8F /* TisComponent.release.xcconfig */;
 			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TisComponent";
-				IBSC_MODULE = TisComponent;
-				INFOPLIST_FILE = "Target Support Files/TisComponent/ResourceBundle-TisComponent-TisComponent-Info.plist";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TisComponent/TisComponent-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TisComponent/TisComponent-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TisComponent/TisComponent.modulemap";
+				PRODUCT_MODULE_NAME = TisComponent;
 				PRODUCT_NAME = TisComponent;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		61AED150CA475BFF4AA66F7960B672B4 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1127,6 +1178,22 @@
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6569D5FBC459FC32CCE0F0B8145FC1D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BE3B610D479EB808E81297BDC504B8F /* TisComponent.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TisComponent";
+				IBSC_MODULE = TisComponent;
+				INFOPLIST_FILE = "Target Support Files/TisComponent/ResourceBundle-TisComponent-TisComponent-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = TisComponent;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
@@ -1254,9 +1321,9 @@
 			};
 			name = Debug;
 		};
-		8AC6B06B67AC12BC4A651F10149AF177 /* Release */ = {
+		9DC649E4F4C35D144BBB3A3E18E0D377 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E2660FFC86CE58A4C2D12AC708892705 /* TisComponent.release.xcconfig */;
+			baseConfigurationReference = 592553A734BF1EDE68476813687CC9C4 /* TisComponent.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1280,11 +1347,10 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		C3DFDAA7B83BF2013A79EF369F52D343 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1350,22 +1416,6 @@
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		CCC9021F440274320B7E355EB477E0D5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E2660FFC86CE58A4C2D12AC708892705 /* TisComponent.release.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TisComponent";
-				IBSC_MODULE = TisComponent;
-				INFOPLIST_FILE = "Target Support Files/TisComponent/ResourceBundle-TisComponent-TisComponent-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				PRODUCT_NAME = TisComponent;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
@@ -1438,6 +1488,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		19FC830B98D1DFD8CC52E6F311430021 /* Build configuration list for PBXNativeTarget "TisComponent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DC649E4F4C35D144BBB3A3E18E0D377 /* Debug */,
+				3CD87B29CA30751FE56C3A4D98C166A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		28DAA9880679133EC375B7072B9AEABB /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1447,11 +1506,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		39220C56C0FA74DD0FFFC7A8308CB813 /* Build configuration list for PBXNativeTarget "TisComponent-TisComponent" */ = {
+		29A235FFE4AAB1B134E8F2E595C097AD /* Build configuration list for PBXNativeTarget "TisComponent-TisComponent" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3321FCDAE58A55F1B4CD3908476560E2 /* Debug */,
-				CCC9021F440274320B7E355EB477E0D5 /* Release */,
+				05A01DD7C5F25ED030ED78569D455B85 /* Debug */,
+				6569D5FBC459FC32CCE0F0B8145FC1D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1479,15 +1538,6 @@
 			buildConfigurations = (
 				7DECC6D9E52D37C92D7E9019B5CCBC75 /* Debug */,
 				61AED150CA475BFF4AA66F7960B672B4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A22B7CC87D7A9868D2F226FADF9429BA /* Build configuration list for PBXNativeTarget "TisComponent" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1F0765B2D4A84ABFAD272FD942C4D72C /* Debug */,
-				8AC6B06B67AC12BC4A651F10149AF177 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

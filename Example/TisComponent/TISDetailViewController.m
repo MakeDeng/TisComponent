@@ -24,6 +24,8 @@
 @property (nonatomic, strong) TISHorButtonScroll *horButtonScroll; // 横向滚动button组件
 @property (nonatomic, strong) TISChooseListView *chooseList; // 列表选择弹窗组件（可单选或多选）
 @property (nonatomic, strong) TISChooseArea *chooseArea; // 选择地区弹窗组件（可单选或多选）
+@property (nonatomic, strong) TISChooseItem *chooseItem; // 载体等级或咨询方式类型选择组件（可单选或多选）
+@property (nonatomic, strong) TISInputSection *inputSection; // 载体面积输入区间组件
 
 @end
 
@@ -68,6 +70,11 @@
         // 选择地区弹窗组件（可单选或多选）
         [self.resetButton setTitle:@"切换单/多选" forState:UIControlStateNormal];
     }
+    
+    if ([componentName isEqualToString:@"TISChooseItem"]) {
+        // 载体等级或咨询方式类型选择组件（可单选或多选）
+        [self.resetButton setTitle:@"切换单/多选" forState:UIControlStateNormal];
+    }
 }
 
 /**
@@ -89,6 +96,11 @@
     if ([componentName isEqualToString:@"TISChooseArea"]) {
         // 选择地区弹窗组件（可单选或多选）
         self.chooseArea.isMore = !self.chooseArea.isMore;
+    }
+    
+    if ([componentName isEqualToString:@"TISChooseItem"]) {
+        // 载体等级或咨询方式类型选择组件（可单选或多选）
+        self.chooseItem.isMore = !self.chooseItem.isMore;
     }
 }
 
@@ -180,6 +192,57 @@
         };
         [self.view addSubview:self.chooseArea];
     }
+    
+    // 载体等级或咨询方式类型选择组件（可单选或多选）
+    if ([componentName isEqualToString:@"TISChooseItem"]) {
+        self.chooseItem = [[TISChooseItem alloc] init];
+        self.chooseItem.frame = CGRectMake(0, TIS_NAV_HEIGHT, TIS_Screen_Width, TIS_Screen_Height - TIS_NAV_HEIGHT);
+        self.chooseItem.isMore = YES;
+        self.chooseItem.dataArray = self.dataArray;
+        [self.view addSubview:self.chooseItem];
+        
+        self.chooseItem = [[TISChooseItem alloc] init];
+        self.chooseItem.frame = CGRectMake(0, 450, TIS_Screen_Width, TIS_Screen_Height - TIS_NAV_HEIGHT);
+        self.chooseItem.isMore = YES;
+        self.chooseItem.dataArray = [[NSMutableArray alloc] initWithArray:@[
+            @{
+                @"id": @"1",
+                @"name": @"★",
+                @"select": @"0",
+            },
+            @{
+                @"id": @"2",
+                @"name": @"★★",
+                @"select": @"0",
+            },
+            @{
+                @"id": @"3",
+                @"name": @"★★★",
+                @"select": @"0",
+            },
+            @{
+                @"id": @"4",
+                @"name": @"★★★★",
+                @"select": @"0",
+            },
+            @{
+                @"id": @"5",
+                @"name": @"★★★★★",
+                @"select": @"0",
+            },
+        ]];
+        [self.view addSubview:self.chooseItem];
+    }
+    
+    // 载体面积输入区间组件
+    if ([componentName isEqualToString:@"TISInputSection"]) {
+        self.inputSection = [[TISInputSection alloc] initWithFrame:CGRectMake(100, TIS_NAV_HEIGHT + 30, TIS_Screen_Width - 200, 60)];
+        self.inputSection.backgroundColor = [UIColor whiteColor];
+        self.inputSection.pointNumber = 4;
+        self.inputSection.layer.cornerRadius = 5;
+        self.inputSection.layer.masksToBounds = YES;
+        [self.view addSubview:self.inputSection];
+    }
 }
 
 
@@ -232,22 +295,27 @@
             },
             @{
                 @"id": @"2",
-                @"name": @"清华大学",
+                @"name": @"清华",
                 @"select": @"0",
             },
             @{
                 @"id": @"3",
-                @"name": @"天津大学",
+                @"name": @"天津大",
                 @"select": @"0",
             },
             @{
                 @"id": @"4",
-                @"name": @"南开大学",
+                @"name": @"南大",
                 @"select": @"0",
             },
             @{
                 @"id": @"5",
                 @"name": @"天津师范大学",
+                @"select": @"0",
+            },
+            @{
+                @"id": @"6",
+                @"name": @"师",
                 @"select": @"0",
             }
         ];

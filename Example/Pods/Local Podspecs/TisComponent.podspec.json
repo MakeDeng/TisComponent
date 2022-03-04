@@ -18,10 +18,10 @@
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": "TisComponent/Classes/**/*.{h,m}",
+  "source_files": "TisComponent/Classes/**/*.{h,m,xib}",
   "resource_bundles": {
     "TisComponent": [
-      "TisComponent/Assets/*.png"
+      "TisComponent/Assets/*"
     ]
   }
 }

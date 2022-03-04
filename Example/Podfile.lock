@@ -24,7 +24,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
   MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
-  TisComponent: 59a20a6c04133e32e8c826ab257c3df693a1a602
+  TisComponent: e18ee080e2eeeb72ef3f150ccec28e86f3b99825
 
 PODFILE CHECKSUM: dd7acf6e224d59aee715c8ed1c1fe7e1b09dfbab
 

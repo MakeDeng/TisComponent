@@ -91,6 +91,14 @@
                 @"component_title": @"TISChooseArea",
                 @"component_desc": @"选择地区弹窗组件（可单选或多选）",
             },
+            @{
+                @"component_title": @"TISChooseItem",
+                @"component_desc": @"载体等级或咨询方式类型选择组件（可单选或多选）",
+            },
+            @{
+                @"component_title": @"TISInputSection",
+                @"component_desc": @"载体面积输入区间组件",
+            },
         ];
     }
     return _componentArray;

@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'TisComponent/Classes/**/*.{h,m}'
+  s.source_files = 'TisComponent/Classes/**/*.{h,m,xib}'
   
   s.resource_bundles = {
    'TisComponent' => ['TisComponent/Assets/*']
