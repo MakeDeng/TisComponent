@@ -22,6 +22,7 @@
 #import "TISHorButtonCollectionViewCell.h"
 #import "TISHorButtonScroll.h"
 #import "TISInputSection.h"
+#import "TISPhone.h"
 #import "TISResetChoose.h"
 #import "TISSearch.h"
 #import "TISTool.h"

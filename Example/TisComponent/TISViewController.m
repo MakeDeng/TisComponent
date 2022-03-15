@@ -99,6 +99,10 @@
                 @"component_title": @"TISInputSection",
                 @"component_desc": @"载体面积输入区间组件",
             },
+            @{
+                @"component_title": @"TISPhone",
+                @"component_desc": @"手机号及座机号输入组件",
+            },
         ];
     }
     return _componentArray;

@@ -26,6 +26,7 @@
 @property (nonatomic, strong) TISChooseArea *chooseArea; // 选择地区弹窗组件（可单选或多选）
 @property (nonatomic, strong) TISChooseItem *chooseItem; // 载体等级或咨询方式类型选择组件（可单选或多选）
 @property (nonatomic, strong) TISInputSection *inputSection; // 载体面积输入区间组件
+@property (nonatomic, strong) TISPhone *tisPhone; // 手机号及座机号输入组件
 
 @end
 
@@ -243,6 +244,14 @@
         self.inputSection.layer.masksToBounds = YES;
         [self.view addSubview:self.inputSection];
     }
+    
+    // 手机号及座机号输入组件
+    if ([componentName isEqualToString:@"TISPhone"]) {
+        self.tisPhone = [[TISPhone alloc] initWithFrame:CGRectMake(100, TIS_NAV_HEIGHT + 30, TIS_Screen_Width - 200, 60)];
+        self.tisPhone.backgroundColor = [UIColor whiteColor];
+        [self.view addSubview:self.tisPhone];
+    }
+    
 }
 
 
