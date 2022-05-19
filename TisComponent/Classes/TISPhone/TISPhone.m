@@ -232,9 +232,9 @@ static CGFloat SPACE_WIDTH = 20;
             NSInteger currentOffset = [textField offsetFromPosition:textField.endOfDocument toPosition:selectedRange.end];
             currentOffset -= 1;
             UITextPosition *newPos = [textField positionFromPosition:textField.endOfDocument offset:currentOffset];
+            self.isDeleteStr = NO;
             textField.selectedTextRange = [textField textRangeFromPosition:newPos toPosition:newPos];
         }
-        self.isDeleteStr = NO;
     }
 }
 

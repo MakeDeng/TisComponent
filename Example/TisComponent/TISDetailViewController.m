@@ -25,6 +25,7 @@
 @property (nonatomic, strong) TISChooseListView *chooseList; // 列表选择弹窗组件（可单选或多选）
 @property (nonatomic, strong) TISChooseArea *chooseArea; // 选择地区弹窗组件（可单选或多选）
 @property (nonatomic, strong) TISChooseItem *chooseItem; // 载体等级或咨询方式类型选择组件（可单选或多选）
+@property (nonatomic, strong) TISChooseItem *chooseItemOne; // 载体等级或咨询方式类型选择组件（可单选或多选）
 @property (nonatomic, strong) TISInputSection *inputSection; // 载体面积输入区间组件
 @property (nonatomic, strong) TISPhone *tisPhone; // 手机号及座机号输入组件
 
@@ -102,6 +103,7 @@
     if ([componentName isEqualToString:@"TISChooseItem"]) {
         // 载体等级或咨询方式类型选择组件（可单选或多选）
         self.chooseItem.isMore = !self.chooseItem.isMore;
+        self.chooseItemOne.isMore = !self.chooseItemOne.isMore;
     }
 }
 
@@ -202,10 +204,10 @@
         self.chooseItem.dataArray = self.dataArray;
         [self.view addSubview:self.chooseItem];
         
-        self.chooseItem = [[TISChooseItem alloc] init];
-        self.chooseItem.frame = CGRectMake(0, 450, TIS_Screen_Width, TIS_Screen_Height - TIS_NAV_HEIGHT);
-        self.chooseItem.isMore = YES;
-        self.chooseItem.dataArray = [[NSMutableArray alloc] initWithArray:@[
+        self.chooseItemOne = [[TISChooseItem alloc] init];
+        self.chooseItemOne.frame = CGRectMake(0, 450, TIS_Screen_Width, TIS_Screen_Height - TIS_NAV_HEIGHT);
+        self.chooseItemOne.isMore = YES;
+        self.chooseItemOne.dataArray = [[NSMutableArray alloc] initWithArray:@[
             @{
                 @"id": @"1",
                 @"name": @"★",
@@ -232,7 +234,7 @@
                 @"select": @"0",
             },
         ]];
-        [self.view addSubview:self.chooseItem];
+        [self.view addSubview:self.chooseItemOne];
     }
     
     // 载体面积输入区间组件

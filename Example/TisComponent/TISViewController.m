@@ -9,6 +9,7 @@
 #import "TISViewController.h"
 #import "TISHeader.h"
 #import "TISDetailViewController.h"
+#import "TISButtonDetailViewController.h"
 
 @interface TISViewController () <UITableViewDelegate, UITableViewDataSource>
 
@@ -45,13 +46,24 @@
     NSDictionary *dic = self.componentArray[indexPath.row];
     cell.textLabel.text = dic[@"component_title"];
     cell.detailTextLabel.text = dic[@"component_desc"];
+    cell.detailTextLabel.numberOfLines = 0;
     return cell;
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    TISDetailViewController *vc = [TISDetailViewController new];
-    vc.componentDic = self.componentArray[indexPath.row];
-    [self.navigationController pushViewController:vc animated:YES];
+    NSDictionary *dictionary = self.componentArray[indexPath.row];
+    
+    if ([[dictionary objectForKey:@"component_title"] isEqualToString:@"TISButton"]) {
+        // TISButton按钮组件
+        TISButtonDetailViewController *vc = [TISButtonDetailViewController new];
+        vc.componentDic = dictionary;
+        [self.navigationController pushViewController:vc animated:YES];
+    } else {
+        // TIS组件
+        TISDetailViewController *vc = [TISDetailViewController new];
+        vc.componentDic = dictionary;
+        [self.navigationController pushViewController:vc animated:YES];
+    }
 }
 
 
@@ -63,7 +75,7 @@
         _componentTabelVeiw = [[UITableView alloc] initWithFrame:CGRectMake(0, TIS_NAV_HEIGHT, TIS_Screen_Width, TIS_Screen_Height - TIS_NAV_HEIGHT) style:UITableViewStylePlain];
         _componentTabelVeiw.delegate = self;
         _componentTabelVeiw.dataSource = self;
-        _componentTabelVeiw.rowHeight = 60;
+        _componentTabelVeiw.estimatedRowHeight = 60;
     }
     return _componentTabelVeiw;
 }
@@ -102,6 +114,10 @@
             @{
                 @"component_title": @"TISPhone",
                 @"component_desc": @"手机号及座机号输入组件",
+            },
+            @{
+                @"component_title": @"TISButton",
+                @"component_desc": @"按钮组件",
             },
         ];
     }

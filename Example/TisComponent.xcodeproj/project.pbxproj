@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		069405952835F30700F89F7A /* TISButtonDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 069405942835F30700F89F7A /* TISButtonDetailViewController.m */; };
 		06B3E50727C862510007D540 /* TISDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06B3E50627C862510007D540 /* TISDetailViewController.m */; };
 		06B3E50A27C87DE60007D540 /* TISMBHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 06B3E50927C87DE60007D540 /* TISMBHUD.m */; };
 		4A782084F214F334C6C61446 /* Pods_TisComponent_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC58F638DC0D5ADDEFED13EC /* Pods_TisComponent_Tests.framework */; };
@@ -39,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		069405932835F30700F89F7A /* TISButtonDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TISButtonDetailViewController.h; sourceTree = "<group>"; };
+		069405942835F30700F89F7A /* TISButtonDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TISButtonDetailViewController.m; sourceTree = "<group>"; };
 		06B3E50527C862510007D540 /* TISDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TISDetailViewController.h; sourceTree = "<group>"; };
 		06B3E50627C862510007D540 /* TISDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TISDetailViewController.m; sourceTree = "<group>"; };
 		06B3E50827C87DE60007D540 /* TISMBHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TISMBHUD.h; sourceTree = "<group>"; };
@@ -145,6 +148,8 @@
 				6003F5A6195388D20070C39A /* TISViewController.m */,
 				06B3E50527C862510007D540 /* TISDetailViewController.h */,
 				06B3E50627C862510007D540 /* TISDetailViewController.m */,
+				069405932835F30700F89F7A /* TISButtonDetailViewController.h */,
+				069405942835F30700F89F7A /* TISButtonDetailViewController.m */,
 				06B3E50827C87DE60007D540 /* TISMBHUD.h */,
 				06B3E50927C87DE60007D540 /* TISMBHUD.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
@@ -398,6 +403,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				069405952835F30700F89F7A /* TISButtonDetailViewController.m in Sources */,
 				6003F59E195388D20070C39A /* TISAppDelegate.m in Sources */,
 				06B3E50A27C87DE60007D540 /* TISMBHUD.m in Sources */,
 				06B3E50727C862510007D540 /* TISDetailViewController.m in Sources */,
