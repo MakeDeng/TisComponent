@@ -10,7 +10,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 typedef NS_ENUM(NSInteger, PHONE_TYPE) {
-    MOBILE_PHONE,   // 移动手机号
+    MOBILE_PHONE,   // 移动手机号（默认）
     LAND_LINE,      // 座机
 };
 

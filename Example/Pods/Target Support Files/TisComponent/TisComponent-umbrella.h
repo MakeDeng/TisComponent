@@ -30,6 +30,7 @@
 #import "TISPhone.h"
 #import "TISResetChoose.h"
 #import "TISSearch.h"
+#import "TISTextArea.h"
 #import "TISTool.h"
 
 FOUNDATION_EXPORT double TisComponentVersionNumber;

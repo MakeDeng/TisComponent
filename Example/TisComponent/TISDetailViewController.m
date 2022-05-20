@@ -28,6 +28,7 @@
 @property (nonatomic, strong) TISChooseItem *chooseItemOne; // 载体等级或咨询方式类型选择组件（可单选或多选）
 @property (nonatomic, strong) TISInputSection *inputSection; // 载体面积输入区间组件
 @property (nonatomic, strong) TISPhone *tisPhone; // 手机号及座机号输入组件
+@property (nonatomic, strong) TISTextArea *tisTextArea; // 文本域多行输入组件（可计数与不可计数）
 
 @end
 
@@ -51,9 +52,9 @@
 - (void)configNavigation {
     NSString *componentName = self.componentDic[@"component_title"];
     
-    self.resetButton = [UIButton buttonWithType:UIButtonTypeCustom];
+    self.resetButton = [UIButton buttonWithType:UIButtonTypeSystem];
     self.resetButton.titleLabel.font = [UIFont systemFontOfSize:14];
-    [self.resetButton setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+//    [self.resetButton setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
     [self.resetButton addTarget:self action:@selector(resetButtonClicked) forControlEvents:UIControlEventTouchUpInside];
     UIBarButtonItem *item = [[UIBarButtonItem alloc] initWithCustomView:self.resetButton];
     self.navigationItem.rightBarButtonItem = item;
@@ -76,6 +77,11 @@
     if ([componentName isEqualToString:@"TISChooseItem"]) {
         // 载体等级或咨询方式类型选择组件（可单选或多选）
         [self.resetButton setTitle:@"切换单/多选" forState:UIControlStateNormal];
+    }
+    
+    if ([componentName isEqualToString:@"TISTextArea"]) {
+        // 文本域多行输入组件（可计数与不可计数）
+        [self.resetButton setTitle:@"切换可/不可计数" forState:UIControlStateNormal];
     }
 }
 
@@ -104,6 +110,11 @@
         // 载体等级或咨询方式类型选择组件（可单选或多选）
         self.chooseItem.isMore = !self.chooseItem.isMore;
         self.chooseItemOne.isMore = !self.chooseItemOne.isMore;
+    }
+    
+    if ([componentName isEqualToString:@"TISTextArea"]) {
+        // 文本域多行输入组件（可计数与不可计数）
+        self.tisTextArea.showNumber = !self.tisTextArea.showNumber;
     }
 }
 
@@ -252,6 +263,26 @@
         self.tisPhone = [[TISPhone alloc] initWithFrame:CGRectMake(100, TIS_NAV_HEIGHT + 30, TIS_Screen_Width - 200, 60)];
         self.tisPhone.backgroundColor = [UIColor whiteColor];
         [self.view addSubview:self.tisPhone];
+    }
+    
+    // 文本域多行输入组件（可计数与不可计数）
+    if ([componentName isEqualToString:@"TISTextArea"]) {
+        self.tisTextArea = [[TISTextArea alloc] initWithFrame:CGRectMake(100, TIS_NAV_HEIGHT + 30, TIS_Screen_Width - 200, 200)];
+        self.tisTextArea.backgroundColor = [UIColor whiteColor];
+        self.tisTextArea.placeholder = @"请输入";
+        self.tisTextArea.limitCount = 30;
+        self.tisTextArea.defaultText = @"是拉萨开发萨菲隆卡射流风机暗示法拉发送到是拉萨开发萨菲隆卡射流风机暗示法拉发送到";
+        [self.view addSubview:self.tisTextArea];
+        
+        TISTextArea *tisTextAreaTitle = [[TISTextArea alloc] initWithFrame:CGRectMake(100, TIS_NAV_HEIGHT + 260, TIS_Screen_Width - 200, 200)];
+        tisTextAreaTitle.backgroundColor = [UIColor whiteColor];
+        tisTextAreaTitle.textAreaSpace = 8;
+        tisTextAreaTitle.limitCount = 200;
+        tisTextAreaTitle.placeholder = @"请输入自定义默认文字内容";
+        tisTextAreaTitle.showNumber = YES;
+        tisTextAreaTitle.title = @"这是一个标题哟";
+        tisTextAreaTitle.titleLabelHeight = 15;
+        [self.view addSubview:tisTextAreaTitle];
     }
     
 }

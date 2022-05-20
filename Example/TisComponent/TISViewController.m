@@ -119,6 +119,10 @@
                 @"component_title": @"TISButton",
                 @"component_desc": @"按钮组件",
             },
+            @{
+                @"component_title": @"TISTextArea",
+                @"component_desc": @"文本域多行输入框组件",
+            },
         ];
     }
     return _componentArray;

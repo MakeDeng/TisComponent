@@ -81,5 +81,6 @@
 #import "TISChooseItem.h"
 #import "TISInputSection.h"
 #import "TISPhone.h"
+#import "TISTextArea.h"
 
 #endif /* TisHeader_h */
