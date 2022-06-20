@@ -44,6 +44,16 @@
     
     // 展示组件
     [self showComponent];
+    
+    UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(dismissKeyboard)];
+    [self.view addGestureRecognizer:tap];
+}
+
+/**
+ *  隐藏键盘
+ */
+- (void)dismissKeyboard {
+    [[UIApplication sharedApplication].keyWindow endEditing:YES];
 }
 
 /**

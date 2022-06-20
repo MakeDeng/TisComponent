@@ -13,8 +13,7 @@
 /**
  *  显示请求加载框
  */
-+ (MBProgressHUD *)showLoadHud
-{
++ (MBProgressHUD *)showLoadHud {
     UIWindow * window = [UIApplication sharedApplication].delegate.window;
     MBProgressHUD *loadHud = [MBProgressHUD showHUDAddedTo:window animated:YES];
     loadHud.margin=10;
@@ -30,8 +29,7 @@
  *
  *  @param string 提示文字
  */
-+ (void)showTostHud:(NSString *)string
-{
++ (void)showTostHud:(NSString *)string {
     UIWindow * window=[UIApplication sharedApplication].delegate.window;
     MBProgressHUD *tostHud = [MBProgressHUD showHUDAddedTo:window animated:YES];
     tostHud.contentColor=[UIColor clearColor];
@@ -52,8 +50,7 @@
  *  @param delay 多长时间消失
  *  @param offset 位置偏移
  */
-+ (void)showTostHudString:(NSString *)string afterDelay:(NSTimeInterval)delay offset:(CGPoint)offset
-{
++ (void)showTostHudString:(NSString *)string afterDelay:(NSTimeInterval)delay offset:(CGPoint)offset {
     UIWindow * window=[UIApplication sharedApplication].delegate.window;
     MBProgressHUD *tostHud = [MBProgressHUD showHUDAddedTo:window animated:YES];
     tostHud.contentColor=[UIColor clearColor];
