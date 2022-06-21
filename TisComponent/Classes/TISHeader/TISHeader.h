@@ -82,5 +82,6 @@
 #import "TISInputSection.h"
 #import "TISPhone.h"
 #import "TISTextArea.h"
+#import "TISRadio.h"
 
 #endif /* TisHeader_h */

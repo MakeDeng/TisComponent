@@ -28,6 +28,7 @@
 #import "TISHorButtonScroll.h"
 #import "TISInputSection.h"
 #import "TISPhone.h"
+#import "TISRadio.h"
 #import "TISResetChoose.h"
 #import "TISSearch.h"
 #import "TISTextArea.h"

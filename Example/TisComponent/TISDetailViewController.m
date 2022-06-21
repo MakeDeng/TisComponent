@@ -44,15 +44,12 @@
     
     // 展示组件
     [self showComponent];
-    
-    UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(dismissKeyboard)];
-    [self.view addGestureRecognizer:tap];
 }
 
 /**
  *  隐藏键盘
  */
-- (void)dismissKeyboard {
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     [[UIApplication sharedApplication].keyWindow endEditing:YES];
 }
 
@@ -293,6 +290,88 @@
         tisTextAreaTitle.title = @"这是一个标题哟";
         tisTextAreaTitle.titleLabelHeight = 15;
         [self.view addSubview:tisTextAreaTitle];
+    }
+    
+    if ([componentName isEqualToString:@"TISRadio"]) {
+        // 单选及多选组件
+        NSArray *array = @[
+            @{
+                @"text": @"大尺寸正常未选中",
+                @"status": @(RADIO_NORMAL),
+                @"size": @(RADIO_LARGE)
+            },
+            @{
+                @"text": @"大尺寸正常已选中",
+                @"status": @(RADIO_SELECTED),
+                @"size": @(RADIO_LARGE)
+            },
+            @{
+                @"text": @"大尺寸失效未选中",
+                @"status": @(RADIO_DISABLE_NORMAL),
+                @"size": @(RADIO_LARGE)
+            },
+            @{
+                @"text": @"大尺寸失效已选中",
+                @"status": @(RADIO_DISABLE_SELECTED),
+                @"size": @(RADIO_LARGE)
+            },
+            @{
+                @"text": @"小尺寸正常未选中",
+                @"status": @(RADIO_NORMAL),
+                @"size": @(RADIO_SMALL)
+            },
+            @{
+                @"text": @"小尺寸正常已选中",
+                @"status": @(RADIO_SELECTED),
+                @"size": @(RADIO_SMALL)
+            },
+            @{
+                @"text": @"小尺寸失效未选中",
+                @"status": @(RADIO_DISABLE_NORMAL),
+                @"size": @(RADIO_SMALL)
+            },
+            @{
+                @"text": @"小尺寸失效已选中",
+                @"status": @(RADIO_DISABLE_SELECTED),
+                @"size": @(RADIO_SMALL)
+            },
+            @{
+                @"text": @"大尺寸自定义样式未选中",
+                @"status": @(RADIO_NORMAL),
+                @"size": @(RADIO_LARGE)
+            },
+            @{
+                @"text": @"大尺寸自定义样式已选中",
+                @"status": @(RADIO_SELECTED),
+                @"size": @(RADIO_LARGE)
+            },
+            @{
+                @"text": @"小尺寸自定义样式未选中",
+                @"status": @(RADIO_NORMAL),
+                @"size": @(RADIO_SMALL)
+            },
+            @{
+                @"text": @"小尺寸自定义样式已选中",
+                @"status": @(RADIO_SELECTED),
+                @"size": @(RADIO_SMALL)
+            },
+        ];
+        for (int i=0; i<array.count; i++) {
+            NSDictionary *dic = array[i];
+            TISRadio *radio = [[TISRadio alloc] initWithFrame:CGRectMake(100, TIS_NAV_HEIGHT + 30 + 40 * i, TIS_Screen_Width - 200, 30)];
+            radio.text = dic[@"text"];
+            radio.status = [dic[@"status"] integerValue];
+            radio.radioSize = [dic[@"size"] integerValue];
+            if (i==8 || i==10) {
+                radio.normal_image = [UIImage imageNamed:TISCommonSrcName(@"checkbox_react_normal")]?:[UIImage imageNamed:TISCommonFrameworkSrcName(@"checkbox_react_normal")];
+                radio.selected_image = [UIImage imageNamed:TISCommonSrcName(@"checkbox_react_selected")]?:[UIImage imageNamed:TISCommonFrameworkSrcName(@"checkbox_react_selected")];
+            }
+            if (i==9 || i==11) {
+                radio.normal_image = [UIImage imageNamed:TISCommonSrcName(@"checkbox_react_normal")]?:[UIImage imageNamed:TISCommonFrameworkSrcName(@"checkbox_react_normal")];
+                radio.selected_image = [UIImage imageNamed:TISCommonSrcName(@"checkbox_react_selected")]?:[UIImage imageNamed:TISCommonFrameworkSrcName(@"checkbox_react_selected")];
+            }
+            [self.view addSubview:radio];
+        }
     }
     
 }

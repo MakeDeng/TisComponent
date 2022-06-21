@@ -123,6 +123,10 @@
                 @"component_title": @"TISTextArea",
                 @"component_desc": @"文本域多行输入框组件",
             },
+            @{
+                @"component_title": @"TISRadio",
+                @"component_desc": @"单选及多选组件",
+            },
         ];
     }
     return _componentArray;
