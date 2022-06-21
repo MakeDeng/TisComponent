@@ -336,12 +336,12 @@
                 @"size": @(RADIO_SMALL)
             },
             @{
-                @"text": @"大尺寸自定义样式未选中",
+                @"text": @"大尺寸自定义样式未选中测试超出屏幕改变父组件宽度",
                 @"status": @(RADIO_NORMAL),
                 @"size": @(RADIO_LARGE)
             },
             @{
-                @"text": @"大尺寸自定义样式已选中",
+                @"text": @"大尺寸自定义样式已选中父视图变宽",
                 @"status": @(RADIO_SELECTED),
                 @"size": @(RADIO_LARGE)
             },
@@ -359,6 +359,8 @@
         for (int i=0; i<array.count; i++) {
             NSDictionary *dic = array[i];
             TISRadio *radio = [[TISRadio alloc] initWithFrame:CGRectMake(100, TIS_NAV_HEIGHT + 30 + 40 * i, TIS_Screen_Width - 200, 30)];
+            radio.backgroundColor = [UIColor whiteColor];
+            radio.layer.cornerRadius = 4;
             radio.text = dic[@"text"];
             radio.status = [dic[@"status"] integerValue];
             radio.radioSize = [dic[@"size"] integerValue];

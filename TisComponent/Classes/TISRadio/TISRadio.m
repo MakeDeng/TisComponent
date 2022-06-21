@@ -45,12 +45,25 @@
 
 - (void)layoutSubviews {
     CGFloat space = 10; // radio图标和文字之间的间距
-    CGFloat aroundSpace = (self.frame.size.width - self.imageView.frame.size.width - space - self.textWidth) / 2;
-    self.imageView.frame = CGRectMake(aroundSpace, 0, self.imageView.frame.size.width, self.imageView.frame.size.height);
-    self.titleLabel.frame = CGRectMake(self.frame.size.width - self.textWidth - aroundSpace, 0, self.textWidth, 20);
-    self.imageView.center = CGPointMake(self.imageView.center.x, self.frame.size.height / 2);
-    self.titleLabel.center = CGPointMake(self.titleLabel.center.x, self.frame.size.height / 2);
-    self.radioButton.frame = CGRectMake(0, 0, self.frame.size.width, self.frame.size.height);
+    if (self.textWidth + self.imageView.frame.size.width + space > TIS_Screen_Width - 20) {
+        // 超出屏幕
+        self.frame = CGRectMake(10, self.frame.origin.y, TIS_Screen_Width - 20, self.frame.size.height);
+        self.textWidth = TIS_Screen_Width - 20 - self.imageView.frame.size.width - space;
+    } else {
+        // 未超出屏幕
+        if (self.textWidth + self.imageView.frame.size.width + space > self.frame.size.width) {
+            // 超出父组件
+            self.frame = CGRectMake(self.frame.origin.x, self.frame.origin.y, self.textWidth + self.imageView.frame.size.width + space, self.frame.size.height);
+        } else {
+            // 未超出父组件
+            CGFloat aroundSpace = (self.frame.size.width - self.imageView.frame.size.width - space - self.textWidth) / 2;
+            self.imageView.frame = CGRectMake(aroundSpace, 0, self.imageView.frame.size.width, self.imageView.frame.size.height);
+            self.titleLabel.frame = CGRectMake(self.frame.size.width - self.textWidth - aroundSpace, 0, self.textWidth, 20);
+            self.imageView.center = CGPointMake(self.imageView.center.x, self.frame.size.height / 2);
+            self.titleLabel.center = CGPointMake(self.titleLabel.center.x, self.frame.size.height / 2);
+            self.radioButton.frame = CGRectMake(0, 0, self.frame.size.width, self.frame.size.height);
+        }
+    }
 }
 
 - (void)setText:(NSString *)text {
@@ -100,6 +113,7 @@
         self.imageView.bounds = CGRectMake(0, 0, 16, 16);
         self.titleLabel.font = [UIFont systemFontOfSize:14];
     }
+    self.textWidth = [TISTool tisGetLabelWidth:self.titleLabel size:CGSizeMake(MAXFLOAT,20)];
     [self layoutSubviews];
 }
 
