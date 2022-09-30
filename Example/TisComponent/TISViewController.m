@@ -127,6 +127,10 @@
                 @"component_title": @"TISRadio",
                 @"component_desc": @"单选及多选组件",
             },
+            @{
+                @"component_title": @"TISInput",
+                @"component_desc": @"输入框组件",
+            },
         ];
     }
     return _componentArray;

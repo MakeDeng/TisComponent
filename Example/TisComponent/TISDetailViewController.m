@@ -257,7 +257,7 @@
     
     // 载体面积输入区间组件
     if ([componentName isEqualToString:@"TISInputSection"]) {
-        self.inputSection = [[TISInputSection alloc] initWithFrame:CGRectMake(100, TIS_NAV_HEIGHT + 30, TIS_Screen_Width - 200, 60)];
+        self.inputSection = [[TISInputSection alloc] initWithFrame:CGRectMake(50, TIS_NAV_HEIGHT + 30, TIS_Screen_Width - 100, 60)];
         self.inputSection.backgroundColor = [UIColor whiteColor];
         self.inputSection.pointNumber = 4;
         self.inputSection.layer.cornerRadius = 5;
@@ -292,8 +292,8 @@
         [self.view addSubview:tisTextAreaTitle];
     }
     
+    // 单选及多选组件
     if ([componentName isEqualToString:@"TISRadio"]) {
-        // 单选及多选组件
         NSArray *array = @[
             @{
                 @"text": @"大尺寸正常未选中",
@@ -374,6 +374,90 @@
             }
             [self.view addSubview:radio];
         }
+    }
+    
+    // 输入框组件
+    if ([componentName isEqualToString:@"TISInput"]) {
+        // 基础输入框
+        TISInput *baseInput = [[TISInput alloc] initWithFrame:CGRectMake(30, TIS_NAV_HEIGHT + 30, TIS_Screen_Width - 60, 60)];
+        baseInput.backgroundColor = [UIColor whiteColor];
+        baseInput.layer.cornerRadius = 4;
+        baseInput.clearEnable = YES;
+        baseInput.inputTextFiled.placeholder = @"基础输入框";
+        [self.view addSubview:baseInput];
+
+        // 左侧布局
+        TISInput *leftExpandInput = [[TISInput alloc] initWithFrame:CGRectMake(30, (TIS_NAV_HEIGHT + 30) + (20 + 60), TIS_Screen_Width - 60, 60)];
+        leftExpandInput.backgroundColor = [UIColor whiteColor];
+        leftExpandInput.layer.cornerRadius = 4;
+        leftExpandInput.clearEnable = YES;
+        leftExpandInput.inputType = HORRIZONTAL_LEFT;
+        leftExpandInput.inputTextFiled.placeholder = @"左侧拓展布局输入框";
+        [self.view addSubview:leftExpandInput];
+        // 添加上方拓展组件
+        UILabel *leftExpandLabel = [UILabel new];
+        leftExpandLabel.frame = CGRectMake(0, 0, 110, 60 - 36);
+        leftExpandLabel.text = @"左侧拓展布局";
+        [leftExpandInput.expandView addSubview:leftExpandLabel];
+        leftExpandInput.expandView.frame = CGRectMake(0, 0, leftExpandLabel.frame.size.width, 60);
+        
+        // 右侧布局
+        TISInput *rightExpandInput = [[TISInput alloc] initWithFrame:CGRectMake(30, (TIS_NAV_HEIGHT + 30) + (20 + 60) * 2, TIS_Screen_Width - 60, 60)];
+        rightExpandInput.backgroundColor = [UIColor whiteColor];
+        rightExpandInput.layer.cornerRadius = 4;
+        rightExpandInput.clearEnable = YES;
+        rightExpandInput.inputType = HORRIZONTAL_RIGHT;
+        rightExpandInput.inputTextFiled.placeholder = @"右侧拓展布局输入框";
+        rightExpandInput.inputTextFiled.keyboardType = UIKeyboardTypeDecimalPad;
+        [self.view addSubview:rightExpandInput];
+        // 添加上方拓展组件
+        UILabel *rightExpandLabel = [UILabel new];
+        rightExpandLabel.frame = CGRectMake(0, 0, 25, 60 - 36);
+        rightExpandLabel.text = @"m²";
+        [rightExpandInput.expandView addSubview:rightExpandLabel];
+        rightExpandInput.expandView.frame = CGRectMake(0, 0, rightExpandLabel.frame.size.width, 60);
+        
+        // 上下布局
+        TISInput *topExpandInput = [[TISInput alloc] initWithFrame:CGRectMake(30,(TIS_NAV_HEIGHT + 30) + (20 + 60) * 3, TIS_Screen_Width - 60, 108)];
+        topExpandInput.backgroundColor = [UIColor whiteColor];
+        topExpandInput.layer.cornerRadius = 4;
+        topExpandInput.clearEnable = YES;
+        topExpandInput.inputType = VERTICAL;
+        topExpandInput.inputTextFiled.placeholder = @"上下布局输入框";
+        [self.view addSubview:topExpandInput];
+        // 添加上方拓展组件
+        UILabel *topExpandLabel = [UILabel new];
+        topExpandLabel.frame = CGRectMake(0, 0, topExpandInput.expandView.frame.size.width, 30);
+        topExpandLabel.text = @"上下拓展布局";
+        [topExpandInput.expandView addSubview:topExpandLabel];
+        topExpandInput.expandView.frame = CGRectMake(0, 0, 0, topExpandLabel.frame.size.height);
+        
+        // 自定义拓展组件
+        CGFloat height = 40;
+        TISInput *diyExpandInput = [[TISInput alloc] initWithFrame:CGRectMake(30, (TIS_NAV_HEIGHT + 30) + (20 + 60) * 4 + 48, TIS_Screen_Width - 60, height)];
+        diyExpandInput.backgroundColor = [UIColor whiteColor];
+        diyExpandInput.layer.cornerRadius = 4;
+        diyExpandInput.horizontalSpace = 10;
+        diyExpandInput.verticalSpace = 8;
+        diyExpandInput.clearEnable = YES;
+        diyExpandInput.inputType = HORRIZONTAL_RIGHT;
+        diyExpandInput.inputTextFiled.placeholder = @"拓展组件随便自定义，大小自己控制尺寸就行";
+        diyExpandInput.inputTextFiled.font = [UIFont systemFontOfSize:10];
+        [self.view addSubview:diyExpandInput];
+        // 添加自定义拓展组件
+        CGFloat verticalSpace = diyExpandInput.verticalSpace * 2;
+        UIView *diyView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 100, height - verticalSpace)];
+        diyView.backgroundColor = [[UIColor redColor] colorWithAlphaComponent:0.5];
+        diyView.layer.cornerRadius = 4;
+        UILabel *diyExpandLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 75, height - verticalSpace)];
+        diyExpandLabel.text = @"自定义拓展布局";
+        diyExpandLabel.font = [UIFont systemFontOfSize:10];
+        [diyView addSubview:diyExpandLabel];
+        UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectMake(75, (height - verticalSpace - 20) / 2, 20, 20)];
+        imageView.image = [UIImage imageNamed:@"AppIcon"];
+        [diyView addSubview:imageView];
+        [diyExpandInput.expandView addSubview:diyView];
+        diyExpandInput.expandView.frame = CGRectMake(0, 0, diyView.frame.size.width, height);
     }
     
 }
