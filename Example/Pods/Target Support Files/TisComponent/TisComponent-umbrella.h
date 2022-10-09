@@ -32,6 +32,7 @@
 #import "TISRadio.h"
 #import "TISResetChoose.h"
 #import "TISSearch.h"
+#import "TISSwitch.h"
 #import "TISTextArea.h"
 #import "TISTool.h"
 

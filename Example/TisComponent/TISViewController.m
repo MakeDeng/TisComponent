@@ -131,6 +131,10 @@
                 @"component_title": @"TISInput",
                 @"component_desc": @"输入框组件",
             },
+            @{
+                @"component_title": @"TISSwitch",
+                @"component_desc": @"开关组件",
+            },
         ];
     }
     return _componentArray;

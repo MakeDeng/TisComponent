@@ -81,8 +81,10 @@
     self.loadingButton.normalColor = COLOR_S5;
     self.loadingButton.pressColor = [UIColor redColor];
     [self.loadingButton addTarget:self action:@selector(loadingButtonClicked) forControlEvents:UIControlEventTouchUpInside];
-    [self.loadingButton.activityIndicator startAnimating];
     [self.view addSubview:self.loadingButton];
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        [self.loadingButton.activityIndicator startAnimating];
+    });
     
     // 阴影按钮
     TISButton *shadowButton = [TISButton buttonWithType:UIButtonTypeCustom];

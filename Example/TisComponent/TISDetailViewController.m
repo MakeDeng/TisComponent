@@ -9,6 +9,7 @@
 #import "TISDetailViewController.h"
 #import "TISHeader.h"
 #import "TISMBHUD.h"
+#import "TISSingleTextAreaVC.h"
 
 #define DETAIL_LEFT_SPACE 16
 #define DETAIL_WIDTH (TIS_Screen_Width - DETAIL_LEFT_SPACE * 2)
@@ -278,7 +279,9 @@
         self.tisTextArea.backgroundColor = [UIColor whiteColor];
         self.tisTextArea.placeholder = @"请输入";
         self.tisTextArea.limitCount = 30;
-        self.tisTextArea.defaultText = @"是拉萨开发萨菲隆卡射流风机暗示法拉发送到是拉萨开发萨菲隆卡射流风机暗示法拉发送到";
+//        self.tisTextArea.defaultText = @"是拉萨开发萨菲隆卡射流风机暗示法拉发送到是拉萨开发萨菲隆卡射流风机暗示法拉发送到";
+        self.tisTextArea.inputColor = [UIColor blueColor];
+        self.tisTextArea.placeholderColor = [UIColor orangeColor];
         [self.view addSubview:self.tisTextArea];
         
         TISTextArea *tisTextAreaTitle = [[TISTextArea alloc] initWithFrame:CGRectMake(100, TIS_NAV_HEIGHT + 260, TIS_Screen_Width - 200, 200)];
@@ -290,6 +293,12 @@
         tisTextAreaTitle.title = @"这是一个标题哟";
         tisTextAreaTitle.titleLabelHeight = 15;
         [self.view addSubview:tisTextAreaTitle];
+        
+        UIButton *singleButton = [UIButton buttonWithType:UIButtonTypeSystem];
+        singleButton.frame = CGRectMake(100, TIS_NAV_HEIGHT + 490, TIS_Screen_Width - 200, 40);
+        [singleButton setTitle:@"单页面文本域" forState:UIControlStateNormal];
+        [singleButton addTarget:self action:@selector(singleButtonClicked) forControlEvents:UIControlEventTouchUpInside];
+        [self.view addSubview:singleButton];
     }
     
     // 单选及多选组件
@@ -460,6 +469,47 @@
         diyExpandInput.expandView.frame = CGRectMake(0, 0, diyView.frame.size.width, height);
     }
     
+    // 开关组件
+    if ([componentName isEqualToString:@"TISSwitch"]) {
+        // 默认开关
+        TISSwitch *tisSwitch = [[TISSwitch alloc] initWithFrame:CGRectMake((TIS_Screen_Width - 52) / 2, TIS_NAV_HEIGHT + 24, 52, 32)];
+        [self.view addSubview:tisSwitch];
+        
+        // loading开关
+        TISSwitch *loadingSwitch = [[TISSwitch alloc] initWithFrame:CGRectMake((TIS_Screen_Width - 52) / 2, TIS_NAV_HEIGHT + 24 + (32 + 24), 52, 32)];
+        [self.view addSubview:loadingSwitch];
+        loadingSwitch.isLoading = YES;
+        
+        // disable开关
+        TISSwitch *disableSwitch = [[TISSwitch alloc] initWithFrame:CGRectMake((TIS_Screen_Width - 52) / 2, TIS_NAV_HEIGHT + 24 + (32 + 24) * 2, 52, 32)];
+        [self.view addSubview:disableSwitch];
+        disableSwitch.tisSwitch.enabled = NO;
+        
+        // 左右布局开关
+        TISSwitch *horizonSwitch = [[TISSwitch alloc] initWithFrame:CGRectMake(24, TIS_NAV_HEIGHT + 24 + (32 + 24) * 3, (TIS_Screen_Width - 24 * 2), 60)];
+        horizonSwitch.backgroundColor = [UIColor whiteColor];
+        [self.view addSubview:horizonSwitch];
+        horizonSwitch.swithType = SWITCH_TITLE;
+        horizonSwitch.titleLabel.text = @"左右布局";
+        
+        // 左右布局带描述开关
+        TISSwitch *horizonDescSwitch = [[TISSwitch alloc] initWithFrame:CGRectMake(24, TIS_NAV_HEIGHT + 24 + (32 + 24) * 3 + (60 + 24), (TIS_Screen_Width - 24 * 2), 60)];
+        horizonDescSwitch.backgroundColor = [UIColor whiteColor];
+        [self.view addSubview:horizonDescSwitch];
+        horizonDescSwitch.swithType = SWITCH_DESC;
+        horizonDescSwitch.titleLabel.text = @"左右布局";
+        horizonDescSwitch.descLabel.text = @"信息未开启";
+    }
+}
+
+
+
+/**
+ *  跳转单页面文本域组件
+ */
+- (void)singleButtonClicked {
+    TISSingleTextAreaVC *vc = [TISSingleTextAreaVC new];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 

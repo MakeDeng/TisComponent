@@ -353,4 +353,14 @@ CGFloat topSpace = 16; // 顶部和底部间距
 }
 
 
+
+/**
+ *  取消输入框的第一响应事件
+ */
+- (void)cancelFirstResponder {
+    [self.textArea resignFirstResponder];
+}
+
+
+
 @end

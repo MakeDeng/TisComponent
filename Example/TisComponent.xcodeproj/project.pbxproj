@@ -10,6 +10,7 @@
 		069405952835F30700F89F7A /* TISButtonDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 069405942835F30700F89F7A /* TISButtonDetailViewController.m */; };
 		06B3E50727C862510007D540 /* TISDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06B3E50627C862510007D540 /* TISDetailViewController.m */; };
 		06B3E50A27C87DE60007D540 /* TISMBHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 06B3E50927C87DE60007D540 /* TISMBHUD.m */; };
+		06E2A25B28F1479D00E65E1E /* TISSingleTextAreaVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 06E2A25A28F1479D00E65E1E /* TISSingleTextAreaVC.m */; };
 		4A782084F214F334C6C61446 /* Pods_TisComponent_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC58F638DC0D5ADDEFED13EC /* Pods_TisComponent_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -45,6 +46,8 @@
 		06B3E50627C862510007D540 /* TISDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TISDetailViewController.m; sourceTree = "<group>"; };
 		06B3E50827C87DE60007D540 /* TISMBHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TISMBHUD.h; sourceTree = "<group>"; };
 		06B3E50927C87DE60007D540 /* TISMBHUD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TISMBHUD.m; sourceTree = "<group>"; };
+		06E2A25928F1479D00E65E1E /* TISSingleTextAreaVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TISSingleTextAreaVC.h; sourceTree = "<group>"; };
+		06E2A25A28F1479D00E65E1E /* TISSingleTextAreaVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TISSingleTextAreaVC.m; sourceTree = "<group>"; };
 		2609785210C5C420905D4A73 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		268BA91B9755F7DE1041B479 /* Pods-TisComponent_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TisComponent_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TisComponent_Tests/Pods-TisComponent_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* TisComponent_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TisComponent_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -148,6 +151,8 @@
 				06B3E50627C862510007D540 /* TISDetailViewController.m */,
 				069405932835F30700F89F7A /* TISButtonDetailViewController.h */,
 				069405942835F30700F89F7A /* TISButtonDetailViewController.m */,
+				06E2A25928F1479D00E65E1E /* TISSingleTextAreaVC.h */,
+				06E2A25A28F1479D00E65E1E /* TISSingleTextAreaVC.m */,
 				06B3E50827C87DE60007D540 /* TISMBHUD.h */,
 				06B3E50927C87DE60007D540 /* TISMBHUD.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
@@ -405,6 +410,7 @@
 				06B3E50727C862510007D540 /* TISDetailViewController.m in Sources */,
 				6003F5A7195388D20070C39A /* TISViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				06E2A25B28F1479D00E65E1E /* TISSingleTextAreaVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -44,6 +44,13 @@ NS_ASSUME_NONNULL_BEGIN
 /// 默认显示的文字
 @property (nonatomic, copy) NSString *defaultText;
 
+
+/// 取消输入框的第一响应事件
+- (void)cancelFirstResponder;
+
+/// 更新子组件frame
+- (void)updateSubFrame;
+
 @end
 
 NS_ASSUME_NONNULL_END
