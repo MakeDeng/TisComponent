@@ -28,12 +28,15 @@
 #import "TISHorButtonScroll.h"
 #import "TISInput.h"
 #import "TISInputSection.h"
+#import "TISLoading.h"
+#import "TISNoticeBar.h"
 #import "TISPhone.h"
 #import "TISRadio.h"
 #import "TISResetChoose.h"
 #import "TISSearch.h"
 #import "TISSwitch.h"
 #import "TISTextArea.h"
+#import "TISToast.h"
 #import "TISTool.h"
 
 FOUNDATION_EXPORT double TisComponentVersionNumber;

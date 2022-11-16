@@ -91,6 +91,11 @@
         // 文本域多行输入组件（可计数与不可计数）
         [self.resetButton setTitle:@"切换可/不可计数" forState:UIControlStateNormal];
     }
+    
+    if ([componentName isEqualToString:@"TISLoading"]) {
+        // loading组件
+        [self.resetButton setTitle:@"停止动画" forState:UIControlStateNormal];
+    }
 }
 
 /**
@@ -123,6 +128,14 @@
     if ([componentName isEqualToString:@"TISTextArea"]) {
         // 文本域多行输入组件（可计数与不可计数）
         self.tisTextArea.showNumber = !self.tisTextArea.showNumber;
+    }
+    
+    if ([componentName isEqualToString:@"TISLoading"]) {
+        // loading组件
+        TISLoading *pointLoading = (TISLoading *)[self.view viewWithTag:1];
+        [pointLoading endLoading];
+        TISLoading *pointLoadingSmall = (TISLoading *)[self.view viewWithTag:2];
+        [pointLoadingSmall endLoading];
     }
 }
 
@@ -499,6 +512,137 @@
         horizonDescSwitch.swithType = SWITCH_DESC;
         horizonDescSwitch.titleLabel.text = @"左右布局";
         horizonDescSwitch.descLabel.text = @"信息未开启";
+    }
+    
+    // loading组件
+    if ([componentName isEqualToString:@"TISLoading"]) {
+        self.view.backgroundColor = [UIColor whiteColor];
+        
+        // 默认菊花loading
+        TISLoading *normalLoading = [[TISLoading alloc] initWithFrame:CGRectMake((TIS_Screen_Width - 40) / 2, TIS_NAV_HEIGHT + 30, 40, 40)];
+        normalLoading.loadingSize = LOADING_SIZE_NORMAL;
+        [self.view addSubview:normalLoading];
+        
+        // 小尺寸菊花loading
+        TISLoading *activitySmallLoading = [[TISLoading alloc] initWithFrame:CGRectMake((TIS_Screen_Width - 24) / 2, TIS_NAV_HEIGHT + 30 + (20 + 40) + 8, 24, 24)];
+        activitySmallLoading.loadingSize = LOADING_SIZE_SMALL;
+        [self.view addSubview:activitySmallLoading];
+        
+        // 默认菊花横向布局loading
+        TISLoading *activityHorLoading = [[TISLoading alloc] initWithFrame:CGRectMake((TIS_Screen_Width - 100) / 2, TIS_NAV_HEIGHT + 30 + (20 + 40) * 2, 100, 40)];
+        activityHorLoading.activityIndicator.color = [UIColor blueColor];
+        activityHorLoading.loadingType = LOADING_NORMAL_HORRIZONTAL;
+        activityHorLoading.loadingSize = LOADING_SIZE_NORMAL;
+        [self.view addSubview:activityHorLoading];
+        
+        // 小尺寸菊花横向布局loading
+        TISLoading *activitySmallHorLoading = [[TISLoading alloc] initWithFrame:CGRectMake((TIS_Screen_Width - 100) / 2, TIS_NAV_HEIGHT + 30 + (20 + 40) * 3, 100, 24)];
+        activitySmallHorLoading.loadingType = LOADING_NORMAL_HORRIZONTAL;
+        activitySmallHorLoading.loadingSize = LOADING_SIZE_SMALL;
+        activitySmallHorLoading.activityIndicator.color = [UIColor blueColor];
+        [self.view addSubview:activitySmallHorLoading];
+        
+        // 默认菊花纵向布局loading
+        TISLoading *activityVerLoading = [[TISLoading alloc] initWithFrame:CGRectMake((TIS_Screen_Width - 100) / 2, TIS_NAV_HEIGHT + 30 + (20 + 40) * 4, 100, 70)];
+        activityVerLoading.activityIndicator.color = [UIColor redColor];
+        activityVerLoading.loadingType = LOADING_NORMAL_VERTICALL;
+        activityVerLoading.loadingSize = LOADING_SIZE_NORMAL;
+        [self.view addSubview:activityVerLoading];
+        
+        // 小尺寸菊花纵向布局loading
+        TISLoading *activitySmallVerLoading = [[TISLoading alloc] initWithFrame:CGRectMake((TIS_Screen_Width - 100) / 2, TIS_NAV_HEIGHT + 30 + (20 + 40) * 5.5, 100, 70)];
+        activitySmallVerLoading.activityIndicator.color = [UIColor redColor];
+        activitySmallVerLoading.loadingType = LOADING_NORMAL_VERTICALL;
+        activitySmallVerLoading.loadingSize = LOADING_SIZE_SMALL;
+        [self.view addSubview:activitySmallVerLoading];
+        
+        // 进度条loading
+        TISLoading *progressLoading = [[TISLoading alloc] initWithFrame:CGRectMake((TIS_Screen_Width - 200) / 2, TIS_NAV_HEIGHT + 30 + (20 + 40) * 7, 200, 2)];
+        progressLoading.loadingType = LOADING_PROGRESS;
+        progressLoading.progress.progress = 0.6;
+        [self.view addSubview:progressLoading];
+        
+        // 大尺寸三个点加载loading
+        TISLoading *pointLoading = [[TISLoading alloc] initWithFrame:CGRectMake((TIS_Screen_Width - 50) / 2, TIS_NAV_HEIGHT + 30 + (20 + 40) * 7 + 40, 50, 10)];
+        pointLoading.tag = 1;
+        pointLoading.loadingType = LOADING_POINT;
+        [self.view addSubview:pointLoading];
+        
+        // 小尺寸三个点加载loading
+        TISLoading *pointLoadingSmall = [[TISLoading alloc] initWithFrame:CGRectMake((TIS_Screen_Width - 40) / 2, TIS_NAV_HEIGHT + 30 + (20 + 40) * 7 + 90, 40, 8)];
+        pointLoadingSmall.tag = 2;
+        pointLoadingSmall.loadingType = LOADING_POINT;
+        pointLoadingSmall.loadingSize = LOADING_SIZE_SMALL;
+        [self.view addSubview:pointLoadingSmall];
+    }
+    
+    // toast组件
+    if ([componentName isEqualToString:@"TISToast"]) {
+        NSArray *array = @[
+            @"目标视图显示纯文本toast",
+            @"目标视图显示纯文本toast超长",
+            @"window上显示纯文本toast",
+            @"window上显示纯文本toast超长",
+            @"加载中toast",
+            @"带icon的toast",
+            @"带icon的toast超长",
+        ];
+        for (int i=0; i<array.count; i++) {
+            UIButton *toastButton = [UIButton buttonWithType:UIButtonTypeCustom];
+            toastButton.frame = CGRectMake(40, TIS_NAV_HEIGHT + 30+ 70 * i, TIS_Screen_Width - 40 * 2, 40);
+            [toastButton setTitle:array[i] forState:UIControlStateNormal];
+            toastButton.titleLabel.font = [UIFont systemFontOfSize:16];
+            toastButton.backgroundColor = COLOR_PURPLE_5;
+            toastButton.layer.cornerRadius = 4;
+            toastButton.layer.masksToBounds = YES;
+            toastButton.tag = i + 1;
+            [toastButton addTarget:self action:@selector(toastButtonClicked:) forControlEvents:UIControlEventTouchUpInside];
+            [self.view addSubview:toastButton];
+        }
+    }
+    
+    // 通知栏组件
+    if ([componentName isEqualToString:@"TISNoticeBar"]) {
+        
+    }
+}
+
+/**
+ *  toast按钮点击事件
+ */
+- (void)toastButtonClicked:(UIButton *)button {
+    NSString *btnStr = button.titleLabel.text;
+    NSString *longStr = [NSString stringWithFormat:@"%@了解撒打发克莱斯勒发撒拉法基了萨法酸辣粉大家撒两份记拉萨飞机杀了附近啊数量咖啡机考拉撒了动静分离卡上建立分两节课啥奖励开发及垃圾阿什拉夫金石可镂", btnStr];
+    switch (button.tag) {
+        case 1:
+            [TISToast showToastTo:self.view text:btnStr];
+            break;
+        case 2:
+            [TISToast showToastTo:self.view text:longStr];
+            break;
+        case 3:
+            [TISToast showToast:btnStr];
+            break;
+        case 4:
+            [TISToast showToast:longStr];
+            break;
+        case 5:
+        {
+            TISToast *toast = [TISToast showLoading:@"加载中..."];
+            // 2秒后移除视图
+            dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(5.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^(void) {
+                [toast removeFromSuperview];
+            });
+        }
+            break;
+        case 6:
+            [TISToast showIcon:[UIImage imageNamed:@"AppIcon"] text:btnStr];
+            break;
+        case 7:
+            [TISToast showIcon:[UIImage imageNamed:@"AppIcon"] text:longStr];
+            break;
+        default:
+            break;
     }
 }
 

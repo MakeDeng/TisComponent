@@ -288,7 +288,7 @@
         return 0.00;
     }
     CGRect rect = [label.text boundingRectWithSize:size options:NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName:label.font} context:nil];
-    return rect.size.width;
+    return rect.size.width + 5;
 }
 
 /**

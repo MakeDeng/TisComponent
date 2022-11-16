@@ -85,5 +85,8 @@
 #import "TISRadio.h"
 #import "TISInput.h"
 #import "TISSwitch.h"
+#import "TISLoading.h"
+#import "TISToast.h"
+#import "TISNoticeBar.h"
 
 #endif /* TisHeader_h */

@@ -135,6 +135,18 @@
                 @"component_title": @"TISSwitch",
                 @"component_desc": @"开关组件",
             },
+            @{
+                @"component_title": @"TISLoading",
+                @"component_desc": @"loading组件",
+            },
+            @{
+                @"component_title": @"TISToast",
+                @"component_desc": @"toast组件",
+            },
+            @{
+                @"component_title": @"TISNoticeBar",
+                @"component_desc": @"通知栏组件",
+            },
         ];
     }
     return _componentArray;
