@@ -10,6 +10,9 @@
 #endif
 #endif
 
+#import "TISActionSheet.h"
+#import "TISActionSheetTableViewCell.h"
+#import "TISBadge.h"
 #import "TISBaseView.h"
 #import "TISChooseArea.h"
 #import "TISChooseAreaTableViewCell.h"

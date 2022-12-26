@@ -147,6 +147,14 @@
                 @"component_title": @"TISNoticeBar",
                 @"component_desc": @"通知栏组件",
             },
+            @{
+                @"component_title": @"TISBadge",
+                @"component_desc": @"徽标组件",
+            },
+            @{
+                @"component_title": @"TISActionSheet",
+                @"component_desc": @"动作面板组件",
+            },
         ];
     }
     return _componentArray;

@@ -88,5 +88,7 @@
 #import "TISLoading.h"
 #import "TISToast.h"
 #import "TISNoticeBar.h"
+#import "TISBadge.h"
+#import "TISActionSheet.h"
 
 #endif /* TisHeader_h */

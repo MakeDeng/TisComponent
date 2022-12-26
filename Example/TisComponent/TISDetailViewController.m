@@ -96,6 +96,11 @@
         // loading组件
         [self.resetButton setTitle:@"停止动画" forState:UIControlStateNormal];
     }
+    
+    if ([componentName isEqualToString:@"TISActionSheet"]) {
+        // TISActionSheet组件
+        [self.resetButton setTitle:@"显示面板" forState:UIControlStateNormal];
+    }
 }
 
 /**
@@ -136,6 +141,12 @@
         [pointLoading endLoading];
         TISLoading *pointLoadingSmall = (TISLoading *)[self.view viewWithTag:2];
         [pointLoadingSmall endLoading];
+    }
+    
+    if ([componentName isEqualToString:@"TISActionSheet"]) {
+        // TISActionSheet组件
+        TISActionSheet *actionSheet = [[UIApplication sharedApplication].delegate.window viewWithTag:99];
+        [actionSheet show];
     }
 }
 
@@ -604,6 +615,103 @@
     // 通知栏组件
     if ([componentName isEqualToString:@"TISNoticeBar"]) {
         
+    }
+    
+    // 徽标组件
+    if ([componentName isEqualToString:@"TISBadge"]) {
+        NSArray *array = @[
+            @"圆点徽标",
+            @"数字徽标",
+            @"两位数字徽标",
+            @"超出数字徽标",
+            @"自定义徽标1",
+            @"自定义徽标2",
+        ];
+        for (int i=0; i<array.count; i++) {
+            UIButton *toastButton = [UIButton buttonWithType:UIButtonTypeCustom];
+            toastButton.frame = CGRectMake(40, TIS_NAV_HEIGHT + 30+ 70 * i, TIS_Screen_Width - 40 * 2, 40);
+            [toastButton setTitle:array[i] forState:UIControlStateNormal];
+            toastButton.titleLabel.font = [UIFont systemFontOfSize:16];
+            toastButton.backgroundColor = COLOR_PURPLE_5;
+            toastButton.layer.cornerRadius = 4;
+            toastButton.tag = i + 1;
+            [toastButton addTarget:self action:@selector(toastButtonClicked:) forControlEvents:UIControlEventTouchUpInside];
+            [self.view addSubview:toastButton];
+            
+            switch (i) {
+                case 0:
+                {
+                    // 圆点徽标
+                    TISBadge *badge = [TISBadge badge:BADGE_POINT text:nil];
+                    badge.frame = CGRectMake(toastButton.frame.size.width - badge.frame.size.width + 4, -2, badge.frame.size.width, badge.frame.size.height);
+                    [toastButton addSubview:badge];
+                }
+                    break;
+                case 1:
+                {
+                    // 数字徽标
+                    TISBadge *badge = [TISBadge badge:BADGE_NUMBER text:@"8"];
+                    badge.frame = CGRectMake(toastButton.frame.size.width - 12, -4, badge.frame.size.width, badge.frame.size.height);
+                    [toastButton addSubview:badge];
+                }
+                    break;
+                case 2:
+                {
+                    // 两位数字徽标
+                    TISBadge *badge = [TISBadge badge:BADGE_NUMBER text:@"99"];
+                    badge.frame = CGRectMake(toastButton.frame.size.width - 12, -4, badge.frame.size.width, badge.frame.size.height);
+                    [toastButton addSubview:badge];
+                }
+                    break;
+                case 3:
+                {
+                    // 超出数字徽标
+                    TISBadge *badge = [TISBadge badge:BADGE_NUMBER text:@"107"];
+                    badge.frame = CGRectMake(toastButton.frame.size.width - 12, -4, badge.frame.size.width, badge.frame.size.height);
+                    [toastButton addSubview:badge];
+                }
+                    break;
+                case 4:
+                {
+                    // 超出数字徽标
+                    TISBadge *badge = [TISBadge badge:BADGE_NUMBER text:@"Hot"];
+                    badge.frame = CGRectMake(toastButton.frame.size.width - 12, -4, badge.frame.size.width, badge.frame.size.height);
+                    [toastButton addSubview:badge];
+                }
+                    break;
+                case 5:
+                {
+                    // 超出数字徽标
+                    TISBadge *badge = [TISBadge badge:BADGE_NUMBER text:@"New"];
+                    badge.frame = CGRectMake(toastButton.frame.size.width - 12, -4, badge.frame.size.width, badge.frame.size.height);
+                    [toastButton addSubview:badge];
+                }
+                    break;
+                default:
+                    break;
+            }
+        }
+    }
+    
+    // 动作面板组件
+    if ([componentName isEqualToString:@"TISActionSheet"]) {
+        TISActionSheet *actionSheet = [[TISActionSheet alloc] initWithFrame:CGRectMake(0, 0, TIS_Screen_Width, TIS_Screen_Height)];
+        actionSheet.tag = 99;
+        actionSheet.TISActionSheetBlock = ^(NSDictionary * _Nonnull dic) {
+            NSLog(@"回调传参：%@", dic);
+        };
+        actionSheet.dataDictionary = [[NSMutableDictionary alloc] initWithDictionary:@{
+            @"desc": @"这里是一段描述，描述内容距两侧最小间距为20px，超过折行居中对齐显示",
+            @"list": @[
+                @{@"title": @"选项一", @"type": @"normal"},
+                @{@"title": @"选项二", @"type": @"desc", @"desc": @"描述内容"},
+                @{@"title": @"警示选项", @"type": @"alert"},
+                @{@"title": @"禁用选项", @"type": @"disable"},
+                @{@"title": @"", @"type": @"loading"},
+                @{@"title": @"带icon选项距离两侧最小间距为20px，超出用…", @"type": @"icon", @"image": [UIImage imageNamed:@"AppIcon"]},
+            ]
+        }];
+        [[UIApplication sharedApplication].delegate.window addSubview:actionSheet];
     }
 }
 
