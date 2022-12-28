@@ -369,6 +369,23 @@
     lable.attributedText = attributedString;
 }
 
+/**
+ *  设置行高(需先设置文字)
+ *
+ *  @param lable        要设置的lable
+ *  @param lineHeight   要设置的行高
+ */
++ (void)tisSetLineHeight:(UILabel *)lable lineHeight:(CGFloat)lineHeight {
+    NSMutableParagraphStyle *paragraphStyle = [NSMutableParagraphStyle new];
+    paragraphStyle.maximumLineHeight = lineHeight;
+    paragraphStyle.minimumLineHeight = lineHeight;
+    NSMutableDictionary *attributes = [NSMutableDictionary dictionary];
+    [attributes setObject:paragraphStyle forKey:NSParagraphStyleAttributeName];
+    CGFloat baselineOffset = (lineHeight - lable.font.lineHeight) / 4;
+    [attributes setObject:@(baselineOffset) forKey:NSBaselineOffsetAttributeName];
+    lable.attributedText = [[NSAttributedString alloc] initWithString:lable.text attributes:attributes];
+}
+
 
 
 #pragma mark - 颜色相关

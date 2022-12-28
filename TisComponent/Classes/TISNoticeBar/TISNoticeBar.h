@@ -8,9 +8,10 @@
 #import <UIKit/UIKit.h>
 
 typedef NS_ENUM(NSInteger, NOTICE_BAR_TYPE) {
-    NOTICE_BAR_NORMAL,    // 默认toast(纯文本)
-    NOTICE_BAR_LOADING,   // 加载中toast
-    NOTICE_BAR_ICON,      // 带icon的toast
+    NOTICE_BAR_NORMAL,          // 默认普通消息
+    NOTICE_BAR_ALERT_YELLOW,    // 黄色提醒消息
+    NOTICE_BAR_ALERT_RED,       // 红色提醒消息
+    NOTICE_BAR_NOTICE,          // 通知公告消息
 };
 
 NS_ASSUME_NONNULL_BEGIN
@@ -29,16 +30,24 @@ NS_ASSUME_NONNULL_BEGIN
 /// 通知栏文字label
 @property (nonatomic, strong) UILabel *textLabel;
 
-/// 右侧操作视图
-@property (nonatomic, strong) UIView *doView;
+/// 滚动定时器
+@property (nonatomic, strong) NSTimer *textTimer;
+
+/// 定时器滚动的占位宽度
+@property (nonatomic, assign) CGFloat spaceWidth;
+
+/// 右侧配置按钮时
+@property (nonatomic, copy) void (^noticeBarRightBlock)(void);
 
 
 
-/// 显示通知栏
-/// @param icon 通知栏左侧icon图标
+/// 设置通知栏视图
+/// @param icon 通知栏左侧icon图标（可传入NSString或者UIImage，NSString类型支持”alert：警告类型“和”notice：通知公告类型“）
+/// @param type 通知类型
 /// @param text 通知栏文字
-/// @param doView 通知栏右侧自定义视图（可传空）
-+ (instancetype)showNoticeBar:(UIImageView *)icon text:(NSString *)text doView:(UIView *)doView;
+/// @param doView 通知栏右侧自定义视图（可传空，可传入NSString或者自定义的UIView视图，NSString类型支持”close：关闭按钮“和”text：查看详情按钮“和”arrow：右箭头“）
+/// @param moreLine 文字超长时是否折行显示
+- (instancetype)showNoticeBarWithIcon:(id)icon type:(NOTICE_BAR_TYPE)type text:(NSString *)text doView:(nullable id)doView moreLine:(BOOL)moreLine;
 
 @end
 

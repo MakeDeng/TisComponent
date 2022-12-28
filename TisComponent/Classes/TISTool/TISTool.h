@@ -163,6 +163,14 @@ NS_ASSUME_NONNULL_BEGIN
  */
 + (void)tisSetLineSpace:(UILabel *)lable space:(CGFloat)space;
 
+/**
+ *  设置行高(需先设置文字)
+ *
+ *  @param lable        要设置的lable
+ *  @param lineHeight   要设置的行高
+ */
++ (void)tisSetLineHeight:(UILabel *)lable lineHeight:(CGFloat)lineHeight;
+
 
 
 #pragma mark - 颜色相关

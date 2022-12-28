@@ -614,7 +614,96 @@
     
     // 通知栏组件
     if ([componentName isEqualToString:@"TISNoticeBar"]) {
+        NSArray *array = @[
+            @{
+                @"icon": @"alert",
+                @"type": [[NSNumber alloc] initWithFloat:NOTICE_BAR_NORMAL],
+                @"text": @"这是一条普通的通知信息",
+                @"doView": @"",
+                @"moreLine": [[NSNumber alloc] initWithBool:YES],
+            },
+            @{
+                @"icon": @"alert",
+                @"type": [[NSNumber alloc] initWithFloat:NOTICE_BAR_NORMAL],
+                @"text": @"这是一条普通的通知信息",
+                @"doView": @"close",
+                @"moreLine": [[NSNumber alloc] initWithBool:YES],
+            },
+            @{
+                @"icon": @"alert",
+                @"type": [[NSNumber alloc] initWithFloat:NOTICE_BAR_ALERT_YELLOW],
+                @"text": @"这是一条提醒状态的通知信息",
+                @"doView": @"",
+                @"moreLine": [[NSNumber alloc] initWithBool:YES],
+            },
+            @{
+                @"icon": @"alert",
+                @"type": [[NSNumber alloc] initWithFloat:NOTICE_BAR_ALERT_RED],
+                @"text": @"这是一条警示状态的通知信息",
+                @"doView": @"",
+                @"moreLine": [[NSNumber alloc] initWithBool:YES],
+            },
+            @{
+                @"icon": @"notice",
+                @"type": [[NSNumber alloc] initWithFloat:NOTICE_BAR_NOTICE],
+                @"text": @"这是一条公告通知信息这是一条公告通知信息这是一条公告通知信息",
+                @"doView": @"",
+                @"moreLine": [[NSNumber alloc] initWithBool:YES],
+            },
+            @{
+                @"icon": @"alert",
+                @"type": [[NSNumber alloc] initWithFloat:NOTICE_BAR_NORMAL],
+                @"text": @"配置文字按钮通知消息",
+                @"doView": @"text",
+                @"moreLine": [[NSNumber alloc] initWithBool:YES],
+            },
+            @{
+                @"icon": @"alert",
+                @"type": [[NSNumber alloc] initWithFloat:NOTICE_BAR_NORMAL],
+                @"text": @"配置右侧图标通知消息",
+                @"doView": @"arrow",
+                @"moreLine": [[NSNumber alloc] initWithBool:YES],
+            },
+            @{
+                @"icon": @"alert",
+                @"type": [[NSNumber alloc] initWithFloat:NOTICE_BAR_NORMAL],
+                @"text": @"折行显示这是一条普通的通知信息这是一条普通的通知信息",
+                @"doView": @"close",
+                @"moreLine": [[NSNumber alloc] initWithBool:YES],
+            },
+            @{
+                @"icon": @"alert",
+                @"type": [[NSNumber alloc] initWithFloat:NOTICE_BAR_NORMAL],
+                @"text": @"折行滚动显示这是一条普通的通知信息这是一条普通的通知信息这是一条普通的通知信息这是一条普通的通知信息这是一条普通的通知信息这是一条普通的通知信息这是一条普通的通知信息这是一条普通的通知信息这是一条普通的通知信息",
+                @"doView": @"close",
+                @"moreLine": [[NSNumber alloc] initWithBool:YES],
+            },
+            @{
+                @"icon": @"alert",
+                @"type": [[NSNumber alloc] initWithFloat:NOTICE_BAR_NORMAL],
+                @"text": @"这是一条普通的通知信息这是一条普通的通知信息这是一条1111",
+                @"doView": @"close",
+                @"moreLine": [[NSNumber alloc] initWithBool:NO],
+            },
+        ];
         
+        UIScrollView *scrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(0, TIS_NAV_HEIGHT, TIS_Screen_Width, TIS_Screen_Height - TIS_NAV_HEIGHT - TIS_BOTTOM_SAFE_HEIGHT)];
+        scrollView.contentSize = CGSizeMake(TIS_Screen_Width, TIS_Screen_Height * 2);
+        [self.view addSubview:scrollView];
+        
+        for (int i=0; i<array.count; i++) {
+            TISNoticeBar *noticeBar = [[TISNoticeBar alloc] init];
+            noticeBar.frame = CGRectMake(40, 30 + 50 * i, TIS_Screen_Width - 40 * 2, 38);
+            if (i > 4) {
+                noticeBar.frame = CGRectMake(40, 30 + 50 * (i + (i-4)), TIS_Screen_Width - 40 * 2, 38);
+            }
+            NSDictionary *dic = array[i];
+            [noticeBar showNoticeBarWithIcon:dic[@"icon"] type:[dic[@"type"] floatValue] text:dic[@"text"] doView:dic[@"doView"] moreLine:[dic[@"moreLine"] boolValue]];
+            noticeBar.noticeBarRightBlock = ^{
+                NSLog(@"操作按钮点击了");
+            };
+            [scrollView addSubview:noticeBar];
+        }
     }
     
     // 徽标组件
