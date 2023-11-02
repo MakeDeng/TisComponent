@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		067C163B296E4C7F00CA1E22 /* TISDetailOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 067C163A296E4C7F00CA1E22 /* TISDetailOneViewController.m */; };
 		069405952835F30700F89F7A /* TISButtonDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 069405942835F30700F89F7A /* TISButtonDetailViewController.m */; };
 		06B3E50727C862510007D540 /* TISDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06B3E50627C862510007D540 /* TISDetailViewController.m */; };
 		06B3E50A27C87DE60007D540 /* TISMBHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 06B3E50927C87DE60007D540 /* TISMBHUD.m */; };
@@ -40,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		067C1639296E4C7F00CA1E22 /* TISDetailOneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TISDetailOneViewController.h; sourceTree = "<group>"; };
+		067C163A296E4C7F00CA1E22 /* TISDetailOneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TISDetailOneViewController.m; sourceTree = "<group>"; };
 		069405932835F30700F89F7A /* TISButtonDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TISButtonDetailViewController.h; sourceTree = "<group>"; };
 		069405942835F30700F89F7A /* TISButtonDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TISButtonDetailViewController.m; sourceTree = "<group>"; };
 		06B3E50527C862510007D540 /* TISDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TISDetailViewController.h; sourceTree = "<group>"; };
@@ -149,6 +152,8 @@
 				6003F5A6195388D20070C39A /* TISViewController.m */,
 				06B3E50527C862510007D540 /* TISDetailViewController.h */,
 				06B3E50627C862510007D540 /* TISDetailViewController.m */,
+				067C1639296E4C7F00CA1E22 /* TISDetailOneViewController.h */,
+				067C163A296E4C7F00CA1E22 /* TISDetailOneViewController.m */,
 				069405932835F30700F89F7A /* TISButtonDetailViewController.h */,
 				069405942835F30700F89F7A /* TISButtonDetailViewController.m */,
 				06E2A25928F1479D00E65E1E /* TISSingleTextAreaVC.h */,
@@ -407,6 +412,7 @@
 				069405952835F30700F89F7A /* TISButtonDetailViewController.m in Sources */,
 				6003F59E195388D20070C39A /* TISAppDelegate.m in Sources */,
 				06B3E50A27C87DE60007D540 /* TISMBHUD.m in Sources */,
+				067C163B296E4C7F00CA1E22 /* TISDetailOneViewController.m in Sources */,
 				06B3E50727C862510007D540 /* TISDetailViewController.m in Sources */,
 				6003F5A7195388D20070C39A /* TISViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,

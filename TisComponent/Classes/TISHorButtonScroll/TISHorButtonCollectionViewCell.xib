@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -22,7 +22,7 @@
                         <rect key="frame" x="10" y="0.0" width="202" height="63"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O5L-TZ-hfc">
-                                <rect key="frame" x="10" y="21" width="164" height="21"/>
+                                <rect key="frame" x="10" y="21" width="166" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="i0R-rb-NyP"/>
                                 </constraints>
@@ -31,10 +31,10 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ciX-SG-kvj">
-                                <rect key="frame" x="179" y="24" width="15" height="15"/>
+                                <rect key="frame" x="180" y="25.5" width="12" height="12"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="15" id="QZS-9J-MKZ"/>
-                                    <constraint firstAttribute="width" constant="15" id="lex-bn-iUq"/>
+                                    <constraint firstAttribute="height" constant="12" id="QZS-9J-MKZ"/>
+                                    <constraint firstAttribute="width" constant="12" id="lex-bn-iUq"/>
                                 </constraints>
                             </imageView>
                         </subviews>
@@ -42,8 +42,8 @@
                         <constraints>
                             <constraint firstItem="ciX-SG-kvj" firstAttribute="centerY" secondItem="KgS-LN-mZG" secondAttribute="centerY" id="0uq-9G-rpQ"/>
                             <constraint firstItem="O5L-TZ-hfc" firstAttribute="leading" secondItem="KgS-LN-mZG" secondAttribute="leading" constant="10" id="BUB-ho-R2q"/>
-                            <constraint firstItem="ciX-SG-kvj" firstAttribute="leading" secondItem="O5L-TZ-hfc" secondAttribute="trailing" constant="5" id="dYj-YL-KpL"/>
-                            <constraint firstAttribute="trailing" secondItem="ciX-SG-kvj" secondAttribute="trailing" constant="8" id="dtv-g2-OJx"/>
+                            <constraint firstItem="ciX-SG-kvj" firstAttribute="leading" secondItem="O5L-TZ-hfc" secondAttribute="trailing" constant="4" id="dYj-YL-KpL"/>
+                            <constraint firstAttribute="trailing" secondItem="ciX-SG-kvj" secondAttribute="trailing" constant="10" id="dtv-g2-OJx"/>
                             <constraint firstItem="O5L-TZ-hfc" firstAttribute="centerY" secondItem="KgS-LN-mZG" secondAttribute="centerY" id="pRv-Z9-qdM"/>
                         </constraints>
                     </view>
@@ -59,6 +59,7 @@
             <size key="customSize" width="213" height="63"/>
             <connections>
                 <outlet property="bgView" destination="KgS-LN-mZG" id="1ss-8V-gnq"/>
+                <outlet property="bgViewLeft" destination="mJX-D1-fhE" id="puO-8J-dn6"/>
                 <outlet property="closeImageView" destination="ciX-SG-kvj" id="Fm1-Gh-XX5"/>
                 <outlet property="nameLabel" destination="O5L-TZ-hfc" id="Cqt-yG-Rrs"/>
             </connections>

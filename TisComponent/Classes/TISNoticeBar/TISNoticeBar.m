@@ -80,7 +80,7 @@
             UIButton *doButton = [UIButton buttonWithType:UIButtonTypeCustom];
             if ([doView isEqualToString:@"close"]) {
 //                [doButton setImage:[UIImage imageNamed:@"notice_bar_close"] forState:UIControlStateNormal];
-                [doButton setImage:[UIImage imageNamed:TISCommonSrcName(@"button_close")]?:[UIImage imageNamed:TISCommonFrameworkSrcName(@"button_close")] forState:UIControlStateNormal];
+                [doButton setImage:[UIImage imageNamed:TISCommonSrcName(@"tis_button_close")]?:[UIImage imageNamed:TISCommonFrameworkSrcName(@"tis_button_close")] forState:UIControlStateNormal];
                 doButton.frame = CGRectMake(width - 16 - 16, 11, 16, 16);
                 right += 16 + 16;
             } else if ([doView isEqualToString:@"text"]) {
@@ -91,7 +91,7 @@
                 right += 60 + 16;
             } else if ([doView isEqualToString:@"arrow"]) {
 //                [doButton setImage:[UIImage imageNamed:@"notice_bar_arrow"] forState:UIControlStateNormal];
-                [doButton setImage:[UIImage imageNamed:TISCommonSrcName(@"selected")]?:[UIImage imageNamed:TISCommonFrameworkSrcName(@"selected")] forState:UIControlStateNormal];
+                [doButton setImage:[UIImage imageNamed:TISCommonSrcName(@"tis_selected")]?:[UIImage imageNamed:TISCommonFrameworkSrcName(@"tis_selected")] forState:UIControlStateNormal];
                 doButton.frame = CGRectMake(width - 16 - 16, 11, 16, 16);
                 right += 16 + 16;
             }
@@ -173,7 +173,7 @@
 - (UIImageView *)iconImageView {
     if (!_iconImageView) {
         _iconImageView = [UIImageView new];
-        _iconImageView.image = [UIImage imageNamed:TISCommonSrcName(@"checkbox_selected")]?:[UIImage imageNamed:TISCommonFrameworkSrcName(@"checkbox_selected")];
+        _iconImageView.image = [UIImage imageNamed:TISCommonSrcName(@"tis_checkbox_selected")]?:[UIImage imageNamed:TISCommonFrameworkSrcName(@"tis_checkbox_selected")];
     }
     return _iconImageView;
 }

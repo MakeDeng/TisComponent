@@ -47,7 +47,7 @@ static CGFloat velSpace = 8;  // 拓展组件与输入框之间的纵向间距�
 
 - (void)layoutSubviews {
     switch (self.inputType) {
-        case NORMAL:
+        case NORMAL_INPUT:
             // 普通输入框
             self.inputTextFiled.frame = CGRectMake(self.horizontalSpace, self.verticalSpace, self.frame.size.width - self.horizontalSpace * 2, self.frame.size.height - self.verticalSpace * 2);
             break;

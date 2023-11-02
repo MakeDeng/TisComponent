@@ -64,7 +64,7 @@
 
 - (TISResetChoose *)footerView {
     if (!_footerView) {
-        _footerView = [[TISResetChoose alloc] initWithFrame:CGRectMake(0, self.viewFrame.size.height - 64, self.viewFrame.size.width, 64)];
+        _footerView = [[TISResetChoose alloc] initWithFrame:CGRectMake(0, self.viewFrame.size.height - 76, self.viewFrame.size.width, 76)];
         _footerView.backgroundColor = [UIColor whiteColor];
         TIS_WEAKSELF
         _footerView.resetClicked = ^{

@@ -200,8 +200,9 @@
     
     // 重置组件
     if ([componentName isEqualToString:@"TISResetChoose"]) {
-        TISResetChoose *resetChoose = [[TISResetChoose alloc] initWithFrame:CGRectMake(0, TIS_Screen_Height / 2 - 32, TIS_Screen_Width, 64)];
+        TISResetChoose *resetChoose = [[TISResetChoose alloc] initWithFrame:CGRectMake(0, TIS_Screen_Height / 2 - 32, TIS_Screen_Width, 76)];
         resetChoose.backgroundColor = [UIColor whiteColor];
+        resetChoose.chooseNumber = 5;
         [self.view addSubview:resetChoose];
         resetChoose.resetClicked = ^{
             [TISMBHUD showTostHud:@"重置按钮点击了"];

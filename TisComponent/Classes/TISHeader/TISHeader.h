@@ -90,5 +90,7 @@
 #import "TISNoticeBar.h"
 #import "TISBadge.h"
 #import "TISActionSheet.h"
+#import "TISEmptyState.h"
+#import "TISModal.h"
 
 #endif /* TisHeader_h */

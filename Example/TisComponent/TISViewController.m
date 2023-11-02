@@ -9,6 +9,7 @@
 #import "TISViewController.h"
 #import "TISHeader.h"
 #import "TISDetailViewController.h"
+#import "TISDetailOneViewController.h"
 #import "TISButtonDetailViewController.h"
 
 @interface TISViewController () <UITableViewDelegate, UITableViewDataSource>
@@ -58,9 +59,14 @@
         TISButtonDetailViewController *vc = [TISButtonDetailViewController new];
         vc.componentDic = dictionary;
         [self.navigationController pushViewController:vc animated:YES];
-    } else {
+    } else if (indexPath.row <= 17) {
         // TIS组件
         TISDetailViewController *vc = [TISDetailViewController new];
+        vc.componentDic = dictionary;
+        [self.navigationController pushViewController:vc animated:YES];
+    } else {
+        // 缺省页及之后的组件
+        TISDetailOneViewController *vc = [TISDetailOneViewController new];
         vc.componentDic = dictionary;
         [self.navigationController pushViewController:vc animated:YES];
     }
@@ -154,6 +160,14 @@
             @{
                 @"component_title": @"TISActionSheet",
                 @"component_desc": @"动作面板组件",
+            },
+            @{
+                @"component_title": @"TISEmptyState",
+                @"component_desc": @"缺省页组件",
+            },
+            @{
+                @"component_title": @"TISModal",
+                @"component_desc": @"对话框组件",
             },
         ];
     }

@@ -94,7 +94,7 @@
         case 7:
         {
             self.selectImageView.hidden = NO;
-            self.selectImageView.image = [UIImage imageNamed:TISCommonSrcName(@"un_selected")]?:[UIImage imageNamed:TISCommonFrameworkSrcName(@"un_selected")];
+            self.selectImageView.image = [UIImage imageNamed:TISCommonSrcName(@"tis_un_selected")]?:[UIImage imageNamed:TISCommonFrameworkSrcName(@"tis_un_selected")];
             
             self.numberLabel.hidden = YES;
             self.leftLineView.hidden = YES;
@@ -110,7 +110,7 @@
         case 8:
         {
             self.selectImageView.hidden = NO;
-            self.selectImageView.image = [UIImage imageNamed:TISCommonSrcName(@"selected")]?:[UIImage imageNamed:TISCommonFrameworkSrcName(@"selected")];
+            self.selectImageView.image = [UIImage imageNamed:TISCommonSrcName(@"tis_selected")]?:[UIImage imageNamed:TISCommonFrameworkSrcName(@"tis_selected")];
             self.numberLabel.hidden = YES;
             self.leftLineView.hidden = YES;
             self.nameLeft.constant = 12;

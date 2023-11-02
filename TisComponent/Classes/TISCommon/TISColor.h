@@ -32,7 +32,7 @@
 
 #pragma mark - 中性色 Medium
 
-#define COLOR_M1 TIS_HEX(0x0F1114)
+#define COLOR_M1 TIS_HEX(0x1D2126)
 
 #define COLOR_M2 TIS_HEX(0x33373D)
 

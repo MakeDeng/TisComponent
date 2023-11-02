@@ -14,6 +14,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, strong) UITextField *textFiled; // 搜索框
 @property (nonatomic) CGRect viewFrame; // 视图的fram
+@property (nonatomic, assign) BOOL watchFocus; // 是否需要聚焦和失焦回调事件(默认不需要，如果需要必须实现聚焦和失焦的block回调事件)
+@property (nonatomic, copy) void (^becomeFirst)(void); // 输入框聚焦事件
+@property (nonatomic, copy) void (^registerInput)(void); // 输入框失焦事件
 @property (nonatomic, copy) void (^goSearch)(NSString *string); // 搜索事件
 
 @end

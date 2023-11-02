@@ -76,7 +76,10 @@
         NSDictionary *dictionary = _dataArray[i];
         NSString *string = [NSString stringWithFormat:@"%@", dictionary[@"name"]];
         CGRect rect = [string boundingRectWithSize:CGSizeMake(MAXFLOAT, 21) options:NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName:[UIFont systemFontOfSize:14]} context:nil];
-        CGFloat width = rect.size.width + 40 + 10;
+        CGFloat width = rect.size.width + 38 + 10;
+        if (i == 0) {
+            width -= 10;
+        }
         NSString *widthStr = [NSString stringWithFormat:@"%f", width];
         [self.widthArray addObject:widthStr];
     }
@@ -108,12 +111,17 @@
     
     NSDictionary *dictionary = self.dataArray[indexPath.row];
     cell.nameLabel.text = dictionary[@"name"];
+    if (indexPath.row == 0) {
+        cell.bgViewLeft.constant = 0;
+    } else {
+        cell.bgViewLeft.constant = 10;
+    }
     return cell;
 }
 
 // 定义每个UICollectionView的大小
 - (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath {
-    return CGSizeMake([self.widthArray[indexPath.row] floatValue], 30);
+    return CGSizeMake([self.widthArray[indexPath.row] floatValue], 28);
 }
 
 // 定义整个CollectionViewCell与整个View的间距

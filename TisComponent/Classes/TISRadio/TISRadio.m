@@ -180,28 +180,28 @@
 
 - (UIImage *)normal_image {
     if (!_normal_image) {
-        _normal_image = [UIImage imageNamed:TISCommonSrcName(@"checkbox_normal")]?:[UIImage imageNamed:TISCommonFrameworkSrcName(@"checkbox_normal")];
+        _normal_image = [UIImage imageNamed:TISCommonSrcName(@"tis_checkbox_normal")]?:[UIImage imageNamed:TISCommonFrameworkSrcName(@"tis_checkbox_normal")];
     }
     return _normal_image;
 }
 
 - (UIImage *)selected_image {
     if (!_selected_image) {
-        _selected_image = [UIImage imageNamed:TISCommonSrcName(@"checkbox_selected")]?:[UIImage imageNamed:TISCommonFrameworkSrcName(@"checkbox_selected")];
+        _selected_image = [UIImage imageNamed:TISCommonSrcName(@"tis_checkbox_selected")]?:[UIImage imageNamed:TISCommonFrameworkSrcName(@"tis_checkbox_selected")];
     }
     return _selected_image;
 }
 
 - (UIImage *)disable_normal_image {
     if (!_disable_normal_image) {
-        _disable_normal_image = [UIImage imageNamed:TISCommonSrcName(@"checkbox_normal_disable")]?:[UIImage imageNamed:TISCommonFrameworkSrcName(@"checkbox_normal_disable")];
+        _disable_normal_image = [UIImage imageNamed:TISCommonSrcName(@"tis_checkbox_normal_disable")]?:[UIImage imageNamed:TISCommonFrameworkSrcName(@"tis_checkbox_normal_disable")];
     }
     return _disable_normal_image;
 }
 
 - (UIImage *)disable_selected_image {
     if (!_disable_selected_image) {
-        _disable_selected_image = [UIImage imageNamed:TISCommonSrcName(@"checkbox_selected_disable")]?:[UIImage imageNamed:TISCommonFrameworkSrcName(@"checkbox_selected_disable")];
+        _disable_selected_image = [UIImage imageNamed:TISCommonSrcName(@"tis_checkbox_selected_disable")]?:[UIImage imageNamed:TISCommonFrameworkSrcName(@"tis_checkbox_selected_disable")];
     }
     return _disable_selected_image;
 }

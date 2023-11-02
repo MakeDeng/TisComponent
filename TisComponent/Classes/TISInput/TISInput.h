@@ -10,7 +10,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 typedef NS_ENUM(NSInteger, TIS_INPUT_TYPE) {
-    NORMAL,              // 普通输入框
+    NORMAL_INPUT,              // 普通输入框
     HORRIZONTAL_LEFT,    // 扩展内容在左侧输入框
     HORRIZONTAL_RIGHT,   // 扩展内容在右侧输入框
     VERTICAL,            // 扩展内容在上侧输入框

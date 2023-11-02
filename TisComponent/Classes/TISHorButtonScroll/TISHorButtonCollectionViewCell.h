@@ -15,6 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (weak, nonatomic) IBOutlet UILabel *nameLabel;
 @property (weak, nonatomic) IBOutlet UIView *bgView;
 @property (weak, nonatomic) IBOutlet UIImageView *closeImageView;
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *bgViewLeft;
 
 @end
 
